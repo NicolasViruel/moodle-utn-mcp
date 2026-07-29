@@ -11,7 +11,8 @@
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && node --test dist/test/*.test.js",
     "start": "npm run build && node dist/index.js",
-    "smoke": "npm run build && node dist/smoke.js"
+    "smoke": "npm run build && node dist/smoke.js",
+    "probar-token": "npm run build && node dist/probar-token.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.29.0",
