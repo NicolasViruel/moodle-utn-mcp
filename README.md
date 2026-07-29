@@ -1,29 +1,33 @@
 # moodle-utn-mcp
 
-Local stdio MCP server for the approved UTN Moodle origins `https://tup.sied.utn.edu.ar` and `https://utnsannicolas.quinttos.com`. It offers a user-operated, visible-browser login at the Quinttos login page and read-only tools for the signed-in user's own rendered Moodle profile, courses, and course activities.
+Servidor MCP local por stdio para los orígenes aprobados de Moodle UTN `https://tup.sied.utn.edu.ar` y `https://utnsannicolas.quinttos.com`.
 
-## Scope and safety
+Ofrece dos modos de acceso:
 
-- The only targets are the hard-coded `https://tup.sied.utn.edu.ar` and `https://utnsannicolas.quinttos.com` origins. The activity tool accepts a course title or URL, but navigates only to an exact course URL freshly discovered in the visible course list. The browser context blocks every request to another origin.
-- `moodle_browser_login` launches a visible Chromium window at `https://utnsannicolas.quinttos.com/index.php/login`. The user enters credentials directly in the site; no MCP tool has credential inputs.
-- The browser context, cookies, and session state exist only in process memory. No storage state, cookies, tokens, screenshots, or credentials are written to disk, logs, stdout, configuration, or source.
-- The implementation does not request Moodle REST tokens, call REST web-service endpoints, use QR codes, automate login fields, or expose session data.
-- Authenticated reads are limited to `moodle_read_my_profile`, `moodle_read_my_courses`, and `moodle_read_course_activities`. Course activity reads return only visible title, type/link when available, explicit completion state, and due-date text.
-- There are no write, enrollment, coursework, or submission actions. `moodle_browser_logout` is the sole state-changing operation and explicitly ends the local session.
-- Diagnostic URLs remove query strings.
+- **Modo navegador:** login visible en Quinttos y lectura de lo que Moodle renderiza para el usuario autenticado.
+- **Modo REST (opcional):** token personal en `.env` para listar materias, notas, contenidos y vencimientos sin abrir el navegador en cada consulta.
 
-The browser session is intentionally local and ephemeral. Restarting the MCP always requires a new user-operated login.
+## Alcance y seguridad
 
-## Requirements
+- Los únicos destinos permitidos son `https://tup.sied.utn.edu.ar` y `https://utnsannicolas.quinttos.com`. El navegador bloquea cualquier otro origen.
+- `moodle_browser_login` abre Chromium visible en Quinttos. Las credenciales se ingresan solo en ese sitio; ninguna herramienta MCP acepta usuario ni contraseña.
+- La sesión del navegador vive solo en memoria del proceso. No se guardan cookies, tokens, capturas ni credenciales en disco, logs, stdout ni en el repositorio.
+- El token REST se envía únicamente en el cuerpo POST a `/webservice/rest/server.php`. Nunca se expone en URLs ni en las respuestas de las herramientas.
+- Las lecturas son de solo lectura. La única operación que cambia estado local es `moodle_browser_logout` (cierra el navegador y descarta la sesión en memoria).
+- El archivo `.env` está en `.gitignore`. **Nunca subas tu token a Git.**
 
-- Node.js 20 or newer
-- Playwright Chromium. Install it after dependencies:
+Reiniciar el MCP siempre exige un nuevo login manual en modo navegador. El modo REST reutiliza el token configurado en `.env`.
+
+## Requisitos
+
+- Node.js 20 o superior
+- Playwright Chromium:
 
 ```powershell
 npx playwright install chromium
 ```
 
-## Install and verify
+## Instalación y verificación
 
 ```bash
 npm install
@@ -32,53 +36,137 @@ npm test
 npm run smoke
 ```
 
-`npm run smoke` makes the unauthenticated public probe and prints a JSON report. It does not attempt login or send credentials.
+`npm run smoke` ejecuta la sonda pública sin autenticación e imprime un reporte JSON.
 
-## Run as an MCP server
+## Modo REST (recomendado)
+
+Configurá un `.env` en la raíz del proyecto (copiá desde `.env.example`):
+
+```env
+MOODLE_REST_ORIGIN=https://tup.sied.utn.edu.ar
+MOODLE_REST_TOKEN=tu_token_aqui
+```
+
+También se aceptan los nombres de MCP-TUPAD: `MOODLE_URL` y `MOODLE_TOKEN`.
+
+### Cómo obtener el token
+
+No abras `https://tup.sied.utn.edu.ar/login/token.php` en el navegador: es una API, no una página.
+
+En PowerShell, con **tu DNI** (no el email de Quinttos) y tu contraseña de Moodle:
+
+```powershell
+$body = @{
+  username = "TU_DNI"
+  password = "TU_CONTRASENA_MOODLE"
+  service  = "moodle_mobile_app"
+}
+Invoke-RestMethod -Uri "https://tup.sied.utn.edu.ar/login/token.php" -Method Post -Body $body
+```
+
+La respuesta `{ "token": "..." }` va en `.env` como `MOODLE_REST_TOKEN`.
+
+Verificá la conexión:
+
+```bash
+npm run probar-token
+```
+
+Deberías ver tu listado de materias con sus IDs.
+
+## Ejecutar como servidor MCP
 
 ```bash
 npm start
 ```
 
-The server uses stdio, so stdout is reserved for MCP JSON-RPC. Configure a client later with the command `node` and argument `dist/index.js` after building. No global OpenCode configuration is modified by this project.
+El servidor usa stdio. Configurá tu cliente MCP con:
 
-## Tool
+```json
+{
+  "mcpServers": {
+    "moodle-utn": {
+      "command": "node",
+      "args": ["C:\\ruta\\absoluta\\a\\moodle-utn-mcp\\dist\\index.js"],
+      "cwd": "C:\\ruta\\absoluta\\a\\moodle-utn-mcp",
+      "type": "stdio"
+    }
+  }
+}
+```
 
-### `moodle_probe_capabilities`
+Después de cambiar `.env`, reiniciá el servidor MCP en Cursor u otro cliente.
 
-Has no inputs. It reports:
+## Herramientas
 
-- Public Moodle identity and version hints, only when present in the root response.
-- Reachability of `/login/index.php`.
-- A reminder to use the local browser-login flow.
+### Públicas
 
-### `moodle_browser_login`
+#### `moodle_probe_capabilities`
 
-Has no inputs. Opens a visible browser only at the hard-coded Quinttos UTN Moodle login page. Complete login in that window, then call `moodle_browser_status`.
+Sin parámetros. Informa identidad pública de Moodle, reachability de `/login/index.php` y recuerda usar el flujo de login local.
 
-### `moodle_browser_status`
+### Modo REST (requiere `.env`)
 
-Has no inputs. Returns `not_started`, `awaiting_login`, `sso_ready`, `authenticated`, or `closed`. It scans every page in the same isolated browser context, so Moodle authentication completed in an SSO-created tab or popup is used. `sso_ready` means Quinttos rendered its Campus link with the exact Moodle origin and the tool can attempt the SSO transition; it does not claim Moodle access. `authenticated` means Moodle's rendered authenticated UI was confirmed. It never returns cookies, URLs with query strings, tokens, or credentials.
+#### `moodle_rest_status`
 
-### `moodle_read_my_profile`
+Sin parámetros. Indica si el modo REST está configurado (sin exponer el token).
 
-Has no inputs. From `sso_ready`, it follows only Quinttos's rendered Campus link when its resolved origin is exactly Moodle, then requires Moodle's authenticated UI. It opens the signed-in user's profile using Moodle's rendered user-menu link and returns only visible profile fields. Career information is included only when Moodle displays it in that profile.
+#### `moodle_rest_my_courses`
 
-### `moodle_read_my_courses`
+Sin parámetros. Lista materias del token con `id`, `name` y `shortName`.
 
-Has no inputs. It scans the isolated browser context for an authenticated Moodle page, then loads only Moodle's fixed `/my/courses.php` page and waits for its dynamic course cards. It returns deduplicated visible course names and exact-origin `/course/view.php` URLs.
+#### `moodle_rest_upcoming_deadlines`
 
-### `moodle_read_course_activities`
+Sin parámetros. Eventos del calendario en los próximos 90 días.
 
-Accepts `{ "course": "<exact visible title or exact visible course URL>" }`. It refreshes the visible course list, enters only the unique matching course, and returns `{ course, activities }`. Each activity contains `title`, `completion` (`pending`, `completed`, or `unknown`), and available `activityType`, `url`, and `dueDateText` fields.
+#### `moodle_rest_course_content`
 
-### `moodle_browser_logout`
+Parámetro: `{ "courseId": <número> }` (ID devuelto por `moodle_rest_my_courses`). Secciones y metadatos de recursos. No descarga archivos.
 
-Has no inputs. Uses Moodle's rendered logout link when present, closes the visible browser, and discards the in-memory context. Use it whenever profile access is no longer needed.
+#### `moodle_rest_course_grades`
 
-## Dependencies
+Parámetro: `{ "courseId": <número> }`. Notas y devoluciones visibles del usuario del token.
 
-- `@modelcontextprotocol/sdk` 1.29.0: official TypeScript MCP SDK.
-- `playwright` 1.58.2: local visible Chromium browser automation and origin request enforcement.
-- `zod` 3.24.2: MCP SDK peer dependency.
-- `typescript` 5.8.3 and `@types/node` 22.15.3: build-time dependencies.
+#### `moodle_rest_course_forums`
+
+Parámetro: `{ "courseId": <número> }`. Metadatos de foros y avisos cuando el campus los expone.
+
+### Modo navegador
+
+#### `moodle_browser_login`
+
+Sin parámetros. Abre el login de Quinttos en Chromium visible.
+
+#### `moodle_browser_status`
+
+Sin parámetros. Devuelve `not_started`, `awaiting_login`, `sso_ready`, `authenticated` o `closed`.
+
+#### `moodle_read_my_profile`
+
+Sin parámetros. Lee campos visibles del perfil Moodle del usuario autenticado.
+
+#### `moodle_read_my_courses`
+
+Sin parámetros. Lista materias visibles con nombre y URL exacta `/course/view.php`.
+
+#### `moodle_read_course_activities`
+
+Parámetro: `{ "course": "<título exacto o URL exacta>" }`. Actividades visibles con título, tipo, URL, estado de entrega y fecha límite si Moodle la muestra.
+
+#### `moodle_browser_logout`
+
+Sin parámetros. Cierra sesión en Moodle si es posible, cierra el navegador y descarta la sesión local.
+
+## Flujo típico con REST
+
+1. `moodle_rest_my_courses` → obtener el `id` de la materia (ej. Base de Datos 2 = `45`).
+2. `moodle_rest_course_grades` con ese `courseId` → ver notas.
+3. `moodle_rest_course_content` → ver unidades y recursos.
+4. `moodle_rest_upcoming_deadlines` → ver vencimientos.
+
+## Dependencias
+
+- `@modelcontextprotocol/sdk` 1.29.0 — SDK oficial MCP para TypeScript.
+- `playwright` 1.58.2 — automatización del navegador Chromium.
+- `zod` 3.24.2 — validación de esquemas del SDK.
+- `typescript` 5.8.3 y `@types/node` 22.15.3 — compilación.
