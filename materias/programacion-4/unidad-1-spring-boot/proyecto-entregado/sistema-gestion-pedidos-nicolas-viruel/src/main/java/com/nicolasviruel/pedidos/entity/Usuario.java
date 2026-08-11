@@ -3,8 +3,8 @@ package com.nicolasviruel.pedidos.entity;
 import com.nicolasviruel.pedidos.enums.Rol;
 import jakarta.persistence.*;
 import lombok.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -29,5 +29,5 @@ public class Usuario extends Base {
 
     @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL, orphanRemoval = true)
     @Builder.Default
-    private List<Pedido> pedidos = new ArrayList<>();
+    private Set<Pedido> pedidos = new HashSet<>();
 }

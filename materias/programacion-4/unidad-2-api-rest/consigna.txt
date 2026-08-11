@@ -1,0 +1,52 @@
+--- PAGE 1 ---
+TECNICATURA UNIVERSITARIA 
+EN PROGRAMACIÓN 
+ 
+ 
+PROGRAMACIÓN   
+Trabajo Práctico - Api Rest 
+OBJETIVO GENERAL 
+Desarrollar una API REST completa y profesional para la gestión de productos, 
+aplicando arquitectura en capas, validaciones, manejo de errores, persistencia con 
+Spring Data JPA y documentación con Swagger.   
+MARCO TEÓRICO  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+1 
+ 
+Concepto Aplicación en el proyecto 
+API REST 
+ 
+Interfaz para comunicación entre sistemas mediante HTTP, 
+siguiendo los principios REST (stateless, recursos, 
+métodos HTTP).  
+Métodos HTTP GET (leer), POST (crear), PUT (actualizar completo), 
+PATCH (actualizar parcial), DELETE (eliminar).  
+Manejo de Excepciones Control centralizado de errores mediante 
+@ControllerAdvice para respuestas consistentes. 
+Swagger/OpenAPI  Documentación interactiva y automática de APIs REST.  
+IV
+--- PAGE 2 ---
+TECNICATURA  UNIVERSITARIA  EN  PROGRAMACIÓN    
+Caso  Práctico  
+Dado  el  siguiente  UML:  
+ 
+Continuando  con  las  clases  generadas  en  la  Practica  de  “JPA”  deberá:  
+1)  Agregar  dependencia  de  Swagger  
+implementation  'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'  
+2)  Desarrollar  capa  Repository  3)  Desarrollar  capa  Service  4)  Desarrollar  capa  de  Controller  y  AdviceController   5)  Crear   y  persistir  a  partir  de  DTOs  utilizando  Postman:  a)  2  Usuarios  b)  3  Pedidos  (al  menos  2  detalles  pedido  por  cada  uno)  c)  3  Categorías   d)  10  productos  
+2   
+
+--- PAGE 3 ---
+TECNICATURA  UNIVERSITARIA  EN  PROGRAMACIÓN    6)  Actualizar  1  categoria   7)  Buscar  Usuarios  por  id  y  mostrar  información  por  consola   8)  Buscar  Usuarios  por  mail  y  mostrar  por  consola  9)  Mostrar  Swagger  funcionando  
+CONCLUSIONES  ESPERADAS 
+●  Diseñar  y  construir  una  API  REST  completa  desde  cero   ●  Aplicar  correctamente  todos  los  métodos  HTTP  según  su  propósito   ●  Implementar  arquitectura  en  capas  profesional   
+3   
+

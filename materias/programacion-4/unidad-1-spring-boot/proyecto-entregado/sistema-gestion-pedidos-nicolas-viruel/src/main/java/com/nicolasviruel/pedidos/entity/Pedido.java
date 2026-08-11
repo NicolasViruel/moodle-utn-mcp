@@ -5,8 +5,8 @@ import com.nicolasviruel.pedidos.enums.FormaPago;
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -33,17 +33,22 @@ public class Pedido extends Base implements Calculable {
 
     @OneToMany(mappedBy = "pedido", cascade = CascadeType.ALL, orphanRemoval = true)
     @Builder.Default
-    private List<DetallePedido> detalles = new ArrayList<>();
+    private Set<DetallePedido> detalles = new HashSet<>();
 
-    public void addDetallePedido(DetallePedido detalle) {
+    public void addDetallePedido(int cantidad, Producto producto) {
+        DetallePedido detalle = DetallePedido.builder()
+                .cantidad(cantidad)
+                .subtotal(producto.getPrecio() * cantidad)
+                .producto(producto)
+                .build();
         detalles.add(detalle);
         detalle.setPedido(this);
-        recalcularTotal();
+        calcularTotal();
     }
 
     public void deleteDetallePedidoByProducto(Producto producto) {
         detalles.removeIf(detalle -> detalle.getProducto().getId().equals(producto.getId()));
-        recalcularTotal();
+        calcularTotal();
     }
 
     public DetallePedido findDetallePedidoByProducto(Producto producto) {
@@ -53,12 +58,8 @@ public class Pedido extends Base implements Calculable {
                 .orElse(null);
     }
 
-    public void recalcularTotal() {
-        this.total = calcularTotal();
-    }
-
     @Override
-    public double calcularTotal() {
-        return detalles.stream().mapToDouble(DetallePedido::getSubtotal).sum();
+    public void calcularTotal() {
+        this.total = detalles.stream().mapToDouble(DetallePedido::getSubtotal).sum();
     }
 }

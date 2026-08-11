@@ -2,6 +2,7 @@ package com.nicolasviruel.pedidos.config;
 
 import com.nicolasviruel.pedidos.dto.categoria.CategoriaCreate;
 import com.nicolasviruel.pedidos.dto.detallePedido.DetallePedidoCreate;
+import com.nicolasviruel.pedidos.dto.pedido.PedidoCreate;
 import com.nicolasviruel.pedidos.dto.producto.ProductoCreate;
 import com.nicolasviruel.pedidos.dto.usuario.UsuarioCreate;
 import com.nicolasviruel.pedidos.enums.FormaPago;
@@ -38,9 +39,9 @@ public class DataInitializer {
             var u1 = usuarioService.crear(new UsuarioCreate("Nicolas", "Viruel", "nicolas.viruel@correo.com", "1111111111", "clave123", Rol.ADMIN));
             var u2 = usuarioService.crear(new UsuarioCreate("Ana", "Pérez", "ana.perez@correo.com", "2222222222", "clave456", Rol.USUARIO));
 
-            pedidoService.crear(u1.id(), FormaPago.TARJETA, List.of(new DetallePedidoCreate(1, p1.id()), new DetallePedidoCreate(2, p2.id())));
-            pedidoService.crear(u1.id(), FormaPago.TRANSFERENCIA, List.of(new DetallePedidoCreate(1, p3.id()), new DetallePedidoCreate(1, p4.id())));
-            pedidoService.crear(u2.id(), FormaPago.EFECTIVO, List.of(new DetallePedidoCreate(2, p8.id()), new DetallePedidoCreate(3, p9.id()), new DetallePedidoCreate(1, p10.id())));
+            pedidoService.crear(new PedidoCreate(u1.id(), FormaPago.TARJETA, List.of(new DetallePedidoCreate(1, p1.id()), new DetallePedidoCreate(2, p2.id()))));
+            pedidoService.crear(new PedidoCreate(u1.id(), FormaPago.TRANSFERENCIA, List.of(new DetallePedidoCreate(1, p3.id()), new DetallePedidoCreate(1, p4.id()))));
+            pedidoService.crear(new PedidoCreate(u2.id(), FormaPago.EFECTIVO, List.of(new DetallePedidoCreate(2, p8.id()), new DetallePedidoCreate(3, p9.id()), new DetallePedidoCreate(1, p10.id()))));
         };
     }
 }

@@ -32,11 +32,19 @@ mvn spring-boot:run -Dspring-boot.run.profiles=prod
 | PATCH | `/api/productos/{id}` | Actualización parcial | 200 / 404 |
 | DELETE | `/api/productos/{id}` | Eliminar | 204 / 404 |
 
-### Otros endpoints (U1)
+### Endpoints Usuario, Pedido y Categoría (U2)
 
-- `GET /api/categorias`
-- `GET /api/usuarios`
-- `GET /api/pedidos`
+| Método | Endpoint | Descripción | HTTP |
+|--------|----------|-------------|------|
+| GET | `/api/usuarios` | Listar usuarios | 200 |
+| GET | `/api/usuarios/{id}` | Buscar por ID (imprime en consola) | 200 / 404 |
+| GET | `/api/usuarios/mail/{mail}` | Buscar por mail (imprime en consola) | 200 / 404 |
+| POST | `/api/usuarios` | Crear usuario | 201 |
+| GET | `/api/pedidos` | Listar pedidos | 200 |
+| POST | `/api/pedidos` | Crear pedido | 201 |
+| GET | `/api/categorias` | Listar categorías | 200 |
+| POST | `/api/categorias` | Crear categoría | 201 |
+| PUT | `/api/categorias/{id}` | Actualizar categoría | 200 / 404 |
 
 ### Documentación Swagger
 
@@ -90,9 +98,13 @@ Compress-Archive -Path * -DestinationPath ..\..\..\..\Viruel_Nicolas_TP_APIs_RES
 ## Estructura relevante U2
 
 ```
-controller/ProductoController.java    → REST + Swagger
-service/ProductoService.java          → lógica de negocio
-exception/GlobalExceptionHandler.java → errores 400/404/500
-dto/producto/ProductoPatch.java       → DTO para PATCH
-config/OpenApiConfig.java             → documentación
+controller/ProductoController.java     → REST productos + Swagger
+controller/UsuarioController.java      → REST usuarios
+controller/PedidoController.java       → REST pedidos
+controller/CategoriaController.java    → REST categorías
+service/                               → lógica de negocio
+exception/GlobalExceptionHandler.java  → errores 400/404/500
+dto/pedido/PedidoCreate.java           → DTO para POST pedido
+config/OpenApiConfig.java              → documentación
+entity/Pedido.java                     → Set + addDetallePedido(int, Producto)
 ```

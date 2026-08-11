@@ -2,8 +2,8 @@ package com.nicolasviruel.pedidos.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -19,5 +19,5 @@ public class Categoria extends Base {
 
     @OneToMany(mappedBy = "categoria")
     @Builder.Default
-    private List<Producto> productos = new ArrayList<>();
+    private Set<Producto> productos = new HashSet<>();
 }
