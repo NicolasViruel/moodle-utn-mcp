@@ -1,0 +1,55 @@
+--- PAGE 1 ---
+TECNICATURA UNIVERSITARIA 
+EN PROGRAMACIÓN 
+ 
+ 
+PROGRAMACIÓN   
+Trabajo Práctico - Fundamentos de 
+Spring 
+OBJETIVO GENERAL 
+Desarrollar un Sistema de Gestión de Pedidos que demuestre tu comprensión de la 
+arquitectura Spring Boot y las buenas prácticas de desarrollo.  
+MARCO TEÓRICO  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+1 
+ 
+Concepto Aplicación en el proyecto 
+Application Context 
+ 
+Contenedor de IoC que gestiona el ciclo de vida de los 
+beans y sus dependencias. 
+Beans Objetos gestionados por Spring que representan 
+componentes de la aplicación. 
+Inyección de 
+Dependencias 
+Permite desacoplar componentes mediante la inyección 
+automática de dependencias, preferentemente por 
+constructor. 
+Estereotipos Anotaciones especializadas (@Service, @Repository, 
+@Component) que definen el rol de cada clase en la 
+arquitectura. 
+IV
+--- PAGE 2 ---
+TECNICATURA  UNIVERSITARIA  EN  PROGRAMACIÓN     
+Caso  Práctico  
+Dado  el  siguiente  UML:  
+ 
+Continuando  con  las  clases  generadas  en  la  Practica  de  “JPA”  deberá:  
+1)  Crear  un  proyecto  en  Spring  Initializr  con  las  siguientes  dependencias  a)  Spring  Web  b)  Spring  Data  Jpa  c)  Lombok  d)  H2  Database  e)  Spring  Boot  Dev  Tools  2)  Desarrollar  capa  de  DTOs  
+ 
+2   
+
+--- PAGE 3 ---
+TECNICATURA  UNIVERSITARIA  EN  PROGRAMACIÓN     
+│  ├──  categoria  │    ├──  CategoriaCreate.java  │    ├──  CategoriaDto.java  │    └──  CategoriaEdit.java  │  ├──  detallePedido  │    ├──  DetallePedidoCreate.java  │    └──  DetallePedidoDto.java  │  ├──  pedido  │    ├──  PedidoDto.java  │    └──  PedidoEdit.java  │  ├──  producto  │    ├──  ProductoCreate.java  │    ├──  ProductoDto.java  │    └──  ProductoEdit.java  │  └──  usuario      ├──  UsuarioCreate.java      ├──  UsuarioDto.java      └──  UsuarioEdit.java   3)  Instanciar  a  partir  de  DTOs:  a)  2  Usuarios  b)  3  Pedidos  (al  menos  2  detalles  pedido  por  cada  uno)  c)  3  Categorías   d)  10  productos  
+CONCLUSIONES  ESPERADAS 
+●  Aplicar  inyección  de  dependencias  por  constructor   ●  Usar  estereotipos  según  la  responsabilidad  de  cada  clase   ●   Configurar  aplicaciones  con  properties  
+3   
+
