@@ -1,0 +1,315 @@
+Unidad N° 1 - Semana 2",
+      "summary": "
+\r\n
+\r\n
+📘 
+Unidad N° 1 · Introducción al Análisis de Datos
+
+\r\n
+\r\n
+\r\n
+
+\r\n
+🎯 Resultados de aprendizaje · Semana 2
+\r\n
+\r\n
+Al finalizar esta semana, se espera que puedas consolidar dos bases fundamentales para continuar con la materia: el uso inicial de notebooks y Google Colab como entorno de trabajo, y la recuperación de conceptos centrales de estadística descriptiva necesarios para interpretar datos.
+\r\n
+\r\n
+\r\n
+✅ 
+Reconocer la finalidad de los notebooks y de Google Colab
+ como entornos que permiten integrar explicaciones, código, resultados e interpretaciones dentro de un mismo documento.
+\r\n
+✅ 
+Distinguir y utilizar los componentes básicos de un notebook
+, diferenciando celdas de texto y de código, y comprendiendo la importancia de organizar el trabajo de manera clara y reproducible.
+\r\n
+✅ 
+Identificar población, muestra y unidad de análisis
+, y reconocer qué representa cada observación dentro de un conjunto de datos.
+\r\n
+✅ 
+Clasificar variables y escalas de medición
+, distinguiendo variables cualitativas y cuantitativas, nominales, ordinales, discretas y continuas.
+\r\n
+✅ 
+Interpretar tablas de frecuencia y medidas descriptivas
+, reconociendo la información que aportan las frecuencias y las medidas de tendencia central, dispersión y posición.
+\r\n
+✅ 
+Preparar el entorno inicial del Trabajo Práctico Integrador
+, creando y organizando el notebook independiente y el notebook maestro, e incorporando la presentación del problema, la explicación de 
+is_canceled
+ y las preguntas formuladas durante la Semana 1.
+\r\n
+\r\n
+\r\n
+\r\n
+💡 
+Importante:
+ esta semana todavía no vas a cargar ni analizar el dataset asignado, ni a realizar operaciones con Pandas. El propósito es familiarizarte con Google Colab, organizar los notebooks y recuperar los conceptos estadísticos necesarios. La carga y el primer reconocimiento del dataset se realizarán en la 
+Semana 3
+.
+\r\n
+\r\n
+",
+      "modules": [
+        {
+          "id": 16279,
+          "name": "S2 · Introducción y hoja de ruta · Notebooks, Google Colab y repaso de estadística descriptiva 🗺️",
+          "type": "label",
+          "visible": true,
+          "description": "
+
+\r\n
+
+\r\n
+\r\n
+\r\n
+
+
+\r\n
+\r\n
+📚 Semana 2: Notebooks, Google Colab y repaso de estadística descriptiva 📚
+\r\n
+📅 Del 10 al 16 de agosto de 2026
+\r\n
+\r\n
+\r\n
+En esta segunda semana vas a conocer los 
+notebooks
+ como entornos de trabajo para el análisis de datos y comenzarás a utilizar 
+Google Colab
+. Aprenderás a reconocer la función de las celdas de texto y de código, organizar un documento de análisis y conservar de manera clara el proceso de trabajo.
+\r\n
+También vas a recuperar conceptos fundamentales de estadística descriptiva: tipos de variables, escalas de medición, frecuencias y principales medidas de resumen. Este repaso será necesario para interpretar correctamente los resultados que obtendrás cuando comencemos a trabajar con datasets.
+\r\n
+En el Trabajo Práctico Integrador prepararás el entorno que utilizarás para la primera entrega. Crearás y organizarás el notebook independiente y el notebook maestro, y recuperarás allí la descripción del problema, la variable objetivo 
+is_canceled
+ y las preguntas iniciales formuladas durante la Semana 1. La carga y el reconocimiento del dataset se realizarán en la próxima semana.
+\r\n
+\r\n
+🗺️ ¿Cómo vas a trabajar esta semana?
+\r\n
+Primero vas a recorrer una actividad de aprendizaje sobre notebooks y Google Colab. Luego resolverás un cuestionario breve para comprobar que reconocés sus componentes principales y las buenas prácticas necesarias para organizar un trabajo reproducible.
+\r\n
+A continuación, realizarás un repaso de estadística descriptiva y aplicarás los conceptos centrales en un cuestionario autocorregible. Finalmente, avanzarás con la preparación y organización inicial de los notebooks del Trabajo Práctico Integrador.
+\r\n
+Además, encontrarás propuestas optativas de refuerzo, profundización y apoyo audiovisual. Podés seleccionar aquellas que te resulten útiles según los contenidos que necesites revisar o ampliar.
+\r\n
+\r\n
+📝 Hoja de ruta obligatoria · Semana 2
+\r\n
+\r\n
+
+Actividad 1 · Notebooks y Google Colab:
+ vas a conocer qué es un notebook, cómo se organiza mediante celdas de texto y código, y qué posibilidades ofrece Google Colab como entorno de trabajo en línea.
+\r\n
+
+Cuestionario de la Actividad 1:
+ actividad breve para comprobar la comprensión de los componentes de un notebook, el uso de las celdas y algunas buenas prácticas de organización y reproducibilidad.
+\r\n
+
+Actividad 2 · Repaso de estadística descriptiva:
+ vas a recuperar los tipos de variables, las escalas de medición, las frecuencias y las principales medidas utilizadas para describir un conjunto de datos.
+\r\n
+
+Práctica obligatoria:
+ cuestionario autocorregible para aplicar los conceptos estadísticos centrales. Su realización, mediante al menos un intento completo, será necesaria para habilitar los contenidos correspondientes a la Semana 3. No será necesario esperar la corrección tutorial para avanzar.
+\r\n
+
+Trabajo Práctico Integrador:
+ vas a crear y organizar el notebook independiente de la Entrega 1 y el notebook maestro. También incorporarás la presentación del problema, la explicación de 
+is_canceled
+ y las preguntas iniciales formuladas durante la Semana 1.
+\r\n
+\r\n
+\r\n
+\r\n
+⏰ Distribución sugerida del tiempo con Técnica Pomodoro
+\r\n
+Para organizar mejor tu estudio, podés utilizar pomodoros de 
+20 minutos de trabajo concentrado
+, alternados con pausas breves. El recorrido obligatorio está organizado en 
+6 pomodoros
+, equivalentes a aproximadamente 
+120 minutos de trabajo
+.
+\r\n
+Los tiempos son orientativos. Si terminás una actividad antes de completar el pomodoro, podés utilizar los minutos restantes para revisar la retroalimentación, registrar dudas o recuperar las ideas principales.
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+Recorrido
+\r\n
+Recurso / actividad
+\r\n
+🍅 Pomodoros
+\r\n
+⏱️ Tiempo
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+
+Actividad 1
+\r\n
+Notebooks y Google Colab
+\r\n
+\r\n
+Material de aprendizaje obligatorio
+\r\n
+1
+\r\n
+20 min
+\r\n
+\r\n
+\r\n
+
+Refuerzo de la Actividad 1
+\r\n
+Componentes y uso de notebooks
+\r\n
+\r\n
+Cuestionario obligatorio
+\r\n
+1
+\r\n
+20 min
+\r\n
+\r\n
+\r\n
+
+Actividad 2
+\r\n
+Repaso de estadística descriptiva
+\r\n
+\r\n
+Material de aprendizaje obligatorio
+\r\n
+1
+\r\n
+20 min
+\r\n
+\r\n
+\r\n
+
+Práctica obligatoria
+\r\n
+Aplicación de conceptos estadísticos
+\r\n
+\r\n
+Cuestionario autocorregible
+\r\n
+1
+\r\n
+20 min
+\r\n
+\r\n
+\r\n
+
+Trabajo Práctico Integrador
+\r\n
+Creación y organización inicial de los notebooks
+\r\n
+\r\n
+Avance obligatorio del TPI
+\r\n
+2
+\r\n
+40 min
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+TOTAL
+\r\n
+Recorrido obligatorio
+\r\n
+6
+\r\n
+120 min
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+OPTATIVAS · REFUERZO Y PROFUNDIZACIÓN
+\r\n
+🔎 Propuestas adicionales de la Semana 2
+\r\n
+\r\n
+
+Cuestionario de la Actividad 2:
+ instancia adicional para reforzar tipos de variables, escalas de medición, frecuencias y medidas descriptivas.
+\r\n
+
+Guía práctica de repaso estadístico:
+ material de consulta y ejercitación para recuperar procedimientos o conceptos que necesites revisar.
+\r\n
+
+Práctica de profundización:
+ actividad con consignas de interpretación y respuestas abiertas. Las producciones serán revisadas por el tutor o tutora de tu comisión, quien brindará una devolución formativa.
+\r\n
+
+Biblioteca de Videos:
+ videos breves de apoyo sobre notebooks, Google Colab y estadística descriptiva. Podés mirar los que se relacionen con tus dudas o necesidades de repaso.
+\r\n
+\r\n
+Estas propuestas no forman parte de los 120 minutos obligatorios ni condicionan el acceso a la Semana 3.
+\r\n
+\r\n
+\r\n
+💡 
+Recomendación:
+ avanzá en el orden propuesto. Primero familiarizate con los notebooks y Google Colab, luego recuperá los conceptos estadísticos y completá la práctica obligatoria. Finalmente, organizá los archivos del TPI y trasladá allí las primeras ideas construidas durante la Semana 1. Después podés seleccionar las propuestas optativas que te ayuden a reforzar o profundizar los contenidos.
+\r\n
+\r\n
+📌 ¡Preparemos el entorno de trabajo que utilizaremos para comenzar a analizar datos!
+\r\n
+
+"
+        }
+      ]
+    },
+    {
+      "id": 4255,
+      "name": "Actividades 🧩",
+      "summary": "
+\r\n
+🧩 
+Actividades · 
+
+Introducción al Análisis de Datos
+
+\r\n
+",
+      "modules": [
+        {
+          "id": 17146,
+          "name": "S2 · Actividad 1 · Notebooks y Google Colab · Obligatoria 🚀",
+          "type": "label",
+          "visible": true,
+          "description": "
+
+\r\n
+
+\r\n
+🚀 Actividad 1 · Notebooks y Google Colab 
+ OBLIGATORIA 
+
+\r\n
+\r\n
+\r\n
+⏱️ 
+Tiempo estimado:
+ 20 minutos (1

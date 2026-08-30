@@ -1,0 +1,68 @@
+--- PAGE 1 ---
+1
+Tecnicatura Universitaria en Programación a distancia -
+Legislación
+Unidad N.º 4
+“Cadena de Custodia”
+Ejercicios prácticos
+A continuación, se presentan una serie de situaciones vinculadas con la obtención, 
+preservación, traslado y valoración de evidencia digital. Leé cada caso con atención y 
+respondé las consignas propuestas, fundamentando tus respuestas en los conceptos trabajados 
+en la unidad.
+Importante: La presente actividad es de carácter optativo y tiene como finalidad reforzar los 
+contenidos desarrollados, promoviendo el análisis crítico y la aplicación práctica de los 
+conocimientos adquiridos.
+Caso 1: Copia de archivos sin control de integridad
+Durante una investigación interna, un técnico conecta un disco externo a una computadora y 
+copia varios archivos relevantes. Trabaja directamente sobre los originales y no calcula ni 
+registra ningún valor hash antes ni después de la copia.
+Consignas:
+ ¿Qué riesgos presenta este procedimiento para la integridad de la evidencia?
+ ¿Qué pasos deberían haberse realizado para obtener una copia forense adecuada?
+ ¿Qué función cumple el valor hash en este caso?
+Caso 2: Teléfono celular encendido y manipulado
+Luego de secuestrar un teléfono celular, una persona del equipo investigador lo desbloquea y 
+revisa manualmente algunas conversaciones. Mientras lo hace, el dispositivo continúa 
+conectado a la red y recibe nuevos mensajes y notificaciones.
+Consignas:
+ ¿Qué modificaciones podrían producirse sobre la evidencia digital?
+ ¿Cómo debería preservarse inicialmente el dispositivo?
+ ¿Qué información tendría que quedar registrada en la cadena de custodia?
+--- PAGE 2 ---
+2
+Caso 3: Traslado sin registro documental
+Una notebook secuestrada es entregada sucesivamente a tres personas para su traslado, 
+almacenamiento y análisis. Sin embargo, no se registran las fechas, los horarios, los 
+responsables ni las condiciones en las que se realizaron esas entregas.
+Consignas:
+ ¿Qué principio de la cadena de custodia se ve afectado?
+ ¿Por qué resulta importante documentar cada transferencia?
+ ¿Qué datos mínimos debería contener un registro de cadena de custodia?
+Caso 4: Evidencia almacenada en una carpeta compartida
+Un conjunto de imágenes y registros de sistema se guarda en una carpeta compartida de la 
+organización. Varias personas tienen permisos de edición, no existe un registro de accesos y 
+los archivos pueden ser reemplazados o eliminados.
+Consignas:
+ ¿Qué problemas genera este método de almacenamiento?
+ ¿Qué medidas permitirían preservar la integridad y la trazabilidad de los archivos?
+ ¿De qué manera podría verificarse que la evidencia presentada posteriormente coincide 
+con la originalmente obtenida?
+--- PAGE 3 ---
+3
+Caso 5: Recolección urgente durante un ciberataque
+Mientras un sitio web está siendo atacado, especialistas intervienen para contener el incidente 
+y preservar la información disponible. Debido a la urgencia, algunas prácticas recomendadas 
+no pueden aplicarse de manera completa en el primer momento, aunque las actuaciones son 
+documentadas y luego se obtienen respaldos verificables.
+Consignas:
+ ¿La urgencia justifica cualquier apartamiento de los protocolos? Fundamentá.
+ ¿Qué recaudos deberían adoptarse para compensar las limitaciones iniciales?
+ ¿Qué debería demostrarse para cuestionar jurídicamente la confiabilidad de la evidencia 
+obtenida?
+Cierre integrador:
+ ¿Por qué la cadena de custodia resulta indispensable para que una evidencia digital sea 
+confiable y pueda ser valorada jurídicamente?
+ Explicá cómo se relacionan los conceptos de integridad, trazabilidad, copia forense, 
+función hash y documentación de las intervenciones.
+Sugerencia: Antes de responder, revisá el material de lectura de la Unidad N.º 4 y justificá 
+cada decisión con vocabulario técnico adecuado.

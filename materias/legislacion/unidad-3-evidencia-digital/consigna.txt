@@ -1,0 +1,152 @@
+--- PAGE 1 ---
+Tecnicatura Universitaria en Programación - Legislación | Unidad 3
+UNIDAD N.º 3
+“EVIDENCIA DIGITAL: CONCEPTO, INTEGRIDAD, TRAZABILIDAD Y 
+HASH”
+Objetivos de la unidad:
+ Comprender qué se entiende por evidencia digital y por qué resulta relevante en conflictos civiles, 
+comerciales, laborales y penales.
+ Identificar los requisitos mínimos para que una evidencia digital pueda ser utilizada de manera 
+seria: origen, integridad y trazabilidad.
+ Explicar de forma simple qué es un hash y cuál es su utilidad para verificar la integridad de 
+archivos.
+ Reconocer, de manera introductoria, las cinco etapas de trabajo previstas en el Protocolo aprobado 
+por la Resolución 232/2023, que serán profundizadas en la Unidad 4.
+ Analizar errores frecuentes y criterios jurisprudenciales argentinos vinculados con capturas, 
+archivos digitales y pericias informáticas.
+ Conocer la estructura mínima de un informe técnico-jurídico para documentar evidencia digital.
+Situación inicial
+¿Puede una captura de pantalla ser prueba suficiente en un juicio?
+La pregunta parece simple, pero en la práctica judicial suele ser decisiva. Una captura puede mostrar  
+un  mensaje,  una  publicación  o  una  conversación;  sin  embargo,  también  puede  estar  recortada, 
+descontextualizada  o  carecer  de  datos  suficientes  para  saber  de  dónde  proviene.  Por  eso,  en 
+evidencia digital no alcanza con “mostrar algo”: es necesario poder explicar qué se presenta, cuál es  
+su origen, cómo se obtuvo y cómo se conservó.
+1. Introducción
+La vida digital se convirtió en una fuente central de prueba en conflictos civiles, comerciales, laborales  
+y penales. Mensajes, correos, archivos, audios, fotos, publicaciones en redes y registros de sistemas  
+aparecen de forma habitual en expedientes y reclamos. Sin embargo, en materia digital el valor  
+probatorio no depende únicamente del contenido, sino de la posibilidad de explicar con claridad qué es  
+lo que se presenta, de dónde proviene y cómo se conservó. Por esa razón, el trabajo con evidencia  
+digital requiere un método mínimo y verificable.
+2. Evidencia digital: concepto
+Se entiende por evidencia digital a cualquier información almacenada o transmitida en formato digital  
+que  puede  servir  para  probar  un  hecho:  archivos  (PDF,  imágenes,  audios,  videos),  mensajes 
+(WhatsApp,  correo  electrónico),  publicaciones  en  redes,  registros  del  sistema  (logs),  historial  de 
+cambios en plataformas, entre otros.
+La diferencia entre “tener un dato” y “tener evidencia útil” está en que la evidencia debe poder ser  
+explicada y controlada por terceros: cuál es su origen, cuál es el objeto exacto que se presenta y qué  
+procedimiento se siguió para evitar alteraciones o pérdidas de contexto.
+3. Requisitos mínimos para que la evidencia digital sea utilizable
+Origen: Debe poder identificarse el origen de la evidencia: de qué cuenta, dispositivo, aplicación o  
+sistema  proviene.  En  publicaciones  web  y  redes,  esto  implica  poder  individualizar  de  manera 
+--- PAGE 2 ---
+Tecnicatura Universitaria en Programación - Legislación | Unidad 3
+verificable la cuenta o el recurso (por ejemplo, usuario, URL o referencia equivalente). Si el origen es  
+confuso o no se puede verificar, la evidencia se debilita.
+Integridad: La integridad significa que la evidencia no fue alterada desde el momento en que se  
+obtuvo hasta el momento en que se presenta. Integridad no equivale a “verdad”: un archivo puede  
+estar íntegro y aun así contener información falsa. La integridad solo permite sostener que se trata del  
+mismo objeto digital.
+Registro mínimo o trazabilidad:  La trazabilidad es el registro básico del recorrido de la evidencia:  
+quién  la  obtuvo,  cuándo,  cómo,  dónde  se  guardó  y  quién  accedió  después.  En  lo  digital,  los 
+cuestionamientos habituales se vinculan con la posibilidad de recortes, edición o contaminación del  
+material; por eso, un registro mínimo ordena el caso y reduce impugnaciones.
+4. Hash: verificación de integridad en archivos
+Un hash (por ejemplo, SHA-256) es un cálculo que se realiza sobre un archivo y produce una cadena  
+alfanumérica  que  lo  identifica.  Funciona  como  una  “huella”:  si  el  archivo  cambia  aunque  sea 
+mínimamente, el hash cambia.
+El hash sirve para verificar la integridad de archivos (PDF, imagen, audio, video, etc.). Si el hash  
+registrado al momento de la obtención coincide con el hash calculado al momento de presentar, puede  
+sostenerse que el archivo es el mismo y no fue alterado.
+El hash no prueba autoría humana, intención ni veracidad del contenido: prueba identidad del archivo e 
+integridad en sentido técnico.
+5. Protocolo aprobado por la Resolución 232/2023: aproximación introductoria
+La Resolución 232/2023 aprueba un protocolo que organiza el tratamiento de evidencia digital en cinco  
+etapas:  identificación,  recolección,  preservación,  procesamiento  y  presentación.  En  esta  unidad 
+interesa  reconocer  esa  secuencia  como  una  guía  general  para  trabajar  de  manera  ordenada  y 
+verificable.
+ Identificación: precisar qué evidencia se busca y cuál es su origen.
+ Recolección: obtenerla evitando pérdidas de contexto o alteraciones.
+ Preservación: resguardar el original y trabajar sobre copias.
+ Procesamiento: ordenar y analizar la información.
+ Presentación: acompañar una descripción clara, anexos completos y los registros disponibles.
+Las etapas, los recaudos técnicos y su vinculación con la cadena de custodia serán profundizados en  
+la Unidad 4.
+6. Estructura mínima de un mini-informe técnico-jurídico
+Un informe breve permite dejar constancia ordenada de qué evidencia se examinó, cómo se obtuvo y  
+qué medidas se adoptaron para conservarla. No reemplaza una pericia cuando esta resulta necesaria,  
+pero mejora la documentación y facilita el control por terceros.
+ Identificación de la evidencia: archivo, dispositivo, cuenta, conversación o recurso analizado.
+ Origen: indicación de la cuenta, sistema, dispositivo, usuario, URL o fuente de la que proviene.
+ Forma de obtención: fecha, hora, persona interviniente y procedimiento utilizado.
+ Medidas de preservación: conservación del original, generación de copias y control de accesos.
+ Hash, cuando corresponda: algoritmo utilizado y valor obtenido.
+ Hallazgos relevantes: descripción objetiva de lo observado, sin conclusiones que excedan la 
+información disponible.
+ Conclusión técnico-jurídica: síntesis sobre integridad, trazabilidad y necesidad de verificaciones 
+adicionales.
+--- PAGE 3 ---
+Tecnicatura Universitaria en Programación - Legislación | Unidad 3
+7. Errores frecuentes que reducen el valor probatorio
+ Capturas recortadas en las que no se observa usuario, URL, fecha, hora o continuidad.
+ Material desordenado y sin registro, que impide explicar el recorrido de la evidencia.
+ Trabajar sobre el original, abrirlo, editarlo o guardarlo sin conservar la versión inicial.
+ Presentar únicamente capturas cuando el caso exige verificación complementaria, por ejemplo, 
+ante una autoría o atribución discutida.
+ No poder identificar con precisión qué perfil, página, archivo o recurso web se intenta acreditar.
+8. Jurisprudencia argentina (casos reales)
+Capturas en redes sociales y problema de identificación/verificabilidad
+“NOVOPIXE S.A. c/ Ruggeri, Gustavo s/ daños y perjuicios”
+Cámara de Apelaciones en lo Civil y Comercial de Mar del Plata, Sala II, 22/02/2024.
+Texto completo (PDF): sentencia Novopixe
+Registro SAIJ: consulta del registro
+En este juicio, Novopixe S.A. reclamó daños e incumplimiento contractual a partir de un convenio de  
+rescisión que incluía, entre otras obligaciones, una prohibición de comercializar pescado en la ciudad  
+de Azul por un plazo determinado. Para acreditar el supuesto incumplimiento, la actora acompañó un  
+acta  notarial  y  capturas  de  una  página  de  Facebook.  La  prueba  digital  resultaba  central  porque 
+intentaba demostrar una conducta que no dejaba rastros físicos directos.
+La Cámara señaló que, en el entorno de redes sociales, una captura puede resultar insuficiente si no  
+permite individualizar con precisión qué recurso web se retrató y si no se puede verificar de modo  
+robusto el origen del contenido. En consecuencia, mantuvo la conclusión de que el incumplimiento no  
+se encontraba acreditado con el nivel de certeza requerido.
+Penal: evidencia digital como prueba principal, hash y discusión de cadena de custodia
+“NN, NN sobre 131 - contactar menor de edad por intermedio de tecnologías para cometer delitos de 
+integridad sexual” (incidente de apelación)
+Cámara de Apelaciones en lo Penal, Penal Juvenil, Contravencional y de Faltas (CABA), Sala III, 
+05/10/2021.
+Texto completo (PDF): sentencia Sala III
+En esta causa penal, la Fiscalía contaba como evidencia principal con capturas de pantalla realizadas  
+sobre el teléfono móvil de la denunciante. La defensa planteó la nulidad alegando que se había  
+afectado la cadena de custodia debido a una inconsistencia en el número de hash consignado para  
+identificar la evidencia.
+El tribunal explicó el rol del hash como mecanismo técnico vinculado con la integridad y analizó si  
+existió una afectación concreta y verificable de la prueba. Finalmente, confirmó el rechazo del planteo  
+de nulidad y destacó que la cuestión no se resuelve de forma automática, sino según lo efectivamente  
+ocurrido, lo documentado y el impacto real en la confiabilidad de la evidencia.
+WhatsApp, capturas y pericia informática de cotejo
+“L.G.L. c/ Z.R.E.F. p/ daños derivados de violencia de género - Recurso Extraordinario Provincial”
+Suprema Corte de Justicia de Mendoza, Sala Primera, 09/04/2024.
+Texto público: consulta de la sentencia
+--- PAGE 4 ---
+Tecnicatura Universitaria en Programación - Legislación | Unidad 3
+En este proceso civil, el demandado ofreció veintitrés capturas de pantalla de conversaciones de  
+WhatsApp y solicitó una pericia informática para desgrabar archivos contenidos en un pendrive y  
+cotejarlos con las capturas acompañadas.
+La Suprema Corte admitió la pericia con un objeto acotado: desgrabación de los archivos del pendrive  
+únicamente  para  cotejarlos  con  la  documental  ya  incorporada.  El  caso  destaca  la  necesidad  de 
+verificación complementaria cuando existe controversia sobre autenticidad, recortes o contexto.
+9. Conclusión
+La evidencia digital se sostiene con un método. Para que sea utilizable debe poder identificarse su  
+origen, sostenerse su integridad y documentarse mínimamente su trazabilidad. En evidencia de tipo  
+archivo, el hash es una herramienta central para controlar la integridad.
+El Protocolo aprobado por la Resolución 232/2023 ofrece una secuencia general de trabajo que será  
+profundizada en la Unidad 4. La jurisprudencia citada muestra que las capturas o constancias digitales  
+ganan o pierden valor según su posibilidad de verificación, la claridad del origen y la existencia de  
+respaldo complementario cuando la atribución o autenticidad se encuentran discutidas.
+10. Referencias
+Resolución 232/2023 (Boletín Oficial)
+NOVOPIXE S.A. c/ Ruggeri Gustavo (PDF)
+SAIJ - Novopixe
+CABA Sala III (PDF)
+SCJ Mendoza (texto)

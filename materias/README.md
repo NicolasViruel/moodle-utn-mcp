@@ -22,9 +22,9 @@ Cada carpeta de unidad/semana suele tener:
 
 | Materia | Unidad / Semana | Estado |
 |---------|-----------------|--------|
-| Gestión de Desarrollos de Software | U2 – Propuesta y alcance | TP listo → subir a Moodle |
-| Legislación | U2 – Delitos Informáticos | TP listo → subir a Moodle |
-| IAD | Semana 3 (cierre U1) | Notebooks listos; falta autoevaluación + encuesta + subir TPI |
-| IAD | Semana 2 | Completada |
+| Legislación | U2 – Delitos Informáticos | ✅ Entregado (Supera lo esperado) |
+| Legislación | U3 – Evidencia Digital | ✅ Cuestionarios aprobados |
+| Legislación | U4 – Cadena de Custodia | TP listo → subir `tp-resuelto_Nicolas_Viruel.pdf` |
+| IAD | Semana 4 (U2 inicio) | ✅ Notebooks + cuestionario S4 (10/10) |
 | Programación 4 | U1 Spring Boot | Aprobada (+ profiles agregados) |
 | Programación 4 | U2 APIs REST | Proyecto extendido → probar y entregar ZIP |
