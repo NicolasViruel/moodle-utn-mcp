@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class TurnoManager {
+
+    private List<String> turnos = new ArrayList<>();
+
+    public void procesar(
+            String nombrePaciente,
+            int edad,
+            String obraSocial,
+            boolean urgente
+    ) {
+
+        if (nombrePaciente != null && !nombrePaciente.equals("")) {
+
+            if (edad > 0) {
+
+                if (obraSocial.equals("OSDE")) {
+                    System.out.println("Paciente premium");
+                } else if (obraSocial.equals("SWISS")) {
+                    System.out.println("Paciente premium");
+                } else if (obraSocial.equals("PUBLICA")) {
+                    System.out.println("Paciente publico");
+                }
+
+                String turno = nombrePaciente + "-"
+                        + edad + "-"
+                        + obraSocial;
+
+                if (urgente == true) {
+                    turno = turno + "-URGENTE";
+                }
+
+                turnos.add(turno);
+
+                System.out.println("Turno agregado");
+            }
+        }
+    }
+
+    public void mostrar() {
+
+        for (int i = 0; i < turnos.size(); i++) {
+            System.out.println(turnos.get(i));
+        }
+    }
+}

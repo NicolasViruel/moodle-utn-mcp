@@ -7,6 +7,7 @@ materias/
 ├── gestion-desarrollo-software/  Gestión de Desarrollos de Software
 ├── iad/                          Introducción al Análisis de Datos
 ├── legislacion/                  Legislación
+├── metodologia-sistemas-ii/      Metodología de Sistemas II
 └── programacion-4/               Programación 4
 ```
 
@@ -27,4 +28,6 @@ Cada carpeta de unidad/semana suele tener:
 | Legislación | U4 – Cadena de Custodia | TP listo → subir `tp-resuelto_Nicolas_Viruel.pdf` |
 | IAD | Semana 4 (U2 inicio) | ✅ Notebooks + cuestionario S4 (10/10) |
 | Programación 4 | U1 Spring Boot | Aprobada (+ profiles agregados) |
-| Programación 4 | U2 APIs REST | Proyecto extendido → probar y entregar ZIP |
+| Metodología II | U2 Patrones de Diseño | ✅ TP1–TP3 resueltos → subir PDFs en Moodle |
+| Programación 4 | U2 APIs REST | ✅ Aprobada |
+| Programación 4 | U3 POO Python | ✅ TPI listo → subir `Viruel_Nicolas_TPI_POO.zip` |
