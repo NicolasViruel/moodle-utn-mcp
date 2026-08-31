@@ -106,7 +106,3 @@ La clínica privada **HealthConnect** quiere una plataforma web para que los pac
 Porque la IA **no conoce el contexto real** de HealthConnect: puede inventar integraciones, subestimar restricciones legales argentinas, proponer un alcance irreal para 4 meses o usar lenguaje demasiado genérico. También puede **omitir exclusiones críticas** y generar ambigüedades que después derivan en scope creep.
 
 El equipo de desarrollo y el PM deben **validar factibilidad técnica, costos, plazos y compliance** con datos reales de la clínica antes de presentar cualquier documento al cliente. La IA es un asistente para el borrador; la **responsabilidad profesional** del contenido final es del equipo humano.
-
----
-
-*Documento elaborado para la entrega en Moodle – Unidad 2 - Práctica (assign id 14811).*

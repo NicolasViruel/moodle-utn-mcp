@@ -25,9 +25,12 @@ Cada carpeta de unidad/semana suele tener:
 |---------|-----------------|--------|
 | Legislación | U2 – Delitos Informáticos | ✅ Entregado (Supera lo esperado) |
 | Legislación | U3 – Evidencia Digital | ✅ Cuestionarios aprobados |
-| Legislación | U4 – Cadena de Custodia | TP listo → subir `tp-resuelto_Nicolas_Viruel.pdf` |
+| Legislación | U4 – Cadena de Custodia | ✅ Entregado (Supera lo esperado) |
 | IAD | Semana 4 (U2 inicio) | ✅ Notebooks + cuestionario S4 (10/10) |
-| Programación 4 | U1 Spring Boot | Aprobada (+ profiles agregados) |
-| Metodología II | U2 Patrones de Diseño | ✅ TP1–TP3 resueltos → subir PDFs en Moodle |
+| Programación 4 | U1 Spring Boot | ✅ Aprobada |
+| Metodología II | U2 Patrones de Diseño | ✅ TP1–TP3 resueltos → **subir PDFs** en Moodle |
 | Programación 4 | U2 APIs REST | ✅ Aprobada |
-| Programación 4 | U3 POO Python | ✅ TPI listo → subir `Viruel_Nicolas_TPI_POO.zip` |
+| Programación 4 | U3 POO Python | ✅ Aprobada |
+| GDS | U3 Métricas y estimación | ✅ TP listo → **subir** `tp-resuelto.pdf` |
+| IAD | S5 TPI Entrega 2 | ⏳ Pendiente |
+| Legislación | U5 Sociedades | ⏳ Pendiente (cuestionarios + práctica) |
