@@ -31,7 +31,12 @@ Cada carpeta de unidad/semana suele tener:
 | Metodología II | U2 Patrones de Diseño | ✅ Entregado en Moodle |
 | Programación 4 | U2 APIs REST | ✅ Aprobada |
 | Programación 4 | U3 POO Python | ✅ Aprobada |
+| Programación 4 | Parcial 1 POO (Food Store) | ⏳ Proyecto listo · falta video + subir |
+| Programación 4 | U4 FastAPI TP Proveedores | ✅ Entregado en Moodle |
+| Programación 4 | U4 FastAPI cuestionarios + autoeval | ⏳ Pendiente |
 | GDS | U3 Métricas y estimación | ✅ Entregado |
-| IAD | S5 U2 – TPI Entrega 2 | ✅ Entregado (pendiente corrección) |
+| IAD | S5 U2 – TPI Entrega 2 | ✅ Entregado (8/10) |
 | IAD | S5 U2 – Autoevaluación + encuesta | ✅ Completado |
+| IAD | S6 U3 – TPI Entrega 3 (visualización) | ✅ Entregado en Moodle |
+| IAD | S6 U3 – Cuestionarios + encuesta | ⏳ Pendiente |
 | Legislación | U5 Sociedades | ⏳ Pendiente (cuestionarios + práctica) |

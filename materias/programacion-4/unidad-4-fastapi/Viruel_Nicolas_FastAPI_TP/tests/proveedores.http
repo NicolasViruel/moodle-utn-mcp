@@ -1,0 +1,99 @@
+@baseUrl = http://127.0.0.1:8000
+
+### ==========================================
+### MÓDULO: PROVEEDORES — casos exitosos
+### ==========================================
+
+### HU-01 — Crear proveedor (201)
+POST {{baseUrl}}/proveedores/
+Content-Type: application/json
+
+{
+  "codigo": "PROV-001",
+  "razon_social": "Distribuidora Norte SA",
+  "cuit": "30-71234567-8",
+  "email": "ventas@norte.com",
+  "telefono": "381-555-0100",
+  "activo": true
+}
+
+### HU-01 — Crear segundo proveedor
+POST {{baseUrl}}/proveedores/
+Content-Type: application/json
+
+{
+  "codigo": "PROV-002",
+  "razon_social": "Alimentos del Valle SRL",
+  "cuit": "30-70998877-1",
+  "email": "",
+  "telefono": "",
+  "activo": true
+}
+
+### HU-02 — Listar proveedores (paginación default)
+GET {{baseUrl}}/proveedores/
+
+### HU-02 — Listar solo activos
+GET {{baseUrl}}/proveedores/?activo=true&skip=0&limit=10
+
+### HU-03 — Detalle por ID
+GET {{baseUrl}}/proveedores/1
+
+### HU-04 — Actualizar proveedor (PUT total)
+PUT {{baseUrl}}/proveedores/1
+Content-Type: application/json
+
+{
+  "codigo": "PROV-001",
+  "razon_social": "Distribuidora Norte Ampliada SA",
+  "cuit": "30-71234567-8",
+  "email": "contacto@norte.com",
+  "telefono": "381-555-0199",
+  "activo": true
+}
+
+### HU-05 — Desactivar proveedor
+PUT {{baseUrl}}/proveedores/2/desactivar
+
+### HU-02 — Listar inactivos
+GET {{baseUrl}}/proveedores/?activo=false
+
+### ==========================================
+### ESCENARIOS DE ERROR
+### ==========================================
+
+### RN-01 / RN-03 — 422 código vacío y razón social corta
+POST {{baseUrl}}/proveedores/
+Content-Type: application/json
+
+{
+  "codigo": "",
+  "razon_social": "AB",
+  "cuit": "30-70000000-0"
+}
+
+### RN-02 — 409 código duplicado
+POST {{baseUrl}}/proveedores/
+Content-Type: application/json
+
+{
+  "codigo": "PROV-001",
+  "razon_social": "Otro Proveedor SA",
+  "cuit": "30-71111111-1"
+}
+
+### RN-04 — 404 ID inexistente
+GET {{baseUrl}}/proveedores/999
+
+### RN-04 — 404 actualizar inexistente
+PUT {{baseUrl}}/proveedores/999
+Content-Type: application/json
+
+{
+  "codigo": "PROV-999",
+  "razon_social": "Fantasma SA",
+  "cuit": "30-79999999-9"
+}
+
+### RN-05 — 409 desactivar ya desactivado (ejecutar dos veces seguidas)
+PUT {{baseUrl}}/proveedores/2/desactivar
