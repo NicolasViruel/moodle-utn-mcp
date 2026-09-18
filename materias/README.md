@@ -29,9 +29,10 @@ Cada carpeta de unidad/semana suele tener:
 | IAD | Semana 4 (U2 inicio) | ✅ Notebooks + cuestionario S4 (10/10) |
 | Programación 4 | U1 Spring Boot | ✅ Aprobada |
 | Metodología II | U2 Patrones de Diseño | ✅ Entregado en Moodle |
+| Metodología II | U3 Verificación y Validación | ⏳ 3 TPs · consignas en repo |
 | Programación 4 | U2 APIs REST | ✅ Aprobada |
 | Programación 4 | U3 POO Python | ✅ Aprobada |
-| Programación 4 | Parcial 1 POO (Food Store) | ⏳ Proyecto listo · falta video + subir |
+| Programación 4 | Parcial 1 POO (Food Store) | ✅ Entregado (ZIP + video en Moodle) |
 | Programación 4 | U4 FastAPI TP Proveedores | ✅ Entregado en Moodle |
 | Programación 4 | U4 FastAPI cuestionarios + autoeval | ⏳ Pendiente |
 | GDS | U3 Métricas y estimación | ✅ Entregado |
@@ -39,4 +40,6 @@ Cada carpeta de unidad/semana suele tener:
 | IAD | S5 U2 – Autoevaluación + encuesta | ✅ Completado |
 | IAD | S6 U3 – TPI Entrega 3 (visualización) | ✅ Entregado en Moodle |
 | IAD | S6 U3 – Cuestionarios + encuesta | ⏳ Pendiente |
-| Legislación | U5 Sociedades | ⏳ Pendiente (cuestionarios + práctica) |
+| Legislación | U5 Sociedades | ✅ Cuestionarios · TP PDF listo para subir |
+| Legislación | U6 Laboral IT | ✅ Cuestionarios · TP PDF listo para subir |
+| Legislación | U7 Propiedad intelectual | ✅ TP casos reales + caso moderno PDF listos |

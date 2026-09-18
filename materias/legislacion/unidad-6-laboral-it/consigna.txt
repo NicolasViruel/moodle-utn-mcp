@@ -1,0 +1,83 @@
+ 
+1 
+ 
+ 
+ 
+Objetivo de la pr�ctica 
+El objetivo de esta pr�ctica es aplicar los conceptos desarrollados en la unidad 
+sobre: 
+� formas de contrataci�n en IT  
+� teletrabajo y condiciones laborales  
+� confidencialidad y tratamiento de datos  
+A partir de un caso realista, se busca analizar situaciones habituales del mundo 
+profesional y tomar decisiones fundamentadas. 
+ 
+Escenario planteado 
+Una startup tecnol�gica desarrolla una aplicaci�n para la gesti�n de turnos 
+m�dicos. 
+El equipo est� conformado por tres desarrolladores: 
+� Uno trabaja en relaci�n de dependencia  
+
+ 
+2 
+ 
+� Otro factura como monotributista pero cumple horario fijo y recibe 
+�rdenes  
+� El tercero trabaja como freelance por proyecto  
+Adem�s, todos trabajan de forma remota. 
+Durante el desarrollo del sistema: 
+� no se definieron horarios claros de trabajo  
+� se env�an mensajes fuera del horario laboral  
+� la empresa no provee herramientas de trabajo  
+� uno de los desarrolladores descarga una base de datos de usuarios para 
+probar una funcionalidad en su proyecto personal  
+ 
+ 
+Actividad 1 � An�lisis del v�nculo laboral 
+Analizar la situaci�n de los integrantes del equipo. 
+Preguntas: 
+1. �Qu� tipo de relaci�n laboral tiene cada desarrollador?  
+2. �Existe alguna situaci�n irregular?  
+3. �Qu� diferencias hay entre relaci�n de dependencia, freelance y 
+contrataci�n por proyecto?  
+4. �Qu� riesgos existen en una relaci�n mal definida?  
+ 
+Actividad 2 � Teletrabajo y condiciones laborales 
+Analizar las condiciones en las que se desarrolla el trabajo remoto. 
+Preguntas: 
+1. �Se respetan las condiciones del teletrabajo seg�n la legislaci�n?  
+2. �Se cumple el derecho a la desconexi�n digital?  
+3. �Qu� obligaciones del empleador no se est�n cumpliendo?  
+4. �Qu� problemas genera la falta de organizaci�n en el teletrabajo?  
+ 
+ 
+3 
+ 
+ Actividad 3 � Confidencialidad y datos 
+Analizar el uso de la informaci�n dentro del proyecto. 
+Preguntas: 
+1. �Es correcta la conducta del desarrollador que descarga la base de datos?  
+2. �Qu� tipo de obligaci�n se est� incumpliendo?  
+3. �Qu� normativa regula esta situaci�n en Argentina?  
+4. �Qu� consecuencias pueden derivarse de este accionar?  
+ 
+Actividad integradora final 
+A partir del an�lisis realizado, elaborar una breve propuesta donde se definan: 
+� forma de contrataci�n adecuada para cada integrante  
+� condiciones claras de teletrabajo  
+� pol�ticas b�sicas de confidencialidad y uso de datos  
+ 
+Entregable 
+El estudiante deber� presentar un documento donde: 
+� responda cada bloque de preguntas  
+� justifique sus respuestas  
+� proponga mejoras en la organizaci�n del proyecto  
+Criterios de evaluaci�n 
+Se evaluar�: 
+� comprensi�n de los conceptos  
+� capacidad de an�lisis del caso  
+� correcta aplicaci�n de normativa  
+� claridad en la propuesta final 
+ 
+ 
+ 

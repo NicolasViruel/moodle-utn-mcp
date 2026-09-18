@@ -1,0 +1,106 @@
+ 
+1 
+ 
+ 
+ 
+PR�CTICA INTEGRADORA � UNIDAD COMPLETA 
+Emprendimientos, Responsabilidad y Organizaci�n en IT 
+ 
+Objetivo de la pr�ctica 
+El objetivo de esta pr�ctica es que el estudiante comprenda c�mo los proyectos 
+tecnol�gicos evolucionan desde una idea inicial hasta convertirse en 
+organizaciones, y c�mo las decisiones tomadas impactan en: 
+� la responsabilidad  
+� la organizaci�n del proyecto  
+� los riesgos  
+� el desarrollo profesional  
+Se busca analizar una situaci�n realista del mundo IT y aplicar los conceptos vistos 
+a lo largo de la unidad. 
+ 
+ 
+
+ 
+2 
+ 
+Escenario planteado 
+Tres desarrolladores crean una aplicaci�n para la gesti�n de turnos m�dicos. 
+El proyecto comienza de manera informal: 
+� no existe una estructura legal  
+� no hay contratos entre ellos  
+� las decisiones se toman de forma verbal  
+Con el tiempo, la aplicaci�n crece: 
+� comienzan a tener usuarios  
+� empiezan a generarse ingresos  
+� surgen nuevas responsabilidades  
+Sin embargo, nunca se definieron: 
+� qui�n es due�o del software  
+� c�mo se distribuyen las ganancias  
+� qui�n toma decisiones  
+� qu� sucede ante errores del sistema  
+Adem�s, ocurre una situaci�n cr�tica: 
+El sistema presenta fallas en producci�n y genera p�rdidas econ�micas a una 
+empresa cliente. 
+A partir de ese momento: 
+� surgen conflictos entre los desarrolladores  
+� no est� claro qui�n debe responder  
+� aparecen discusiones sobre responsabilidades y continuidad del 
+proyecto  
+Este escenario refleja c�mo un proyecto puede pasar de ser t�cnico a convertirse 
+en un problema organizativo y legal, tal como se desarrolla en la unidad. 
+ 
+Actividad 1 � An�lisis del proyecto 
+1. �En qu� etapa se encuentra el proyecto: informal u organizada?  
+2. �Qu� cambios indican que el proyecto dej� de ser solo t�cnico?  
+ 
+3 
+ 
+3. �Por qu� el crecimiento del proyecto exige una nueva forma de organizaci�n?  
+Actividad 2 � Organizaci�n y sociedades 
+1. �Qu� problemas genera la falta de formalizaci�n?  
+2. �Qu� tipo de organizaci�n ser�a recomendable para este proyecto?  
+3. �Qu� ventajas aporta la creaci�n de una sociedad?  
+4. �C�mo cambia la responsabilidad al pasar de freelance a sociedad?  
+ (Relacionar con el concepto de organizaci�n formal vs informal ) 
+ 
+Actividad 3 � Responsabilidad en el proyecto 
+1. �Existe responsabilidad por las p�rdidas generadas?  
+2. �Qu� tipo de responsabilidad podr�a aplicarse?  
+3. �Qui�n deber�a responder en este caso?  
+4. �C�mo influye la falta de acuerdos en la determinaci�n de responsabilidad?  
+(Relacionar con ��Qui�n responde?� y tipos de responsabilidad ) 
+ 
+Actividad 4 � Decisiones y gesti�n del proyecto 
+1. �Qu� decisiones no se tomaron correctamente?  
+2. �En qu� momento deber�an haberse tomado?  
+3. �Por qu� se dice que el problema no es t�cnico sino organizativo?  
+4. �C�mo impactan estas decisiones en el futuro del proyecto?  
+ (Relacionar con impacto de decisiones y crecimiento del proyecto ) 
+ 
+Actividad integradora final 
+Proponer una soluci�n integral para el proyecto donde se definan: 
+� estructura organizativa (sociedad / freelance / otra)  
+� roles de cada integrante  
+� criterios de toma de decisiones  
+� distribuci�n de ingresos  
+� medidas para reducir riesgos  
+� acciones para evitar conflictos futuros  
+ 
+Entregable 
+El estudiante deber� presentar un documento donde: 
+� responda cada bloque de preguntas  
+� fundamente sus respuestas  
+� relacione los conceptos de toda la unidad  
+� proponga una soluci�n clara y coherente  
+ 
+4 
+ 
+Criterios de evaluaci�n 
+Se evaluar�: 
+� comprensi�n global de la unidad  
+� capacidad de an�lisis del caso  
+� integraci�n de conceptos  
+� claridad en la propuesta  
+� enfoque profesional  
+ 
+ 
+ 

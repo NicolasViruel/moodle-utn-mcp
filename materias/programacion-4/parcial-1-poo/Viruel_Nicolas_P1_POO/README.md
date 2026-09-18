@@ -29,6 +29,3 @@ Solo Python 3.12+ estándar. Sin dependencias externas.
 - **ProductoCombo.precio_base:** se deriva al construir como precio unitario del combo con descuento.
 - **ProductoCombo.stock:** stock propio del combo (no se deriva de componentes).
 
-## Empaquetado
-
-Comprimir la carpeta `Viruel_Nicolas_P1_POO/` (sin `.venv` ni `__pycache__`) como `Viruel_Nicolas_P1_POO.zip`.

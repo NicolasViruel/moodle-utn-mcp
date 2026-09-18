@@ -16,15 +16,14 @@ parcial-1-poo/Viruel_Nicolas_P1_POO/
 ├── libreria_externa.py
 ├── main.py
 ├── README.md
-├── link_video.txt          ← falta el link del video (obligatorio)
+├── link_video.txt
 └── uml/modelo_final.md
 ```
 
-## Pendiente antes de entregar
+## Entrega
 
-1. Grabar video de defensa (10–15 min, cámara encendida) con las 4 preguntas del enunciado
-2. Pegar el link en `link_video.txt`
-3. Comprimir carpeta → subir a Moodle
+1. Subir **`Viruel_Nicolas_P1_POO.zip`** en Moodle → **Evaluaciones → Entrega Parcial 1**
+2. El ZIP incluye el código, UML, README y `link_video.txt` con el video de defensa
 
 ## Ejecutar
 

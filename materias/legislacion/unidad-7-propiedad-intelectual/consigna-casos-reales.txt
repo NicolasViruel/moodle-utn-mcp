@@ -1,0 +1,42 @@
+ 
+LEGISLACI�N 
+TRABAJO PR�CTICO 
+Caso 1: Google v. Oracle (2010�2021) 
+1. �Qu� fue exactamente lo que Oracle acus� a Google de Haber copiado? 
+3. �Cu�ntas l�neas de c�digo estaban en disputa aproximadamente? 
+4. �Para qu� sistema utiliz� Google ese c�digo? 
+5. �Por qu� la reutilizaci�n de APIs puede ser importante para los desarrolladores? 
+6. �Qu� significa el concepto de interoperabilidad en software? 
+7. �Por qu� la Corte Suprema consider� que el uso de las APIs fue 'uso leg�timo' (fair use)? 
+8. �Qu� problemas podr�a generar para la industria del software si las APIs fueran 
+completamente propietarias? 
+9. Imagin� que est�s desarrollando una aplicaci�n que necesita interactuar con otra 
+plataforma. �Qu� ventajas te da poder usar APIs existentes? 
+10. �Cre�s que copiar estructuras de APIs deber�a ser legal? Justific� tu respuesta. 
+Caso 2: Viacom v. YouTube (2007�2012) 
+11. �Por qu� Viacom demand� a YouTube? 
+12. �Qu� tipo de contenido estaba en conflicto? 
+13. �Qu� monto reclamaba Viacom en la demanda? 
+14. �Qu� ley fue clave en la resoluci�n del caso? 
+15. �Qu� es el 'puerto seguro' (safe harbor) en la DMCA? 
+16. �Qu� condiciones debe cumplir una plataforma para no ser responsable del contenido 
+subido por los usuarios? 
+17. �Qu� rol juega la notificaci�n de infracci�n (takedown notice)? 
+18. �Qu� riesgos existir�an si las plataformas fueran responsables autom�ticamente por 
+todo el contenido que suben los usuarios? 
+ 
+LEGISLACI�N 
+19. Si crearas una plataforma tipo red social o repositorio de c�digo: �qu� medidas 
+implementar�as para cumplir con la ley? 
+20. �Cre�s que el sistema actual favorece m�s a las empresas tecnol�gicas o a los creadores 
+de contenido? Justific�. 
+Preguntas integradoras 
+21. Compar� ambos casos: �qu� tienen en com�n en t�rminos de propiedad intelectual y en 
+qu� se diferencian? 
+22. �C�mo influyen estos fallos en el trabajo diario de un programador? 
+23. �Qu� equilibrio deber�a existir entre innovaci�n tecnol�gica, derechos de autor y acceso 
+al conocimiento? 
+24. �Cre�s que las leyes actuales est�n actualizadas frente a la realidad del desarrollo de 
+software? �Por qu�? 
+25. Propon� una mejora o cambio en la legislaci�n que beneficie tanto a desarrolladores 
+como a empresas. 
