@@ -1,0 +1,7 @@
+==> [1/3] Formatter (ruff format --check)
+Would reformat: test_pedidos_descuento.py
+1 file would be reformatted, 1 file already formatted
+
+ERROR: Formato incorrecto. Corregí con: python -m ruff format .
+
+El commit se aborta (exit code 1). Git no crea el commit.

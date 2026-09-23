@@ -29,7 +29,7 @@ Cada carpeta de unidad/semana suele tener:
 | IAD | Semana 4 (U2 inicio) | ✅ Notebooks + cuestionario S4 (10/10) |
 | Programación 4 | U1 Spring Boot | ✅ Aprobada |
 | Metodología II | U2 Patrones de Diseño | ✅ Entregado en Moodle |
-| Metodología II | U3 Verificación y Validación | ⏳ 3 TPs · consignas en repo |
+| Metodología II | U3 Verificación y Validación | ✅ 3 TPs resueltos · subir ZIPs a Moodle |
 | Programación 4 | U2 APIs REST | ✅ Aprobada |
 | Programación 4 | U3 POO Python | ✅ Aprobada |
 | Programación 4 | Parcial 1 POO (Food Store) | ✅ Entregado (ZIP + video en Moodle) |

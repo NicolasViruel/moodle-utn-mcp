@@ -37,8 +37,8 @@ Texto extraído del PDF: `consigna.txt` en cada carpeta.
 
 | TP | Estado |
 |----|--------|
-| TP 1 | ⏳ Consigna descargada · falta resolver y subir |
-| TP 2 | ⏳ Consigna descargada · falta resolver y subir |
-| TP 3 | ⏳ Consigna descargada · falta resolver y subir |
+| TP 1 | ✅ `Viruel_Nicolas_TP1_DoD.zip` |
+| TP 2 | ✅ `Viruel_Nicolas_TP2_Testing.zip` |
+| TP 3 | ✅ `Viruel_Nicolas_TP3_Calidad.zip` |
 
 Moodle también lista recursos *Ejemplo de Resolución* (TP 1–3); si no tienen archivo adjunto en REST, abrirlos desde la pestaña Práctica en el campus.
