@@ -43,3 +43,4 @@ Cada carpeta de unidad/semana suele tener:
 | Legislación | U5 Sociedades | ✅ Cuestionarios · TP PDF listo para subir |
 | Legislación | U6 Laboral IT | ✅ Cuestionarios · TP PDF listo para subir |
 | Legislación | U7 Propiedad intelectual | ✅ TP casos reales + caso moderno PDF listos |
+| Legislación | U8 Contratos | ✅ TP PDF listo para subir |

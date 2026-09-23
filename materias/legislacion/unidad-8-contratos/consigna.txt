@@ -1,0 +1,114 @@
+ACTIVIDAD PRÁCTICA
+Análisis de Contrato de Desarrollo de Software
+Instrucciones de entrega: descargá este archivo Word, completá tus respuestas directamente en el documento y, al momento de subirlo al Aula Virtual, convertilo a formato PDF. No se aceptan entregas en formato Word.Instrucciones de entrega: descargá este archivo Word, completá tus respuestas directamente en el documento y, al momento de subirlo al Aula Virtual, convertilo a formato PDF. No se aceptan entregas en formato Word.
+Instrucciones de entrega: descargá este archivo Word, completá tus respuestas directamente en el documento y, al momento de subirlo al Aula Virtual, convertilo a formato PDF. No se aceptan entregas en formato Word.
+Instrucciones de entrega: descargá este archivo Word, completá tus respuestas directamente en el documento y, al momento de subirlo al Aula Virtual, convertilo a formato PDF. No se aceptan entregas en formato Word.
+Apellido y nombre:
+Comisión:
+Fecha de entrega:
+Descripción de la actividadEn esta actividad vas a analizar un contrato de desarrollo de software. El contrato fue firmado entre dos empresas de la ciudad de Paraná: TechSoluciones S.R.L. (desarrolladora) y Comercial del Litoral S.A. (cliente).Tu tarea es leer el contrato, identificar sus cláusulas, evaluar si están bien redactadas y proponer mejoras. Para eso, respondé las consignas que aparecen después del contrato.Descripción de la actividadEn esta actividad vas a analizar un contrato de desarrollo de software. El contrato fue firmado entre dos empresas de la ciudad de Paraná: TechSoluciones S.R.L. (desarrolladora) y Comercial del Litoral S.A. (cliente).Tu tarea es leer el contrato, identificar sus cláusulas, evaluar si están bien redactadas y proponer mejoras. Para eso, respondé las consignas que aparecen después del contrato.
+Descripción de la actividad
+En esta actividad vas a analizar un contrato de desarrollo de software. El contrato fue firmado entre dos empresas de la ciudad de Paraná: TechSoluciones S.R.L. (desarrolladora) y Comercial del Litoral S.A. (cliente).
+Tu tarea es leer el contrato, identificar sus cláusulas, evaluar si están bien redactadas y proponer mejoras. Para eso, respondé las consignas que aparecen después del contrato.
+Descripción de la actividad
+En esta actividad vas a analizar un contrato de desarrollo de software. El contrato fue firmado entre dos empresas de la ciudad de Paraná: TechSoluciones S.R.L. (desarrolladora) y Comercial del Litoral S.A. (cliente).
+Tu tarea es leer el contrato, identificar sus cláusulas, evaluar si están bien redactadas y proponer mejoras. Para eso, respondé las consignas que aparecen después del contrato.
+CONTRATO DE DESARROLLO DE SOFTWARE
+Entre TechSoluciones S.R.L. y Comercial del Litoral S.A.
+Ciudad de Paraná, Provincia de Entre Ríos – Marzo de 2025
+PRIMERA – PARTES CONTRATANTES
+El presente contrato se celebra entre las siguientes partes:
+DESARROLLADORA: TechSoluciones S.R.L., con domicilio en calle San Martín 850, ciudad de Paraná, CUIT 30-71234567-9, representada por su socio gerente Sr. Martín Gómez, D.N.I. 28.456.789.
+CLIENTE: Comercial del Litoral S.A., con domicilio en Av. Laurencena 1200, ciudad de Paraná, CUIT 30-68901234-5, representada por su presidente Sr. Eduardo Rivas, D.N.I. 31.789.012.
+SEGUNDA – OBJETO DEL CONTRATO
+La DESARROLLADORA se compromete a diseñar, desarrollar e implementar un sistema de gestión comercial para la CLIENTE, que incluirá los siguientes módulos: facturación electrónica, control de stock, gestión de clientes y reportes de ventas. Las especificaciones técnicas detalladas se incorporan como Anexo I al presente contrato.
+TERCERA – PLAZO DE DESARROLLO
+El desarrollo se realizará en un plazo aproximado de seis (6) meses contados desde la firma del presente, con las siguientes etapas:
+Etapa 1 – Relevamiento y diseño: 30 días.
+Etapa 2 – Desarrollo del módulo de facturación: 60 días.
+Etapa 3 – Desarrollo de módulos de stock y clientes: 60 días.
+Etapa 4 – Implementación y capacitación: 30 días.
+Los plazos podrán modificarse si el CLIENTE no provee en tiempo y forma la información y accesos necesarios para el desarrollo.
+CUARTA – PRECIO Y CONDICIONES DE PAGO
+El precio total acordado por el desarrollo es de pesos ciento veinte mil ($120.000), que se abonará de la siguiente forma:
+30% a la firma del presente contrato.
+40% al inicio de la Etapa 3.
+30% a la entrega final del sistema.
+QUINTA – PROPIEDAD INTELECTUAL
+El software desarrollado en el marco del presente contrato quedará en propiedad de la DESARROLLADORA. La CLIENTE recibirá una licencia de uso no exclusiva, intransferible y por tiempo indefinido para utilizar el sistema en su establecimiento. El código fuente no será entregado a la CLIENTE salvo acuerdo expreso en contrario.
+SEXTA – CONFIDENCIALIDAD
+Ambas partes se comprometen a mantener la más estricta confidencialidad respecto de toda la información técnica, comercial y operativa que sea intercambiada durante la ejecución del presente contrato. Esta obligación se extiende por un plazo de dos (2) años a partir de la finalización del contrato.
+SÉPTIMA – GARANTÍA
+La DESARROLLADORA garantiza el correcto funcionamiento del sistema por un período de noventa (90) días contados desde la entrega final. Durante dicho período, la DESARROLLADORA corregirá sin cargo los errores o fallas que sean imputables al desarrollo realizado.
+OCTAVA – RESCISIÓN
+Cualquiera de las partes podrá rescindir el presente contrato en caso de incumplimiento de la otra parte, previo aviso fehaciente con una antelación no menor a quince (15) días corridos. En caso de rescisión, la CLIENTE abonará a la DESARROLLADORA los trabajos efectivamente realizados hasta la fecha de notificación.
+NOVENA – DOMICILIO Y JURISDICCIÓN
+Las partes constituyen domicilio en los indicados en la cláusula primera. Para cualquier cuestión litigiosa derivada del presente contrato, las partes se someten a la jurisdicción de los Tribunales Ordinarios de la Ciudad de Paraná, renunciando a cualquier otro fuero que pudiera corresponderles.
+DÉCIMA – CONFORMIDAD
+En prueba de conformidad, las partes firman el presente contrato en dos (2) ejemplares de un mismo tenor y a un solo efecto, en la ciudad de Paraná, a los 10 días del mes de marzo del año 2025.
+TechSoluciones S.R.L.
+Sr. Martín Gómez
+Comercial del Litoral S.A.
+Sr. Eduardo Rivas
+CONSIGNAS DE TRABAJO
+Leé el contrato con atención antes de responder. Escribí tus respuestas en los espacios habilitados.
+1 Identificación de cláusulas1 Identificación de cláusulas
+1 Identificación de cláusulas
+1 Identificación de cláusulas
+Completá la siguiente tabla indicando el nombre de cada cláusula, qué regula y qué tipo de cláusula es (esencial, accesoria, resolutoria o formal).
+Cláusula
+Nombre
+¿Qué regula?
+Tipo de cláusula
+PRIMERA
+SEGUNDA
+TERCERA
+CUARTA
+QUINTA
+SEXTA
+SÉPTIMA
+OCTAVA
+NOVENA
+DÉCIMA
+El art. 957 del Código Civil y Comercial define el contrato como el acto jurídico mediante el cual dos o más partes manifiestan su consentimiento para crear, regular o extinguir relaciones jurídicas patrimoniales. Para que un contrato sea válido deben estar presentes cinco elementos esenciales: consentimiento, capacidad, objeto, causa y forma.
+Para cada elemento, señalá en qué parte del contrato aparece y si considerás que está correctamente contemplado.
+Elemento
+¿Dónde aparece en el contrato?
+¿Está correctamente contemplado?
+¿Por qué?
+Consentimiento
+Capacidad
+Objeto
+Causa
+Forma
+Para cada cláusula del contrato, indicá si está correctamente redactada o si tiene alguna deficiencia. Justificá tu respuesta pensando en qué problemas podrían surgir en la práctica si esa cláusula queda tal como está.
+Cláusula
+¿Bien redactada?
+Justificación / Problemas que podrían surgir
+PRIMERA – Partes
+SEGUNDA – Objeto
+TERCERA – Plazo
+CUARTA – Precio
+QUINTA – Prop. Intelectual
+SEXTA – Confidencialidad
+SÉPTIMA – Garantía
+OCTAVA – Rescisión
+NOVENA – Jurisdicción
+DÉCIMA – Conformidad
+Elegí al menos tres cláusulas que consideres deficientes y reescribilas. No alcanza con decir "hay que agregar algo": la reformulación tiene que ser concreta, con el texto como quedaría en el contrato.
+Cláusula elegida N°1: Texto original:
+Reformulación propuesta:
+Cláusula elegida N°2: Texto original:
+Reformulación propuesta:
+Cláusula elegida N°3: Texto original:
+Reformulación propuesta:
+Más allá de las cláusulas existentes, ¿hay temas que el contrato no menciona y que podrían generar conflictos en un proyecto real? Nombrá al menos tres temas ausentes y explicá por qué sería importante incluirlos.
+Tema ausente
+¿Por qué debería estar en el contrato?
+La cláusula Quinta establece que la desarrolladora se queda con la titularidad del software. Respondé las siguientes preguntas:
+¿Qué dice la Ley 11.723 sobre la protección del software en Argentina?
+¿Qué riesgos concretos genera para el cliente que la desarrolladora conserve la titularidad y no entregue el código fuente?
+¿Cómo la redactarías si quisieras proteger los intereses del cliente sin perjudicar a la desarrolladora?
+Sos el programador principal de TechSoluciones y te piden firmar este contrato con otro cliente.
+¿Lo firmarías tal como está? ¿Qué tres cosas cambiarías antes de firmarlo? Justificá tu elección.
+Legislación – Tecnicatura Universitaria en Programación – UTN
