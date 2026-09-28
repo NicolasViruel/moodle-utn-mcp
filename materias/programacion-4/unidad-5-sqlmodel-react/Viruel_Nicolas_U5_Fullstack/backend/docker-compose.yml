@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: gestor
+      POSTGRES_PASSWORD: gestor
+      POSTGRES_DB: gestor_productos
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata_u5:/var/lib/postgresql/data
+
+volumes:
+  pgdata_u5:

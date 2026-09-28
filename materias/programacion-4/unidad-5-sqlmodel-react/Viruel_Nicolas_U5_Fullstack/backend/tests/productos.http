@@ -1,0 +1,43 @@
+@baseUrl = http://127.0.0.1:8000
+
+### Listar
+GET {{baseUrl}}/productos/
+
+### Crear
+POST {{baseUrl}}/productos/
+Content-Type: application/json
+
+{
+  "nombre": "Monitor 24",
+  "descripcion": "Full HD IPS",
+  "precio": 199.99
+}
+
+### Detalle
+GET {{baseUrl}}/productos/1
+
+### Actualizar
+PUT {{baseUrl}}/productos/1
+Content-Type: application/json
+
+{
+  "nombre": "Monitor 24 Pro",
+  "descripcion": "Full HD IPS 75Hz",
+  "precio": 219.99
+}
+
+### Validacion 422 precio negativo
+POST {{baseUrl}}/productos/
+Content-Type: application/json
+
+{
+  "nombre": "Test",
+  "descripcion": "x",
+  "precio": -1
+}
+
+### 404
+GET {{baseUrl}}/productos/9999
+
+### Eliminar
+DELETE {{baseUrl}}/productos/1

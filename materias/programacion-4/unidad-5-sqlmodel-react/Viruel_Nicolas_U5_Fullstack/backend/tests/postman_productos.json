@@ -1,0 +1,45 @@
+{
+  "info": {
+    "name": "Gestor Productos U5",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Listar productos",
+      "request": { "method": "GET", "url": "{{baseUrl}}/productos/" }
+    },
+    {
+      "name": "Crear producto",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nombre\":\"Teclado\",\"descripcion\":\"Mecánico\",\"precio\":120}"
+        },
+        "url": "{{baseUrl}}/productos/"
+      }
+    },
+    {
+      "name": "Detalle",
+      "request": { "method": "GET", "url": "{{baseUrl}}/productos/1" }
+    },
+    {
+      "name": "Actualizar",
+      "request": {
+        "method": "PUT",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nombre\":\"Teclado Pro\",\"descripcion\":\"RGB\",\"precio\":150}"
+        },
+        "url": "{{baseUrl}}/productos/1"
+      }
+    },
+    {
+      "name": "Eliminar",
+      "request": { "method": "DELETE", "url": "{{baseUrl}}/productos/1" }
+    }
+  ],
+  "variable": [{ "key": "baseUrl", "value": "http://127.0.0.1:8000" }]
+}

@@ -1,0 +1,275 @@
+TECNICATURA  UNIVERSITARIA  EN  PROGRAMACIÓN  A  DISTANCIA  
+Gestión  de  Desarrollos  de  Software
+ Trabajo  Práctico  Planificación  y  Calendarización  de  un  Proyecto  de  Software
+ 
+Objetivo Aplicar  los  conceptos  de  planificación,  cronograma,  hitos,  entregables,  calendarización  
+técnica,
+ 
+camino
+ 
+crítico,
+ 
+CPM,
+ 
+diagrama
+ 
+de
+ 
+Gantt,
+ 
+iteraciones
+ 
+ágiles
+ 
+y
+ 
+herramientas
+ 
+de
+ 
+gestión
+ 
+dinámica
+ 
+con
+ 
+IA,
+ 
+a
+ 
+un
+ 
+caso
+ 
+simplificado
+ 
+de
+ 
+desarrollo
+ 
+de
+ 
+software.
+ 
+Caso Se  desea  desarrollar  un  módulo  de  software  con  6  actividades  principales.  Las  
+actividades,
+ 
+duraciones
+ 
+y
+ 
+dependencias
+ 
+son
+ 
+las
+ 
+siguientes:
+  Actividad  Duración  (días)  Predecesoras  
+A  3  -  
+B  4  A  
+C  5  B  
+D  2  A  
+E  4  C,  D  
+F  3  E  
+ 
+Consignas ●  1.  Hitos  y  entregables  ○  Defina  3  hitos  para  este  proyecto.  Deben  cumplir  con  las  características  SMART  
+mencionadas
+ 
+en
+ 
+el
+ 
+material:
+ 
+específicos,
+ 
+medibles,
+ 
+alcanzables,
+ 
+relevantes
+ 
+y
+ 
+con
+ 
+tiempo
+ 
+definido.
+ ○  Defina  2  entregables :  uno  interno  y  uno  externo.  Justifique  brevemente  por  qué  
+corresponde
+ 
+a
+ 
+cada
+ 
+tipo,
+ 
+según
+ 
+el
+ 
+material.
+ ○  Ubique  tentativamente  cada  hito  en  el  cronograma  (por  ejemplo,  al  finalizar  una  
+actividad
+ 
+o
+ 
+una
+ 
+etapa).
+ 
+ 
+TECNICATURA  UNIVERSITARIA  EN  PROGRAMACIÓN  A  DISTANCIA  
+ ●  2.  Cálculo  CPM:  tiempos  y  holguras  Complete  la  siguiente  tabla  con  los  tiempos  tempranos  y  tardíos  de  cada  actividad.  Luego  
+calcule
+ 
+la
+ 
+holgura
+ 
+de
+ 
+cada
+ 
+una.
+  
+Actividad  Duración  Predecesoras  Inicio  Temprano  (IT)  
+Fin  Temprano  (FT)  
+Inicio  Tardío  (IL)  
+Fin  Tardío  (FL)  
+Holgura  (IL  –  IT)  
+A  3  —       
+B  4  A       
+C  5  B       
+D  2  A       
+E  4  C,  D       
+F  3  E        ●  3.  Camino  crítico  y  holguras  ○  Indique  la  duración  total  del  proyecto .  ○  Determine  el  camino  crítico .  ○  Explique  qué  significa  que  una  actividad  tenga  holgura  cero .  ○  ¿Qué  implica  que  la  actividad  D  tenga  holgura?  ¿Se  puede  retrasar  sin  afectar  la  
+fecha
+ 
+final?
+ 
+Justifique.
+  ●  4.  Diagrama  de  Gantt  Realice  un  diagrama  de  Gantt  simple  para  las  actividades  A  a  F.  Puede  usar  una  tabla  
+de
+ 
+doble
+ 
+entrada
+ 
+con
+ 
+días
+ 
+(0
+ 
+a
+ 
+19)
+ 
+y
+ 
+barras
+ 
+horizontales.
+ 
+Respete
+ 
+las
+ 
+dependencias
+ 
+y
+ 
+duraciones.
+ 
+Marque
+ 
+con
+ 
+un
+ 
+símbolo
+ 
+o
+ 
+línea
+ 
+vertical
+ 
+los
+ 
+hitos
+ 
+definidos
+ 
+en
+ 
+la
+ 
+consigna
+ 
+1
+ 
+y
+ 
+adjunte
+ 
+captura.
+  ●  5.  Iteraciones  ágiles  y  gestión  dinámica  con  IA  Responda  brevemente:  ○  ¿Cómo  se  sincronizan  los  hitos  en  marcos  de  trabajo  modernos  como  Agile?  
+¿Qué
+ 
+se
+ 
+evalúa
+ 
+al
+ 
+final
+ 
+de
+ 
+cada
+ 
+Sprint?
+ ○  Mencione  un  beneficio  y  un  desafío  de  implementar  CPM  en  contextos  ágiles.  ○  Explique  qué  aporta  la  IA  Predictiva  a  la  gestión  dinámica  del  cronograma.  Dé  un  
+ejemplo
+ 
+concreto
+ 
+tomado
+ 
+del
+ 
+material
+ 
+(por
+ 
+ejemplo,
+ 
+forecasts
+ 
+basados
+ 
+en
+ 
+velocidad
+ 
+histórica
+ 
+o
+ 
+identificación
+ 
+temprana
+ 
+de
+ 
+cuellos
+ 
+de
+ 
+botella).
+  
+ 
