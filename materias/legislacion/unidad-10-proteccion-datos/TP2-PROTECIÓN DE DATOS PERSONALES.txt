@@ -1,0 +1,19 @@
+ 
+ 
+TP2_ PROTECCIÓN DE DATOS PERSONALES: 
+ Interpretación y relación aplicable entre ISO/IEC: 27001, y la norma ISO 
+25010 (calidad del software): 
+ 
+ 
+• Actividad: Diseñar una tabla que relacione las normas comprendidas para dar 
+cumplimiento a la certificación de calidad del software desarrollado y el 
+cumplimiento de protección de datos personales según el marco normado 
+vigente.   
+• Objetivo: Integrar estándares internacionales en la construcción del software y 
+el servicio de confianza digital, alcanzado con el cumplimiento de las normas 
+establecidas y de calidad.  
+• Entrega: en tiempo y forma (según lo requerido en aula virtual), confeccionar 
+en un documento la tabla de “relación solicitada”, que visualice la correlación 
+entre norma certificadora de software (ISO/IEC 25010), y el cumplimiento con 
+la ley de “HABEAS DATA”. (trabajo totalmente con criterio profesional/ 
+individual). 

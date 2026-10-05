@@ -1,0 +1,49 @@
+@baseUrl = http://127.0.0.1:8000
+
+### Listar productos
+GET {{baseUrl}}/productos
+
+### Crear producto
+POST {{baseUrl}}/productos
+Content-Type: application/json
+
+{
+  "nombre": "Mouse inalámbrico",
+  "descripcion": "Ergonómico, sensor óptico",
+  "precio_base": "45000.00",
+  "imagen_url": ["https://example.com/mouse.jpg"],
+  "disponible": true
+}
+
+### Detalle producto 1
+GET {{baseUrl}}/productos/1
+
+### Actualizar producto 1
+PUT {{baseUrl}}/productos/1
+Content-Type: application/json
+
+{
+  "nombre": "Notebook actualizada",
+  "descripcion": "14 pulgadas, SSD 512 GB",
+  "precio_base": "920000.00",
+  "imagen_url": ["https://example.com/notebook.jpg"],
+  "disponible": true
+}
+
+### Listar relaciones producto-categoría
+GET {{baseUrl}}/producto-categorias
+
+### Crear relación producto 2 - categoría 2
+POST {{baseUrl}}/producto-categorias
+Content-Type: application/json
+
+{
+  "producto_id": 2,
+  "categoria_id": 2
+}
+
+### Eliminar relación producto 1 - categoría 1
+DELETE {{baseUrl}}/producto-categorias/1/1
+
+### Eliminar producto 2
+DELETE {{baseUrl}}/productos/2

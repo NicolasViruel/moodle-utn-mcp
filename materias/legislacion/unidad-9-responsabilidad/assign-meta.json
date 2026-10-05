@@ -1,0 +1,54 @@
+{
+  "name": "Actividad de Cierre - Practica Responsabilidad",
+  "intro": "",
+  "configs": [
+    {
+      "plugin": "file",
+      "subtype": "assignsubmission",
+      "name": "enabled",
+      "value": "1"
+    },
+    {
+      "plugin": "file",
+      "subtype": "assignsubmission",
+      "name": "maxfilesubmissions",
+      "value": "20"
+    },
+    {
+      "plugin": "file",
+      "subtype": "assignsubmission",
+      "name": "maxsubmissionsizebytes",
+      "value": "20971520"
+    },
+    {
+      "plugin": "file",
+      "subtype": "assignsubmission",
+      "name": "filetypeslist",
+      "value": ""
+    },
+    {
+      "plugin": "comments",
+      "subtype": "assignsubmission",
+      "name": "enabled",
+      "value": "1"
+    },
+    {
+      "plugin": "comments",
+      "subtype": "assignfeedback",
+      "name": "enabled",
+      "value": "1"
+    },
+    {
+      "plugin": "comments",
+      "subtype": "assignfeedback",
+      "name": "commentinline",
+      "value": "0"
+    },
+    {
+      "plugin": "editpdf",
+      "subtype": "assignfeedback",
+      "name": "enabled",
+      "value": "1"
+    }
+  ]
+}

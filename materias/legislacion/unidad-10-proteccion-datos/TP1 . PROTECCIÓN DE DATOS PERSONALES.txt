@@ -1,0 +1,22 @@
+ 
+ 
+TP1 – PROTECCIÓN DE DATOS PERSONALES: 
+ Simulación de fuga de datos y respuesta legal. 
+• Actividad: Se plantea un caso ficticio de fuga de datos: 
+CASO en cuestión: 
+ Se ha comprobado la difusión de datos personales en una 
+campaña publicitaria de nuevas plataformas y cuentas de 
+crédito de varias personas humanas e incluso de algunas 
+empresas del medio.  
+ Actividad práctica: 
+1-  Los estudiantes consultan en el material publicado 
+(ISO/IEC, etc.)y a la IA., para identificar las normativas 
+aplicables (Ley 25.326, GDPR, etc.). 
+2- Redactan un plan de respuesta legal y operativa para 
+aplicar normas que brinden seguridad y cumplimiento.  
+ 
+• Objetivo: Desarrollar criterio profesional para aplicar legislación en incidentes 
+reales. 
+• Entrega: Documento (en tiempo y forma según lo requerido en aula virtual), 
+que enumere o liste un posible plan de acción , siempre referenciando o 
+relacionando los estándares a utilizar.  

@@ -1,0 +1,68 @@
+Actividad Práctica — Unidad 9
+Responsabilidad civil y penal en sistemas informáticos
+Introducción a la actividad
+Esta actividad está pensada para que puedas aplicar los conceptos de la Unidad 9 a situaciones 
+concretas del trabajo de un programador. No es una prueba de conocimiento legal: es un ejercicio 
+para que empieces a pensar como alguien que entiende las consecuencias jurídicas de sus 
+decisiones técnicas.
+Vas a analizar cuatro situaciones del mundo real del desarrollo de software. Para cada una, tenés 
+que responder las preguntas que se plantean y justificar tu respuesta. No hay respuestas únicas: lo 
+que importa es el razonamiento.
+● Situación 1 — El sistema de facturación que falló
+Una empresa de servicios de limpieza te contrató para desarrollar un sistema de facturación 
+automatizada. El sistema estuvo funcionando bien durante tres meses, hasta que una actualización 
+que realizaste introdujo un error en el cálculo del IVA: durante dos semanas el sistema cobró de 
+menos a todos los clientes. La empresa tuvo que asumir la diferencia (aproximadamente $850.000) 
+y además recibió una intimación de la AFIP por inconsistencias en su facturación.
+La empresa te exige que te hagas cargo del perjuicio. Vos argumentás que el error fue producto de 
+una actualización de urgencia que el cliente te pidió hacer sin darte tiempo suficiente para testear.
+Preguntas:
+1. ¿Qué tipo de responsabilidad está en juego (civil/penal, contractual/extracontractual)? ¿Por 
+qué?
+2. ¿Qué elementos necesitarías probar para defenderte como desarrollador?
+3. ¿Qué deberías haber hecho antes de implementar la actualización para protegerte 
+jurídicamente?
+4. ¿Qué cláusula en el contrato original habría ayudado a resolver esta situación de forma más 
+clara?
+● Situación 2 — El acceso "sin querer" al servidor
+Estás haciendo una auditoría de seguridad para un cliente. Durante la auditoría, encontrás que el 
+servidor de la empresa vecina (que comparte edificio y red WiFi) tiene una vulnerabilidad que te 
+permite acceder sin contraseña a su base de datos. Por curiosidad, entrás y ves que tienen 
+información de más de 10.000 clientes con datos personales y números de tarjeta de crédito. Salís 
+sin modificar nada y le avisás a tu cliente, que no sabe qué hacer con esa información.
+Preguntas:
+5. ¿Cometiste algún delito? ¿Cuál? Justificá con referencia a la Ley 26.388.
+6. ¿Qué deberías hacer en esta situación para actuar correctamente desde el punto de vista 
+jurídico?
+7. ¿Qué riesgos corre la empresa que tiene esa base de datos expuesta, según la Ley 
+25.326?
+8. ¿Cambia algo jurídicamente el hecho de que no modificaste ni te llevaste nada?
+● Situación 3 — La app que se cayó en el peor momento
+Desarrollaste y operás una app de delivery para un pequeño restaurante. Tenés un contrato de 
+$15.000 mensuales por mantenimiento y hosting. Un sábado a la noche (el momento de mayor 
+demanda) la app estuvo caída durante 4 horas por un error en el servidor de hosting que usás. El 
+restaurante perdió pedidos por aproximadamente $120.000 según sus cálculos, y algunos clientes 
+enojados publicaron críticas negativas en Google Maps.
+El restaurante te reclama el pago de esos $120.000 como daño emergente y lucro cesante, más 
+una suma por el daño a su reputación.
+Preguntas:
+9. ¿Tenés responsabilidad por la caída si fue culpa del proveedor de hosting? ¿Podés 
+transferirle el reclamo?
+10. ¿Qué tipos de daños está reclamando el restaurante? ¿Son todos reclamables legalmente?
+11. ¿Un SLA bien redactado en tu contrato hubiese limitado tu exposición? ¿Cómo?
+12. ¿Qué medidas técnicas preventivas podrían haber evitado o reducido el impacto de esta 
+situación?
+● Situación 4 — El empleado que se llevó la base de datos
+Trabajás como líder técnico en una startup de salud que maneja datos de pacientes. Un empleado 
+del equipo de desarrollo —que acaba de renunciar con mal clima— descargó antes de irse la base 
+de datos completa de pacientes (nombres, diagnósticos, medicación) en su computadora personal. 
+La empresa lo descubrió una semana después cuando detectó el acceso en los logs del sistema.
+Preguntas:
+13. ¿Qué delitos pudo haber cometido el ex empleado? Mencioná los artículos del Código 
+Penal que aplican.
+14. ¿Qué responsabilidad puede tener la empresa (y vos como líder técnico) por no haber 
+implementado controles que impidieran esa descarga?
+15. ¿Qué obligaciones tiene la empresa respecto de los pacientes cuyos datos fueron 
+comprometidos, según la Ley 25.326?
+16. ¿Qué medidas técnicas y contractuales deberían haber existido para prevenir esta 
+situación?

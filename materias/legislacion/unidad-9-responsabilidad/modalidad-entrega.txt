@@ -1,0 +1,26 @@
+Modalidad de Entrega
+Actividad Práctica — Análisis de casos de responsabilidad civil y penal
+Unidad 9: Responsabilidad civil y penal en sistemas informáticos
+Descripción de la actividad
+La actividad práctica de la Unidad 9 consiste en el análisis de cuatro situaciones reales del mundo 
+del desarrollo de software. Para cada una, el alumno deberá identificar qué tipo de responsabilidad 
+está en juego, justificar su razonamiento con los contenidos de la unidad y proponer cómo habría 
+que actuar correctamente. La actividad incluye además una reflexión final optativa.
+● Modalidad de trabajo
+Individual: el trabajo se realiza en forma individual.
+● Formato y entrega
+Formato del archivo: PDF.
+Carátula: nombre completo, legajo, comisión y fecha de entrega.
+Extensión: entre 2 y 5 carillas para el total de las consignas.
+Canal: Aula Virtual de la materia, en la sección habilitada para la Actividad Práctica de la Unidad 9.
+Instrucciones de entrega: descargá el archivo Word (.docx) disponible en el Aula Virtual, 
+completá tus respuestas directamente en el documento y, al momento de subirlo, convertilo a 
+formato PDF. No se aceptan entregas en formato Word.
+● Criterios de evaluación
+Identificación correcta del tipo de responsabilidad en juego (civil/penal, 
+contractual/extracontractual).
+Referencia a la normativa aplicable: CCyCN, Ley 26.388, Ley 25.326, según corresponda.
+Razonamiento propio: se valora el análisis del alumno, no la reproducción del material de 
+lectura.
+Propuestas concretas de actuación correcta o de medidas preventivas.
+Claridad y presentación del documento entregado.
