@@ -1,0 +1,76 @@
+TECNICATURA UNIVERSITARIA
+EN PROGRAMACIÓN A DISTANCIA
+
+
+
+                                     PRÁCTICA Unidad 6
+                           Seguimiento, Control y Cierre de Proyectos
+
+     Objetivo
+      Aplicar de forma integrada los conceptos de reportes de avance, KPIs, estadísticas de
+ejecución, dashboards inteligentes con IA y cierre de proyecto (validación, informe final y
+lecciones aprendidas) a un caso simplificado de gestión de software.
+
+     Caso: "FintechApp" – Sprint 12
+
+      La startup FintechApp desarrolla una billetera virtual. El equipo está compuesto por 5
+personas (2 backend, 2 frontend, 1 QA) y trabaja en sprints de 2 semanas (10 días hábiles).
+Estás a cargo del seguimiento y control del Sprint 12, cuyo objetivo es entregar el módulo de
+"Transferencias entre usuarios". Al finalizar el día 7 (jueves de la segunda semana), contás con
+los siguientes datos recolectados de Jira, GitHub y el pipeline de CI/CD:
+
+     Datos del Sprint 12 (al día 7)
+   ●​ Puntos de historia comprometidos (Sprint Backlog): 40 pts
+   ●​ Puntos completados (al día 7): 22 pts
+   ●​ Velocity promedio de los últimos 3 sprints: 35 pts
+   ●​ Tareas planificadas vs. reales: 32 planificadas / 45 reales
+   ●​ Bugs reportados en QA: 12 bugs en 3.000 líneas nuevas
+   ●​ Cycle Time promedio: 4,5 días
+   ●​ Lead Time promedio: 11 días
+   ●​ Horas en urgencias no planificadas: 18 h de 60 h totales
+   ●​ Estado módulo Backend (Node.js): Completado a tiempo
+   ●​ Estado módulo Frontend (React): Bloqueado por dependencia de UI
+   ●​ Commits recientes: Alto code churn en TransferForm.jsx
+   ●​ Tiempo del pipeline CI/CD: Aumentó de 6 min a 19 min
+
+     Consignas
+Actividad 1 – Reporte de Avance
+     Redactá un reporte de avance del Sprint 12 al día 7. Debe incluir obligatoriamente los 5
+componentes esenciales vistos en el apunte:
+         ●​ Estado general (semáforo) justificado.
+         ●​ Hitos alcanzados.
+         ●​ Trabajo en curso.
+         ●​ Bloqueos y riesgos (Blockers).
+         ●​ Próximos pasos.
+TECNICATURA UNIVERSITARIA
+EN PROGRAMACIÓN A DISTANCIA
+
+
+
+
+Actividad 2 – Cálculo de KPIs
+     Calculá y explicá brevemente el significado de cada KPI a partir de los datos:
+          1. Densidad de Defectos (por cada 1.000 líneas de código).
+          2. Tasa de Trabajo no Planificado (en %).
+          3. Velocity real vs. histórica: ¿qué proyectás para el cierre del sprint?
+          4. Cycle Time vs. Lead Time: ¿qué te dice la diferencia entre ambos?
+
+Actividad 3 – Estadísticas de Ejecución
+     Calculá e interpretá:
+   ●​ Porcentaje de Completitud al día 7.
+   ●​ Desviación del Cronograma (SV) en puntos: SV = Puntos completados − Puntos
+      esperados (asumiendo ritmo lineal de 4 pts por día).
+   ●​ Indicá si el proyecto está adelantado o atrasado y por qué.
+
+Actividad 4 – Dashboard Inteligente
+     Identificá y redactá 2 alertas que un dashboard con IA debería mostrar a partir de los
+datos. Justificá cada una usando los conceptos de detección temprana de anomalías vistos en
+el apunte (code churn, tiempos anómalos de CI/CD, frecuencia de defectos).
+
+Actividad 5 – Cierre y Lección Aprendida
+     Mencioná dos actividades obligatorias del cierre de proyecto vistas en el apunte y explicá
+brevemente qué aporta cada una.
+     Redactá una lección aprendida en formato de resumen generativo (estilo IA), que sintetice
+la causa del bloqueo del frontend: "Lección Aprendida – [Tema]: [Descripción del problema]...
+Acción recomendada para futuros proyectos: [...]"
+

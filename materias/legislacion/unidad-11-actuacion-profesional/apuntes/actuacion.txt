@@ -1,0 +1,732 @@
+      SEMANA 12. ACTUACIÓN PROFESIONAL Y
+            PROCESOS JUDICIALES
+         RESPONSABILIDAD Y ÉTICA PROFESIONAL
+
+    Los técnicos universitarios en programación, al igual que cualquier profesional, deben
+    cumplir con estándares éticos en su práctica profesional. La ética en la programación
+    implica la responsabilidad de crear software que sea útil, seguro, confiable y justo para la
+    sociedad.
+
+         Principios éticos relevantes para la programación:
+        ● Honestidad y transparencia: Los desarrolladores deben ser honestos sobre
+            sus capacidades, limitaciones y cualquier conflicto de interés. Deben
+            proporcionar información completa y precisa sobre las capacidades y
+            limitaciones del software.
+        ● Respeto por la privacidad: Se debe respetar la privacidad de los usuarios y
+            garantizar la seguridad de los datos personales.
+        ● Responsabilidad social: Los desarrolladores deben considerar el impacto
+            social de su trabajo y buscar soluciones que beneficien a la sociedad.
+        ● Integridad: Mantener la integridad del sistema y evitar el uso no autorizado.
+        ● Calidad y competencia: Esforzarse por lograr una alta calidad tanto en el
+            proceso de desarrollo como en los productos finales.
+        ● Conciencia ciudadana: Fomentar la conciencia sobre el uso de la tecnología y
+            sus consecuencias.
+        ● Mayor confianza de los usuarios: El software ético es más confiable y seguro,
+            lo que genera mayor confianza en los usuarios.
+        ● Mejor reputación de la empresa: Las empresas que practican la ética en la
+            programación tienen una mejor reputación y atraen a más clientes.
+        ● Mayor satisfacción laboral: Los desarrolladores que se preocupan por la ética
+            en su trabajo tienen una mayor satisfacción laboral.
+
+    Los desarrolladores de software tienen la responsabilidad de considerar las
+    implicaciones de su trabajo y de tomar decisiones éticas. Esto implica ser responsable
+    de los errores y problemas que puedan surgir del software, y de corregir estos
+    problemas de manera oportuna.
+
+         CÓDIGO DE ÉTICA Y CONDUCTA PROFESIONAL
+
+    El Código de Ética y Conducta Profesional proporciona un marco para la ética
+    profesional en la informática y la ingeniería de software.
+    Este código establece principios clave para la conducta responsable de los profesionales
+    de la informática, como la contribución a la sociedad, el respeto a la privacidad y la
+    confidencialidad, y la promoción de la justicia y la equidad.
+
+
+
+LEGISLACIÓN
+    Los profesionales de la computación deben evaluar si los resultados de sus esfuerzos
+    respetarán la diversidad, si serán utilizados de manera socialmente responsable,
+    satisfaciendo las necesidades sociales y si serán ampliamente accesibles. Se les anima
+    a contribuir activamente a la sociedad mediante el trabajo voluntario y altruista que
+    beneficie el bien público.
+
+          Código de Ética y Conducta Profesional
+    El Código está diseñado para inspirar y guiar la conducta ética de todos los
+    profesionales de la Informática, incluyendo a los profesionales actuales y futuros, a los
+    instructores, los estudiantes, las personas influyentes y a cualquiera que utilice la
+    tecnología informática para generar un impacto.
+    Además, el Código sirve como una base para corregir posibles infracciones.
+    El Código incluye principios formulados como declaraciones de responsabilidad,
+    basados en la idea de que el bien público siempre es la primera prioridad. Cada principio
+    esta complementado con guías que proporcionan explicaciones para ayudar a los
+    profesionales de la Informática a comprenderlo y aplicarlo.
+
+    El Código, en general, aborda el modo en el que los principios éticos fundamentales se
+    aplican a las conductas de un profesional de la Informática.
+    El Código no es un algoritmo para resolver problemas éticos; sino que sirve como un
+    punto de partida para la toma de decisiones éticas.
+    Al abordar un problema particular, un profesional de la informática puede enfrentarse a
+    múltiples principios que deben ser tenidos en cuenta, y aquellos principios pueden
+    mostrar diferentes grados de relevancia para el problema abordado.
+    Las preguntas relacionadas con este tipo de cuestiones pueden ser mejor respondidas
+    de la mano de una consideración cuidadosa de los principios éticos fundamentales,
+    considerando al bien público como la mayor prioridad.
+    La profesión informática en su totalidad sale beneficiada cuando el proceso ético de
+    toma de decisiones es responsable y transparente para todas las partes interesadas.
+    Discusiones abiertas sobre cuestiones éticas promueve la responsabilidad y la
+    transparencia.
+
+         PRINCIPIOS ÉTICOS GENERALES.
+
+    Contribuir a la sociedad y al bienestar humano, reconociendo que todas las
+    personas son partes interesadas en la Informática.
+    Este principio, que se refiere a la calidad de vida de todas las personas, subraya la
+    obligación de los profesionales de la Informática, tanto individual como colectivamente,
+    de utilizar sus habilidades en beneficio de la sociedad, de sus miembros y del entorno
+    que les rodea. Esta obligación implica la promoción de los derechos humanos
+    fundamentales y la protección del derecho a la autonomía de cada individuo. Un objetivo
+    esencial de los profesionales de la informática es minimizar las consecuencias negativas
+    de la Informática, como las amenazas a la salud, la seguridad, la seguridad personal y la
+    privacidad. Cuando los intereses de múltiples grupos entran en conflicto, las
+    necesidades de los menos favorecidos deben ser priorizadas y recibir una mayor
+    atención.
+
+
+LEGISLACIÓN
+    Los profesionales de la computación deben evaluar si los resultados de sus esfuerzos
+    respetarán la diversidad, si serán utilizados de manera socialmente responsable,
+    satisfaciendo las necesidades sociales y si serán ampliamente accesibles. Se les anima
+    a contribuir activamente a la sociedad mediante el trabajo voluntario y altruista que
+    beneficie el bien público.
+    Además de un entorno social seguro, el bienestar humano requiere de un entorno
+    natural seguro. Por lo tanto, los profesionales de la Informática deberían promover la
+    sostenibilidad del medio ambiente tanto a nivel local como global.
+
+    Evitar el daño.
+    En este documento "daño" equivale a consecuencias negativas, especialmente cuando
+    son significativas e injustas. Los ejemplos de daño incluyen lesiones físicas o mentales
+    injustificadas, destrucción injustificada o divulgación de información y daños
+    injustificados a la propiedad, la reputación y el medio ambiente. Esta lista no es
+    exhaustiva.
+    Las acciones bienintencionadas, incluidas las que cumplen funciones asignadas, pueden
+    causar daños. Cuando el daño es involuntario, los responsables están obligados a
+    deshacer o mitigar el daño tanto como sea posible. Para evitar daños es necesario
+    comenzar por una evaluación cuidadosa de los posibles impactos para todos los
+    afectados por la toma de decisiones. Por otra parte, cuando el daño es parte intencional
+    del sistema, los responsables están obligados a garantizar que el daño está éticamente
+    justificado. En cualquier caso, es necesario asegurarse de que todos los daños son
+    minimizados.
+    Para minimizar la posibilidad de dañar a los demás de manera indirecta o no intencional,
+    los profesionales de la computación deben seguir las buenas prácticas generalmente
+    aceptadas, a menos que exista una razón ética convincente para hacerlo de otra
+    manera. Además, es necesario analizar cuidadosamente las consecuencias de la
+    agregación de datos y las propiedades emergentes de los sistemas.
+    Un profesional de la Informática tiene la obligación adicional de informar sobre cualquier
+    signo de riesgo del sistema que pueda ocasionar daños. Si los responsables no actúan
+    para reducir o mitigar dichos riesgos, puede ser necesario dar la voz de alarma para
+    reducir el daño potencial. Sin embargo, una información vacía o equivocada sobre
+    riesgos potenciales puede ser dañina. Antes de informar sobre los riesgos, un
+    profesional de la Informática debe evaluar cuidadosamente los aspectos relevantes de la
+    situación.
+
+    Ser honesto y confiable.
+    La honestidad es un componente esencial de la confiabilidad. Un profesional de la
+    Informática debe ser transparente y proporcionar una información completa de todas las
+    capacidades del sistema, de las limitaciones y los posibles problemas a los actores
+    interesados. Sostener afirmaciones deliberadamente falsas o engañosas, fabricar o
+    falsificar datos, ofrecer o aceptar sobornos y otras conductas deshonestas son
+    infracciones al Código.
+    Los profesionales de la Informática deben ser honestos acerca de sus certificaciones y
+    sobre cualquier limitación en sus competencias para completar una tarea. Los
+
+
+LEGISLACIÓN
+    profesionales de la informática deben ser francos sobre cualquier circunstancia que
+    pueda conducir a conflictos de interés, ya sean reales o percibidos. De lo contrario
+    pueden poner en tela de juicio la independencia de su criterio. A su vez, es necesario
+    cumplir con sus compromisos.
+    Los profesionales de la Informática no deben tergiversar las políticas o procedimientos
+    de una organización, y no deben hablar en nombre de una organización a menos que
+    estén autorizados para hacerlo.
+
+    Ser justo y tomar medidas para no discriminar.
+    Este principio está gobernado por los valores de igualdad, tolerancia, respeto por los
+    demás y justicia. La justicia implica que, incluso en los procesos de decisión más
+    cuidadosos, se proporcione alguna vía razonable para la reparación de posibles
+    agravios.
+    Los profesionales de la Informática deberían fomentar la participación justa de todas las
+    personas, incluyendo a los miembros de grupos insuficientemente representados. La
+    discriminación prejuiciosa basada en la edad, el color, la discapacidad, la etnia, el estado
+    civil, la identidad de género, la afiliación sindical, el estado militar, la nacionalidad, la
+    raza, la religión o creencias, el sexo, la orientación sexual o cualquier otro factor es una
+    violación explícita a este Código. El acoso, incluido el acoso sexual, la intimidación y
+    otros abusos de poder y autoridad, son formas de discriminación que, entre otros daños,
+    limitan el acceso equitativo a los espacios virtuales y físicos donde se produce dicho
+    hostigamiento.
+    El uso de la información y la tecnología puede causar inequidades nuevas o ampliar las
+    existentes. Las tecnologías y las prácticas deben ser lo más inclusivas y accesibles que
+    sea posible, y los profesionales de la Informática deben tomar medidas para evitar el
+    desarrollo de sistemas o tecnologías que privan del derecho a decidir u oprimen a las
+    personas. diseño que falle en la inclusión y el acceso equitativo puede ocasionar una
+    discriminación injusta.
+
+    Respetar el trabajo necesario para producir nuevas ideas, inventos, trabajos
+    creativos y artefactos informáticos.
+    El desarrollo de nuevas ideas, inventos, obras creativas y artefactos informáticos crea
+    valor para la sociedad, y aquellos que realizan el esfuerzo para desarrollarlos esperan
+    obtener beneficios de su trabajo. Por lo tanto, los profesionales de la Informática
+    deberían respetar la autoría de los creadores de ideas, inventos, trabajos y artefactos,
+    los derechos de autor, las patentes, el secreto comercial, los acuerdos de licencias y
+    otros métodos para proteger el trabajo de los autores.
+    Tanto la costumbre como la ley reconocen la necesidad de algunas excepciones de cara
+    al bien público. Los profesionales de la Informática no deberían oponerse a los usos
+    razonables de sus obras intelectuales. Por ejemplo, la contribución de tiempo y energía
+    a proyectos que ayudan a la sociedad, como el desarrollo de software libre, de código
+    abierto, puesto a disposición del dominio público, ilustra un aspecto positivo de este
+    principio. Los profesionales de la Informática no deberían reclamar la propiedad del
+    trabajo que ellos, u otras personas, hayan compartido en forma de recursos públicos.
+
+
+
+
+LEGISLACIÓN
+    Respetar la privacidad.
+    La responsabilidad de respetar la privacidad forma parte del código ético de los
+    profesionales de la informática. La tecnología permite la recopilación, el control y el
+    intercambio de información personal de forma rápida, económica y, a menudo, sin el
+    conocimiento de las personas afectadas. Por lo tanto, un profesional de la informática
+    debe familiarizarse con las diversas definiciones de privacidad y debe comprender los
+    derechos y responsabilidades asociados con la recopilación y el uso de datos
+    personales.
+    Los profesionales de la Informática deberían usar datos personales únicamente con
+    fines legítimos, sin violar los derechos de individuos y grupos. Para ello es necesario
+    tomar precauciones para evitar la re-identificación de datos anónimos y la recopilación
+    de datos no autorizados, garantizar la exactitud de los datos, conocer la procedencia de
+    los datos y protegerlos contra el acceso no autorizado y la divulgación accidental. Los
+    profesionales de la Informática deberían desarrollar políticas y procedimientos
+    transparentes que permitan a las personas comprender qué datos se están recopilando
+    y cómo se usan, dar su consentimiento informado en relación a la recopilación
+    automática de datos, así como revisar, obtener, corregir imprecisiones y eliminar sus
+    datos personales.
+    Un sistema informático debe recopilar únicamente el mínimo de información personal
+    necesaria. Los períodos de retención y eliminación de esta información deben ser
+    claramente definidos, cumplidos y comunicados a los interesados. La información
+    personal recopilada para un propósito específico no debe ser utilizada para otros fines
+    sin el consentimiento de la persona. Las colecciones de datos integrados pueden
+    comprometer las características de privacidad de las colecciones originales. Por lo tanto,
+    los profesionales de la Informática deben tomar precauciones en materia de privacidad
+    al integrar colecciones de datos.
+
+    Respetar la confidencialidad.
+    A los profesionales de la Informática se les suele confiar información confidencial como
+    secretos comerciales, datos de clientes, estrategias comerciales que no son públicas,
+    información financiera, datos de investigación, artículos académicos aún no publicados y
+    solicitudes de patentes. Los profesionales de la Informática deben proteger la
+    confidencialidad, excepto en los casos en que encuentren evidencias de la violación de
+    una ley, de los reglamentos de la organización o del Código. En estos casos, la
+    naturaleza o el contenido de esa información sólo debe ser comunicada a las
+    autoridades correspondientes. Un profesional de la informática debe evaluar
+    cuidadosamente si tales divulgaciones son consistentes con el Código.
+
+
+
+
+LEGISLACIÓN
+          RESPONSABILIDADES PROFESIONALES.
+    Esforzarse por lograr una alta calidad tanto en los procesos como en los
+    productos del trabajo profesional.
+    Los profesionales de la Informática deberían promover el trabajo de calidad, tanto el
+    propio como el de sus colegas. Es necesario respetar la dignidad de los empleados, los
+    empleados, los colegas, los clientes, los usuarios y cualquier otra persona afectada
+    directa o indirectamente por el trabajo durante todo el proceso. Los profesionales de la
+    Informática deben respetar el derecho de los involucrados a una comunicación
+    transparente sobre el proyecto. Los profesionales deben ser conscientes de cualquier
+    consecuencia negativa que pudiera afectar a alguna parte interesada y resultar en
+    trabajo de mala calidad, y deben resistir cualquier posible incentivo para descuidar esta
+    responsabilidad.
+
+    Mantener altos estándares de competencia profesional, conducta y práctica ética.
+    La informática de calidad depende de individuos y equipos que asumen la
+    responsabilidad, personal y grupal, de adquirir y mantener la aptitud profesional. La
+    aptitud profesional parte del conocimiento técnico y la conciencia del contexto social en
+    donde este trabajo podría ser usado. La aptitud profesional también implica habilidad en
+    la comunicación, el análisis reflexivo y el reconocimiento y gestión de desafíos éticos. La
+    actualización de competencias debe ser un proceso continuo y puede incluir el estudio
+    independiente, la asistencia a conferencias o seminarios, y otras instancias de
+    educación, tanto formal como informal. Las organizaciones profesionales y los
+    empleadores deberían alentar y facilitar estas actividades.
+
+    Conocer y respetar las reglas vigentes relacionadas con el trabajo profesional.
+    Las "Reglas" incluyen leyes y regulaciones locales, regionales, nacionales e
+    internacionales, así como también cualquier política y procedimiento de las
+    organizaciones a las que pertenece el profesional. Los profesionales de la Informática
+    deben cumplir con estas reglas a menos que exista una justificación ética convincente
+    para no hacerlo. Las reglas que se juzgan como no éticas deben ser impugnadas. Una
+    regla puede no ser ética cuando tiene una base moral inadecuada o cuando causa
+    daños reconocibles. Un profesional de la informática debe ser capaz de cuestionar la
+    regla a través de los canales existentes antes de violar la regla. Un profesional de la
+    Informática que decide violar una regla porque no es ética, o por cualquier otro motivo,
+    debe considerar las posibles consecuencias y aceptar la responsabilidad de esta acción.
+
+    Aceptar y proporcionar una revisión profesional adecuada.
+    El trabajo de calidad en Informática depende de la revisión profesional en todas sus
+    etapas. Cuando corresponda, los profesionales de la Informática deben procurar una
+    revisión entre pares e involucrar a las partes interesadas. Los profesionales de la
+    Informática deben ser capaces de proporcionar, además, revisiones constructivas y
+    críticas del trabajo ajeno.
+
+
+
+
+LEGISLACIÓN
+    Realizar evaluaciones integrales y exhaustivas de los sistemas informáticos y de
+    sus impactos, incluyendo un análisis de los posibles riesgos.
+    A los profesionales de la Informática se les asigna una posición de confianza y, por lo
+    tanto, tienen la responsabilidad especial de proporcionar evaluaciones y testimonios
+    objetivos y creíbles a los empleadores, empleados, clientes, usuarios y, también, a la
+    sociedad. Los profesionales de la Informática deben procurar ser perspicaces,
+    exhaustivos y objetivos cuando evalúan, recomiendan y presentan descripciones de un
+    sistema o alternativas a éste. Los profesionales de la informática deben tener un
+    especial cuidado para poder identificar, y mitigar, los riesgos potenciales en los sistemas
+    de aprendizaje automático. Un sistema cuyos riesgos futuros no pueden ser predichos
+    requiere una reevaluación frecuente del riesgo a medida que el sistema evoluciona. De
+    lo contrario, no debería desplegarse. Cualquier problema que pueda ocasionar un riesgo
+    mayor debe ser reportado a las partes involucradas.
+
+    Trabajar solo en sus ámbitos de competencia.
+    Un profesional de la Informática es responsable de evaluar el trabajo que le es asignado.
+    Esto implica juzgar si es factible y conveniente, y evaluar si el trabajo asignado se
+    encuentra dentro de su ámbito de aptitud profesional. Si en algún momento, antes o
+    durante la asignación de trabajo, el profesional considera que carece de la experiencia
+    necesaria, debe comunicarlo al empleador o cliente. Éstos pueden decidir realizar la
+    tarea con el profesional contemplando un tiempo adicional para que éste adquiera las
+    habilidades necesarias, asignar la tarea a otra persona que tenga los conocimientos
+    necesarios, o cancelar el trabajo. El juicio ético de un profesional de la Informática debe
+    ser determinante a la hora de decidir si se debe aceptar la tarea asignada o no.
+
+    Fomentar la conciencia ciudadana sobre la Informática, las tecnologías
+    relacionadas y sus consecuencias.
+    En correspondencia con el contexto y las capacidades de cada uno, los profesionales de
+    la Informática deberían compartir sus conocimientos técnicos con la ciudadanía,
+    fomentar el conocimiento sobre la Informática y alentar su comprensión. La
+    comunicación con la ciudadanía debe ser clara, respetuosa y cordial. Cuestiones como
+    el impacto de los sistemas informáticos, sus limitaciones, sus vulnerabilidades y
+    oportunidades, deben ser tenidas en cuenta. Además, un profesional de Informática
+    debe ser capaz de abordar la información inexacta o engañosa relacionada con la
+    Informática.
+
+    Acceder a los recursos informáticos y de comunicación sólo cuando esté
+    autorizado, o cuando sea necesario para proteger el bien público.
+    Las personas y las organizaciones tienen derecho a restringir el acceso a sus sistemas y
+    sus datos siempre que las restricciones sean consistentes con los demás principios de
+    este Código. En consecuencia, los profesionales de la computación no deben acceder a
+    un sistema, software o datos ajenos sin contar con motivos válidos para asegurar que tal
+    acción sería autorizada o consistente con la defensa del bien público. El acceso público
+    a un sistema no es condición suficiente. En circunstancias excepcionales, un profesional
+    de Informática puede utilizar el acceso no autorizado para interrumpir o inhibir el
+    funcionamiento de sistemas maliciosos. En estos casos es especialmente importante
+    que se tomen precauciones para evitar daños a terceros.
+
+
+LEGISLACIÓN
+    Diseñar e implementar sistemas robustos, accesibles y seguros.
+    Las violaciones de seguridad informática causan daños. Una seguridad robusta debe ser
+    una consideración primordial al diseñar e implementar sistemas. Los profesionales de la
+    Informática deben implementar los mecanismos necesarios para garantizar que el
+    sistema funcione de la manera prevista, y deben tomar las medidas adecuadas para
+    proteger los recursos contra un posible uso indebido, modificación o ataque por
+    denegación de servicio, tanto accidental e intencional. Debido a que las amenazas
+    pueden surgir o cambiar después de desplegar un sistema, los profesionales de la
+    computación deben integrar técnicas y políticas de mitigación de daños, tales como el
+    monitoreo, la aplicación de parches de seguridad y la producción de informes de
+    vulnerabilidad. Los profesionales de la Informática deben tomar, a su vez, medidas para
+    garantizar que las partes afectadas por filtraciones de datos sean notificadas de manera
+    oportuna y clara, ofreciendo la orientación y corrección adecuadas.
+    Para garantizar que el sistema informático cumpla su propósito, las funciones de
+    seguridad deben estar diseñadas de forma tan intuitiva y fácil de usar como sea posible.
+    Los profesionales de la Informática deberían evitar las precauciones de seguridad que
+    sean confusas e inapropiadas, así como las que impiden un uso legítimo.
+    En los casos en los que un posible mal uso o un potencial daño es predecible o
+    inevitable, la mejor opción puede ser la no implementación del sistema.
+            OBLIGACION DE MEDIO Y DE RESULTADOS
+
+    El Código Civil y Comercial de la Nación Argentina (CCCN) distingue obligaciones según
+    el objetivo del deudor: de medios (diligencia) o de resultado (finalidad concreta). En las
+    de medios, el deudor promete actuar con prudencia y pericia, sin asegurar el resultado
+    (ej. médico), mientras que en las de resultado, el deudor garantiza un fin específico (ej.
+    transportista).
+
+    Diferencias Clave (Art. 774 - Código Civil y Comercial de la Nación Argentina):
+
+             Obligaciones de Medios (Art. 774 inc. a y b): El incumplimiento ocurre por
+              negligencia o falta de diligencia del deudor. El acreedor debe probar la culpa.
+             Obligaciones de Resultado (Art. 774 inc. c): El incumplimiento se configura con
+              la simple falta del resultado prometido. El factor de atribución suele ser objetivo
+              (no requiere probar culpa).
+
+    En el derecho civil, esta distinción es fundamental para determinar si un profesional ha
+    cumplido o no con su contrato.
+    Obligación de Medios: El profesional se compromete a actuar con diligencia, pericia y
+    prudencia, utilizando todos los recursos técnicos a su alcance para obtener un fin, pero
+    no garantiza el resultado final.
+    Ejemplo: Un servicio de mantenimiento o consultoría donde el programador se
+    compromete a monitorear y optimizar el sistema. Si a pesar de sus esfuerzos ocurre una
+    caída por un factor externo, no es automáticamente responsable si demuestra que hizo
+    todo lo posible por evitarlo.
+
+
+
+LEGISLACIÓN
+    Obligación de Resultados: El profesional se compromete a alcanzar un objetivo
+    específico y determinado.
+    Ejemplo: El desarrollo de un software a medida con funcionalidades pactadas (ej: "el
+    sistema debe emitir facturas electrónicas"). Si el sistema no emite las facturas, hay un
+    incumplimiento directo, sin importar cuántas horas de trabajo se hayan dedicado.
+
+    Impacto ante daños a terceros
+
+    Si un software falla y causa un daño a una persona ajena al contrato (por ejemplo, un
+    error en un algoritmo de una clínica que asigna mal un turno de urgencia), el
+    damnificado puede reclamar.
+    Si la obligación es de resultados, la responsabilidad es objetiva: basta con probar el error
+    y el daño.
+    Si es de medios, el damnificado o el cliente deberá probar que el programador actuó con
+    negligencia (culpa), es decir, que no usó los "medios" adecuados.
+
+    Sesgo Algorítmico y Discriminación Involuntaria
+
+    Este es uno de los temas más modernos y complejos en la ética y legislación
+    informática.
+
+    ¿Qué es el sesgo algorítmico?
+    Ocurre cuando un sistema de software genera resultados sistemáticamente prejuiciosos
+    debido a datos de entrenamiento deficientes o a la lógica de diseño del programador.
+    Discriminación Involuntaria: Muchas veces el programador no tiene la intención de
+    discriminar, pero el algoritmo "aprende" patrones históricos de exclusión.
+    Caso típico: Un sistema de selección de personal que descarta currículums de personas
+    por su código postal o género porque los datos históricos indicaban que esos grupos
+    tenían menos antigüedad laboral.
+    Responsabilidad del Programador: Aunque la discriminación sea involuntaria, el
+    profesional tiene la responsabilidad técnica y ética de realizar auditorías de sesgo.
+    Responsabilidad por Omisión: Si el programador no implementó pruebas de equidad o
+    no limpió los datos de entrenamiento de variables discriminatorias, puede ser
+    considerado responsable por actuar con impericia.
+    Transparencia y Explicabilidad: La legislación actual empieza a exigir que el
+    programador pueda explicar cómo el algoritmo tomó una decisión. Si el sistema es una
+    "caja negra" que discrimina, la responsabilidad recae sobre quienes lo desarrollaron e
+    implementaron.
+
+    PARA REFLEXIONAR SOBRE EL TEMA:
+
+    "Si diseñas un algoritmo para otorgar créditos y el sistema rechaza sistemáticamente a
+    personas de una zona determinada, ¿es culpa de la 'computadora' o de quien no
+    supervisó los datos de entrada?".
+
+
+
+
+LEGISLACIÓN
+       Guía de Buenas Prácticas para el Desarrollo de Software Equitativo
+
+
+Para asegurar que el desarrollo de software sea ético, legal y libre de discriminación
+involuntaria, se recomiendan las siguientes acciones:
+
+       1. Diversidad en los Datos de Entrenamiento
+
+       El sesgo suele nacer en los datos. Si el sistema se entrena con datos históricos que
+       reflejan prejuicios sociales, el algoritmo los replicará.
+
+       A tener en cuenta:
+            Verificar que los conjuntos de datos sean representativos de todos los grupos
+               demográficos que utilizarán el sistema.
+            Detectar y eliminar variables. A veces no usás el "género", pero usás una
+               variable que correlaciona, lo que genera el mismo sesgo de forma oculta.
+
+       2. Implementación de Pruebas de Equidad
+
+       Así como se hacen test de estrés o de seguridad, deben hacerse test de equidad.
+            Realizar pruebas de "Impacto Dispar". Consiste en comparar los resultados del
+              algoritmo entre diferentes grupos (por ejemplo, hombres vs. mujeres) para ver si
+              la tasa de error o de rechazo es significativamente mayor en uno de ellos.
+            Utilizar herramientas de auditoría de código específicas para IA y algoritmos que
+              detectan sesgos automáticamente.
+
+       3. El Principio de "Explicabilidad"
+
+       Un programador responsable debe evitar las "cajas negras" (sistemas donde se sabe
+       qué entra y qué sale, pero no el porqué).
+            Diseñar el sistema de modo que pueda ofrecer una justificación lógica de sus
+               decisiones. Si el software rechaza un crédito, el código debe ser capaz de
+               indicar qué variables técnicas pesaron en la decisión.
+
+       4. Auditorías Externas y Revisión por Pares
+
+       El sesgo suele ser invisible para quien diseña el sistema (puntos ciegos).
+            Fomentar la revisión de código por parte de otros colegas con diferentes
+               perspectivas.
+            En proyectos de alto impacto social, someter el algoritmo a una auditoría ética
+               externa antes de su implementación masiva.
+
+       5. Supervisión Humana Permanente
+
+       Nunca se debe dejar que un algoritmo crítico tome decisiones finales sin posibilidad de
+       revisión.
+
+
+
+LEGISLACIÓN
+             Implementar mecanismos de "alerta de sesgo" que notifiquen a un humano
+              cuando el sistema detecte un patrón inusual o potencialmente discriminatorio.
+
+
+    Como futuros profesionales, recuerden que la Ley de Protección de Datos Personales y
+    el Código Civil y Comercial establecen que la tecnología debe estar al servicio de la
+    persona. Un error de código que discrimina no es solo un "bug", es una posible
+    responsabilidad legal para ustedes y sus empresas.
+
+          PERICIA INFORMÁTICA
+    En Argentina, los peritos informáticos tienen una responsabilidad profesional importante
+    al realizar sus trabajos y emitir sus informes. A continuación, se presentan algunos
+    aspectos clave sobre la responsabilidad profesional y los honorarios en la pericia
+    informática en Argentina.
+
+            Responsabilidad Profesional:
+
+    Los peritos informáticos en Argentina tienen una responsabilidad profesional que se
+    basa en los siguientes principios:
+
+
+         ● Imparcialidad: Los peritos deben ser imparciales y objetivos en su
+           análisis y conclusiones.
+         ● Independencia: Los peritos deben ser independientes y no tener
+           conflictos de intereses que puedan afectar su trabajo.
+         ● Competencia: Los peritos deben tener la competencia y la
+           experiencia necesarias para realizar el trabajo pericial.
+         ● Confidencialidad: Los peritos deben mantener la confidencialidad
+           de la información y los datos que se les proporcionen.
+
+
+          Trabajo Pericial: Un Enfoque Técnico
+    El trabajo pericial se refiere a la labor de un experto en tecnología que analiza y emite un
+    informe sobre un sistema informático, una red o un dispositivo digital en relación con un
+    caso o disputa legal. En este contexto, los técnicos en programación pueden
+    desempeñar un papel fundamental como peritos oficiales o peritos de parte.
+
+          Perito Oficial:
+    Un perito oficial es un experto designado por la autoridad judicial o gubernamental para
+    realizar un análisis y emitir un informe sobre un tema específico. En el ámbito de los
+    sistemas, un perito oficial en programación puede ser designado para:
+
+
+
+
+LEGISLACIÓN
+        ● Analizar un sistema informático o una red para determinar si se
+          han producido vulneraciones de seguridad o daños.
+        ● Evaluar la integridad de los datos y determinar si han sido
+          manipulados o alterados.
+        ● Identificar posibles fallas o debilidades en un sistema o aplicación.
+
+
+
+         Perito de Parte:
+    Un perito de parte es un experto contratado por una de las partes involucradas en un
+    caso o disputa legal para realizar un análisis y emitir un informe que respalde su
+    posición. En el ámbito de los sistemas, un perito de parte en programación puede ser
+    contratado para:
+
+
+        ● Analizar un sistema informático o una red para determinar si se
+          han producido vulneraciones de seguridad o daños que afecten a
+          su cliente.
+        ● Evaluar la integridad de los datos y determinar si han sido
+          manipulados o alterados de manera que perjudique a su cliente.
+        ● Identificar posibles fallas o debilidades en un sistema o aplicación
+          que puedan ser utilizadas para defender la posición de su cliente.
+
+         Informe de Pericia:
+
+    El informe de pericia es un documento detallado que resume los hallazgos y
+    conclusiones del perito. En el ámbito de los sistemas, un informe de pericia puede
+    incluir:
+
+
+        ● Una descripción detallada del sistema o dispositivo analizado.
+        ● Un análisis de los datos y la evidencia recopilada.
+        ● Una evaluación de la integridad y seguridad del sistema o
+          dispositivo.
+        ● Conclusiones y recomendaciones basadas en los hallazgos.
+
+
+         Técnicos en Programación como Peritos:
+
+    Los técnicos en programación pueden ser excelentes peritos en sistemas debido a su
+    conocimiento y experiencia en el desarrollo y análisis de software. Algunos de los
+    beneficios de contratar a un técnico en programación como perito incluyen:
+
+
+
+
+LEGISLACIÓN
+         ● Conocimiento profundo de los lenguajes de programación y las
+           tecnologías utilizadas.
+         ● Experiencia en el desarrollo y análisis de software.
+         ● Capacidad para identificar posibles vulnerabilidades y debilidades
+           en un sistema o aplicación.
+
+
+    En resumen, los técnicos en programación pueden desempeñar un papel fundamental
+    en el trabajo pericial en sistemas, ya sea como peritos oficiales o peritos de parte.
+    Su conocimiento y experiencia en el desarrollo y análisis de software pueden ser
+    fundamentales para analizar y evaluar sistemas informáticos y dispositivos digitales en
+    casos legales.
+
+         Peritos Informáticos
+
+    Especialización:
+    Se enfocan en la aplicación de conocimientos informáticos y legales en el ámbito judicial,
+    analizando evidencia digital para identificar hechos, autores o circunstancias en casos
+    relacionados con la informática.
+    Funciones:
+    Extracción y recuperación de datos, análisis forense de sistemas informáticos,
+    identificación de vulnerabilidades de seguridad, elaboración de informes técnicos y
+    análisis de evidencias digitales.
+    Rol                 en                    el                proceso                 judicial:
+    Su función principal es la de ofrecer un dictamen técnico para un juez, basado en el
+    análisis de evidencia digital y su interpretación en el contexto del proceso legal.
+
+
+         Ejemplos de casos donde se requiere la participación:
+
+
+                      ●  Delitos informáticos:
+         En casos de ciberdelitos, como ataques a sistemas informáticos, robo
+         de información, o fraude cibernético.
+                      ●  Investigaciones penales:
+         En investigaciones donde se requiera el análisis de pruebas digitales,
+         como correos electrónicos, archivos de computadora, o dispositivos
+         electrónicos.
+                      ●  Conflictos comerciales:
+         En casos donde se discutan cuestiones relacionadas con software o
+         sistemas informáticos.
+                      ●   Divorcios:
+         En casos donde se discutan cuestiones relacionadas con cuentas
+         bancarias, inversiones, o propiedad intelectual.
+
+
+LEGISLACIÓN
+                  ●   Procesos civiles:
+      En casos donde se requiera el análisis de datos informáticos para
+      demostrar la verdad de los hechos.
+
+
+       Honorarios y Tarifas
+
+      - Los honorarios y tarifas de los peritos informáticos son un aspecto
+      importante en la pericia informática.
+      - Los peritos deben establecer sus honorarios y tarifas de manera
+      justa y transparente.
+
+       Factores que Afectan los Honorarios
+      ● Complejidad del caso: La complejidad del caso y la cantidad de
+        trabajo requerido pueden afectar los honorarios del perito.
+      ● Experiencia y especialización: El profesional puede cobrar más
+        según su nivel de experiencia y especialización en áreas
+        específicas de programación.
+      ● Tiempo y esfuerzo: El tiempo y esfuerzo requeridos para realizar
+        el trabajo pericial pueden afectar los honorarios.
+      ● Otros costos: En algunos casos, puede ser necesario incluir
+        gastos adicionales como los gastos de viaje, o los gastos de
+        software especial.
+       Modalidades de Honorarios
+      ● Honorarios fijos: Se establece un monto fijo por el trabajo
+        pericial.
+      ● Honorarios por hora: Se establece un monto por hora de trabajo
+        realizado.
+      ● Honorarios por proyecto: Se establece un monto total por el
+        proyecto pericial.
+       Regulaciones y Normas
+      ● Ley de Honorarios: La Ley de Honorarios establece los principios
+        y normas que deben seguir los peritos en la fijación de sus
+        honorarios.
+      ● Acuerdos entre partes: Los peritos y las partes pueden acordar
+        los honorarios y tarifas de manera conjunta. El Código de Ética de
+        los Peritos establece los principios y normas que deben seguir los
+        peritos en su trabajo.
+
+      Consejos para Establecer Honorarios Justos
+
+
+
+
+LEGISLACIÓN
+         ● Transparencia: Los peritos deben ser transparentes en la fijación
+           de sus honorarios y tarifas.
+         ● Justificación: Los peritos deben justificar sus honorarios y tarifas
+           de manera clara y concisa.
+         ● Negociación: Los peritos deben estar dispuestos a negociar sus
+           honorarios y tarifas con las partes.
+
+    La responsabilidad profesional y los honorarios son aspectos fundamentales en la
+    pericia informática. Los peritos informáticos deben cumplir con los principios y normas de
+    la responsabilidad profesional y establecer sus honorarios y tarifas de manera justa y
+    transparente, cumplimentando los principios de imparcialidad, independencia,
+    competencia y confidencialidad.
+    Los honorarios de los peritos informáticos pueden variar dependiendo de varios factores
+    y se establecen de acuerdo con diferentes modalidades.
+    Es importante que los peritos conozcan y cumplan con las regulaciones y normas que
+    rigen su actividad en Argentina.
+    En el ejercicio profesional dentro del ámbito judicial, la retribución económica no solo
+    depende del acuerdo entre partes, sino que está regulada por leyes de aranceles que
+    buscan proteger el valor del trabajo técnico.
+
+         La Unidad de Medida Judicial: El JUS y su importancia.
+
+    Para evitar que los honorarios profesionales se desvaloricen debido a la inflación o el
+    paso del tiempo durante un proceso judicial (que puede durar años), se utiliza el JUS, es
+    una unidad de medida económica que representa una fracción del sueldo de un juez de
+    primera instancia. Su valor en pesos se actualiza periódicamente a través de acordadas
+    de la Corte Suprema (o las Cortes Provinciales).
+    Aplicación en la Pericia: Cuando un juez dicta la sentencia, regula los honorarios del
+    perito informático no en una cifra fija en pesos, sino en una cantidad determinada de
+    JUS.
+    Al momento de cobrar, el perito percibe el valor del JUS actualizado a esa fecha. Esto
+    garantiza que el poder adquisitivo de su remuneración se mantenga estable desde que
+    realizó el trabajo hasta que efectivamente lo cobra.
+
+         Adelanto de Gastos
+
+    Es un derecho que tiene el perito para no tener que financiar el proceso judicial con su
+    propio dinero.
+    No es un pago a cuenta de honorarios, sino un fondo destinado a cubrir los costos
+    operativos necesarios para realizar la pericia.
+    Puede estar destinado a cubrir compra de insumos (ej. dispositivos de almacenamiento
+    para copias forenses), licencias de software específico para recuperación de datos o
+    análisis, traslados, viáticos y alojamiento si la pericia debe realizarse en otra localidad o
+    la contratación de auxiliares técnicos si la complejidad lo requiere.
+    El procedimiento para requerirlo es que el perito debe solicitarlo formalmente al juez
+    dentro de los primeros días de aceptado el cargo, fundamentando en qué se gastará el
+
+
+
+LEGISLACIÓN
+    dinero. Las partes involucradas en el juicio son las responsables de depositar ese
+    monto.
+
+    Diferencia entre Consultor de Parte y Perito Judicial
+    Perito Judicial (Oficial): Sus honorarios son regulados por el Juez al final del proceso,
+    siguiendo las escalas legales y los JUS.
+    Consultor Técnico (de Parte): Sus honorarios se pactan libremente con el cliente que lo
+    contrata (abogado o empresa). Generalmente, se cobra una parte por adelantado y el
+    resto al finalizar la presentación del informe.
+
+    "Como programadores actuando en la justicia, siempre deben presupuestar sus
+    herramientas. Una licencia de software forense o un disco de alta capacidad son
+    costos que debe asumir el proceso, no el profesional".
+
+
+
+
+LEGISLACIÓN
+

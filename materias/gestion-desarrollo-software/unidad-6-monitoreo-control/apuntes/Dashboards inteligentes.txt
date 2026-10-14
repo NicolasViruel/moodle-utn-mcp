@@ -1,0 +1,72 @@
+TECNICATURA UNIVERSITARIA
+EN PROGRAMACIÓN A DISTANCIA
+
+                              Dashboards Inteligentes
+       Tradicionalmente, el seguimiento de proyectos se basaba en análisis descriptivos; es
+decir, reportes que mostraban lo que ya había ocurrido (por ejemplo, cuántas tareas se
+completaron la semana pasada). Con la evolución de las herramientas de gestión, el enfoque
+ha migrado hacia el análisis predictivo y prescriptivo mediante la integración de Inteligencia
+Artificial (IA) en los tableros de control (dashboards).
+
+     Un dashboard inteligente no solo consolida métricas de distintas fuentes (repositorios de
+código, herramientas de ticketing, plataformas de despliegue), sino que aplica algoritmos de
+aprendizaje automático (Machine Learning) para alertar sobre riesgos antes de que se
+conviertan en problemas críticos.
+
+     Detección Temprana de Anomalías
+      La IA en los dashboards aprende el comportamiento histórico normal del equipo de
+desarrollo y establece una línea base dinámica. Una vez establecida, el sistema monitorea el
+flujo de trabajo en tiempo real para detectar desviaciones inusuales (anomalías) que un gerente
+de proyecto humano podría pasar por alto entre grandes volúmenes de datos.
+
+     Casos de uso en la detección de anomalías:
+
+   ●​ Picos de "Code Churn" (Reescritura de código): Si un módulo específico está siendo
+      modificado o reescrito de forma excesiva en un corto período, la IA alerta sobre una
+      posible ambigüedad en los requisitos o una alta complejidad técnica.
+
+   ●​ Tiempos anómalos de integración: Si el tiempo promedio de ejecución de los pipelines
+      de CI/CD (Integración y Despliegue Continuo) aumenta drásticamente sin una
+      justificación clara en el volumen de código, el dashboard lo marca como un riesgo de
+      infraestructura o de deuda técnica.
+
+   ●​ Frecuencia de defectos: Un aumento repentino en los bugs reportados tras un paso a
+      un entorno de staging o pruebas, que se desvía del margen de error histórico del equipo.
+
+     Identificación de Tendencias y Pronósticos
+     Más allá de detectar problemas puntuales, los tableros inteligentes proyectan el
+rendimiento actual hacia el futuro, permitiendo ajustar las expectativas o los recursos.
+
+   ●​ Proyección de fechas de entrega (Forecasting): Evaluando la variabilidad de la
+      velocidad (Velocity) del equipo y el tamaño del backlog restante, la IA calcula la
+      probabilidad real de cumplir con la fecha de lanzamiento, ofreciendo múltiples
+      escenarios (optimista, pesimista y más probable).
+
+   ●​ Evolución de la Deuda Técnica: Mediante la integración con analizadores de código
+      estático (como SonarQube), el dashboard puede graficar la tendencia de acumulación
+      de "olores de código" (code smells) o vulnerabilidades de seguridad, prediciendo cuándo
+TECNICATURA UNIVERSITARIA
+EN PROGRAMACIÓN A DISTANCIA
+
+      esta deuda técnica comenzará a afectar negativamente el Cycle Time de nuevas
+      funcionalidades.
+
+     Análisis Cualitativo y Carga Cognitiva
+     Los modelos de lenguaje y análisis de texto modernos permiten que los dashboards
+evalúen el estado general del equipo más allá del código.
+
+   ●​ Análisis de sentimiento: Evalúa el tono y la fluidez de las interacciones en los
+      comentarios de los Pull Requests o en las herramientas de comunicación. Esto puede
+      ayudar a detectar de forma temprana señales de burnout (agotamiento), frustración
+      técnica o cuellos de botella en la colaboración.
+
+      Ejemplo de aplicación:
+      Supongamos que el equipo está desarrollando un microservicio utilizando Python y
+Node.js. El gestor de software observa su dashboard el miércoles por la mañana. En lugar de
+tener que buscar entre los tickets, el panel principal muestra una alerta preventiva generada
+por IA: "Atención: El Pull Request #402 tiene un tiempo de revisión un 300% superior a la
+media histórica del equipo para este tamaño de código. Además, el análisis del repositorio
+indica un alto nivel de reescritura en el mismo archivo durante los últimos dos días". Gracias a
+este aviso, el gestor puede intervenir inmediatamente, programando una reunión de Pair
+Programming o aclarando los requerimientos, evitando así que el sprint fracase.
+

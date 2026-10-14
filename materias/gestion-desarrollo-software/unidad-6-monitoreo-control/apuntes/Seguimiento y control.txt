@@ -1,0 +1,96 @@
+TECNICATURA UNIVERSITARIA
+EN PROGRAMACIÓN A DISTANCIA
+
+                     Seguimiento y Control de Proyectos
+
+      El seguimiento y control es la fase transversal del ciclo de vida del software encargada de
+observar y medir de forma continua el rendimiento del proyecto. Su objetivo principal es
+identificar variaciones entre la ejecución real y el plan original (línea base) para implementar
+acciones correctivas o preventivas a tiempo.
+
+     Para que este proceso sea efectivo, la gestión se apoya en tres pilares fundamentales: los
+reportes de avance, los indicadores clave de desempeño (KPIs) y las estadísticas de ejecución.
+
+     Uso de Reportes de Avance
+      Los reportes de avance son herramientas de comunicación estructuradas que informan a
+los interesados (stakeholders), al equipo y a la gerencia sobre el estado actual del proyecto.
+Suelen emitirse con una frecuencia predefinida (semanal, quincenal o al finalizar un sprint).
+
+    Un reporte de avance efectivo debe ser conciso y responder a las siguientes preguntas:
+¿Qué se logró? ¿Qué está en progreso? ¿Qué nos detiene?
+
+     Componentes esenciales de un reporte de avance:
+
+   ●​ Estado general (Semáforo): Un indicador visual (Verde: a tiempo; Amarillo: con riesgos
+      manejables; Rojo: con problemas críticos).
+
+   ●​ Hitos alcanzados: Entregables o módulos finalizados en el período (ej. "Finalización de
+      la API de usuarios").
+
+   ●​ Trabajo en curso: Tareas que se están desarrollando actualmente.
+
+   ●​ Bloqueos y Riesgos (Blockers): Obstáculos que impiden el avance normal de las
+      tareas y requieren atención de la gestión.
+
+   ●​ Próximos pasos: Planificación a corto plazo para el siguiente período de reporte.
+
+     Indicadores Clave de Desempeño (KPIs)
+      Los Indicadores Clave de Desempeño (KPIs, por sus siglas en inglés) son métricas
+cuantificables que evalúan el éxito de una organización, equipo o proyecto en alcanzar
+objetivos estratégicos o de calidad. En el desarrollo de software, los KPIs permiten evaluar la
+eficiencia del equipo y la calidad del producto.
+
+     KPIs frecuentes en la Gestión de Software:
+
+   ●​ Velocity (Velocidad): Promedio de puntos de historia o tareas completadas por el
+      equipo en una iteración. Permite predecir cuánto trabajo podrá asumir el equipo en el
+      futuro.
+TECNICATURA UNIVERSITARIA
+EN PROGRAMACIÓN A DISTANCIA
+
+   ●​ Lead Time:Tiempo total desde que el cliente solicita una funcionalidad hasta que se
+      entrega en producción.
+
+   ●​ Cycle Time: Tiempo real de trabajo que el equipo invierte desde que comienza a
+      programar la tarea hasta que la finaliza.
+
+   ●​ Densidad de Defectos: Cantidad de errores o bugs encontrados por cada unidad de
+      medida (por ejemplo, por cada 1000 líneas de código, o por módulo entregado). Es un
+      indicador directo de la calidad del código.
+
+   ●​ Tasa de Trabajo no Planificado: Porcentaje de tiempo invertido en resolver urgencias o
+      errores de producción frente al tiempo dedicado al desarrollo de nuevas funcionalidades
+      planificadas.
+
+
+     Estadísticas de Ejecución
+      Mientras que los KPIs miden el "rendimiento" (cómo lo estamos haciendo), las
+estadísticas de ejecución reflejan el "estado físico" del progreso (cuánto hemos hecho respecto
+al total). Se basan en datos empíricos recolectados de las herramientas de gestión (como Jira,
+Trello, o repositorios de código).
+
+     Métricas comunes de ejecución:
+
+   ●​ Porcentaje de Completitud: Relación entre el esfuerzo o tareas completadas frente al
+      total estimado.
+
+   ●​ Gráficos de Trabajo Pendiente (Burndown / Burnup Charts): Representaciones
+      visuales clave en metodologías ágiles. Muestran la cantidad de trabajo restante en
+      función del tiempo. Si la curva real de ejecución se desvía por encima de la curva ideal,
+      el proyecto está retrasado.
+
+   ●​ Desviación del Cronograma (SV - Schedule Variance): Mide en términos de esfuerzo
+      o costo si el proyecto está adelantado o atrasado respecto a la fecha de corte.
+
+   ●​ Estadísticas de Integración y Despliegue: Cantidad de commits realizados, frecuencia
+      de despliegues exitosos y tiempo medio de recuperación (MTTR) cuando falla un
+      entorno.
+
+      Ejemplo de aplicación:
+      Si un equipo está desarrollando una aplicación web completa, un reporte de avance
+podría detallar que la creación de los servicios en el backend (Node.js) se completó a tiempo,
+pero el frontend en React presenta un bloqueo debido a una dependencia de interfaz. Al medir
+esto, la estadística de ejecución mostrará un retraso en la curva del Burndown Chart de esa
+semana, y el gestor del proyecto notará un aumento negativo en el KPI de Cycle Time,
+debiendo tomar medidas para desbloquear al equipo de frontend.
+

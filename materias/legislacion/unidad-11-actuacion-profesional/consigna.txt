@@ -1,0 +1,46 @@
+            TRABAJO PRÁCTICO ACTUACIÓN PROFESIONAL:
+Análisis del caso ESTAFA A AEROLÍNEAS ARGENTINAS
+A través del caso anteriormente subido a la plataforma, se pide que se
+respondan las siguientes consignas desde una perspectiva de la legislación, y
+la actuación profesional, como se aplica lo estudiado hasta el momento, en
+este caso tan popular a nivel país y con tanta injerencia en su profesionalismo.
+
+
+
+ 1.​    Según lo leído en ambas noticias y considerando la Ley 26.388 de
+ Delitos Informáticos en Argentina, ¿qué figuras penales creen que se le
+ imputan al programador? Justifiquen analizando la acción de "manipular
+ códigos fuente para alterar parámetros".
+
+
+ 2.​     El apunte menciona que el software debe ser "seguro, confiable y
+ justo". En este caso, el acusado utilizó su conocimiento técnico para detectar
+ y explotar una vulnerabilidad en lugar de reportarla. ¿Qué principios éticos de
+ la Unidad 12 se vieron vulnerados en su accionar?
+
+ 3.​    Si ustedes fueran designados como Peritos Oficiales por el Juez
+ Casanello para esta causa, redacten tres puntos de pericia técnicos que
+ serían fundamentales para demostrar la manipulación del sistema de millas.
+ Agreguen como deben solicitar un adelanto de gastos para realizar la pericia.
+
+ 4.​    En la noticia se menciona el secuestro de dispositivos y el análisis de la
+ Web de Aerolíneas. Expliquen por qué es vital mantener la integridad de la
+ evidencia digital en este caso para evitar que la defensa del acusado pida la
+ nulidad del proceso.
+
+ 5.​    Supongan que Aerolíneas Argentinas decide contratar a un Consultor
+ Técnico de Parte para seguir la investigación. ¿Cómo debería este profesional
+ establecer sus honorarios? Mencionen la importancia del JUS y del adelanto
+ de gastos en una causa de esta magnitud y duración.
+
+ 6.​    Una de las noticias menciona que los 53 compradores de millas "no
+ podían desconocer" la maniobra. Relacionen esto con el concepto de Sesgo o
+ Discriminación Algorítmica: ¿Es posible que un sistema informático tome
+ decisiones que "parezcan" legales pero escondan una estafa detrás? ¿Quién
+ es el responsable final: el código o el programador?
+
+
+
+
+LEGISLACIÓN
+

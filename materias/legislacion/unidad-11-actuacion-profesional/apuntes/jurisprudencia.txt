@@ -1,0 +1,224 @@
+         JURISPRUDENCIA ACTUACION PROFESIONAL Y
+                  PROCESOS JUDICIALES
+
+    A continuación, dejaremos dos links para que puedan visualizar
+    una misma noticia sobre Juan Ignacio Veltri, un desarrollador
+    informático, en dos portales distintos, sobre la actuación
+    profesional y su futuro análisis. –
+
+
+    Link I de referencia:                 https://www.lanacion.com.ar/seguridad/millas-a-precios-
+    irrisorios-el-desarrollador-informatico-que-estafo-a-aerolineas-argentinas-con-nid10032026/
+
+
+    Millas a precios irrisorios: el desarrollador informático que estafó a
+    Aerolíneas Argentinas, con arresto domiciliario
+
+    En los próximos días, el juez
+    federal    Sebastián    Casanello
+    definirá la situación procesal del
+    sospechoso
+   10 de marzo de 2026
+
+    Juan Ignacio Veltri, el desarrollador informático que estafó a Aerolíneas Argentinas
+    y viajó por el mundo después de comprar millas a precios irrisorios, fue
+    beneficiado con el arresto domiciliario. En los próximos días, el juez federal
+    Sebastián Casanello, magistrado que interviene en la causa, definirá la situación
+    procesal del sospechoso.
+
+    Así lo informaron a LA NACION calificadas fuentes judiciales. El arresto
+    domiciliario había sido solicitado por la defensa del imputado después de que el
+    juez Casanello rechazara la solicitud de excarcerlación.
+
+    “El sospechoso continúa detenido porque se consideró que existen riesgos
+    procesales. Pero se entendió que esos riesgos podían ser neutralizados con su
+    arresto domiciliario y no en un establecimiento carcelario. La ley obliga a
+    analizar cada una de las alternativas e ir descartando de la menos a la más
+    gravosa”, explicaron los voceros consultados.
+
+
+    LEGISLACIÓN
+Veltri tiene 30 años y fue detenido la semana pasada por detectives
+del Departamento Unidad Investigativa Contra la Corrupción,
+dependiente de laSuperintendencia de Delitos Federales de la Policía
+Federal Argentina(PFA)
+“El arresto domiciliario se determinó después de realizar un informe
+socioambiental del domicilio del imputado y de la garante. También se retuvo la
+documentación personal para impedir que pueda viajar”, dijeron fuentes
+judiciales.
+
+El experto en informática, según la investigación, “alteró los parámetros” de la
+página Web de la línea aérea de bandera ycompró millas a precios irrisorios para
+viajar por el mundo. Visitó las ciudades de Roma, en Italia; Madrid, en España;
+Dubai, en los Emiratos Árabes; Punta Cana, en República Dominicana, y Cancún,
+en México.
+
+La investigación comenzó tras una denuncia presentada por Aerolíneas
+Argentinas ante la Unidad Fiscal Especializada en Ciberdelincuencia (Ufeci), a
+cargo del fiscal general Horacio Azzolin.
+
+Después, la causa quedó radicada en el Juzgado Federal N°7, conducido por
+Casanello, y con la intervención del fiscal Guillermo Marijuan.
+
+“Se detectó una maniobra efectuada sobre el sistema de compra de millas del
+programa AR Plus consistente en modificar, de forma indebida, el monto a
+pagar y la cantidad de millas acreditadas. La compañía adoptó medidas
+inmediatas: anuló transacciones fraudulentas, bloqueó las cuentas, invalidó
+pasajes emitidos y colocó a los titulares de esas cuentas en la WatchList (listado
+de pasajeros no habilitados para volar)”, habían informado desde la empresa
+cuando se conoció la estafa.
+
+Fuentes judiciales dijeron que Veltri habría actuado desde diciembre de 2023
+hasta enero de 2025. Emitió, según los investigadores, 65 tickets, para él y otras
+personas.
+
+“El sospechoso aprovechó una vulnerabilidad de la Web de Aerolíneas Argentinas
+y manipulaba códigos fuentes para alterar los parámetros para comprar millas.
+Según la empresa, la estafa provocó un perjuicio de 495.000 dólares”, dijeron
+fuentes con acceso al expediente.
+
+Según fuentes del caso, Veltri habría comprado 16.595.000 millas, que después
+cambiaba por pasajes, a poco más de 200.000 pesos. “Hay que tener en cuenta el
+valor real son 30 dólares cada 1000 millas”, agregaron los informantes
+consultados.
+
+Tras su detención, se negó a declarar cuando fue indagado por el juez Casanello
+
+
+LEGISLACIÓN
+Experiencia
+
+Según su curriculum vitae que él mismo subió en su página Web, Veltri trabajó
+desde febrero de 2022 hasta diciembre de 2024 en la fintech Pomelo, firma que
+se dedica a la tecnología para la emisión de tarjetas de crédito, débito y prepago.
+
+Antes había trabajado, según su sitio web, en Mercado Libre y Mercado Pago.
+Comenzó en octubre de 2017 y cumplió funciones hasta enero de 2022.
+
+Según él mismo, tiene un “historial comprobado liderando proyectos críticos,
+implementando soluciones de monitoreo avanzadas y optimizando experiencias de
+desarrollador”.
+
+Por Gabriel Di Nicola
+
+
+
+
+LEGISLACIÓN
+Link II de referencia: https://www.infobae.com/sociedad/policiales/2026/04/09/la-
+justicia-pidio-indagar-a-53-personas-por-la-estafa-a-aerolineas-argentinas-cual-es-la-
+sospecha/
+
+
+
+
+La Justicia pidió indagar a 53
+personas por la estafa a
+Aerolíneas Argentinas: cuál es la
+sospecha
+El pedido fue elevado por el fiscal Federal Guillermo Marijuan. Creen que le
+habrían comprado millas a Juan Ignacio Veltri, el principal acusado
+
+PorMiguel Prieto Toledo
+Seguir en
+
+09 Abr, 2026 09:35 a. m. AR
+Juan Ignacio Veltri, el programador acusado de una millonaria estafa a
+Aerolíneas Argentinas, fue detenido por la Policía Federal en el marco de la
+investigación.
+El fiscal Federal Guillermo Marijuan, titular de la Fiscalía Nacional en lo
+Criminal y Correccional Federal N°9, pidió la indagatoria de 53
+personas sospechadas de participar en la presunta maniobra de manipulación
+informática que habría ocasionado un perjuicio millonario a Aerolíneas
+Argentinas, mediante su programa de millas. La sospecha, según indicaron
+fuentes judiciales a Infobae, es que le habrían comprado millas a Juan Ignacio
+Veltri, el principal acusado en el expediente y quien ya fue procesado con
+prisión preventiva.
+
+“Hay una sospecha probatoriamente fundada, un estado de sospecha, que
+indica que ellos no podían desconocer que no estaban recurriendo a la
+transferencia de millas de manera oficial, ni habían hecho ninguna gestión
+para eso”, explicaron.
+De acuerdo con la investigación, los nuevos acusados habrían utilizado millas
+obtenidas de forma irregular por Veltri, detenido por la Unidad Investigativa
+contra la Corupción de la PFA, a través del programa Aerolíneas Plus. Marijuán
+fundamentó su solicitud en el “grado de sospecha” suficiente para avanzar con
+la medida, en base a los datos reunidos hasta el momento.
+
+
+
+LEGISLACIÓN
+La causa se inició tras una denuncia de la Unidad Fiscal Especializada en
+Ciberdelincuencia (UFECI), a partir de una presentación hecha
+por Aerolíneas Argentinas, que reportó una “maniobra sistemática de
+manipulación” en el sistema de compra de millas entre diciembre de 2023 y
+enero de 2025.
+Según el escrito presentado por Marijuan, al que accedió Infobae, las 53
+personas fueron citadas por su presunta relación en la maniobra que habría
+generado un perjuicio de más de USD 1,3 millones a la compañía estatal.
+La investigación apunta a un acceso indebido y alteración deliberada del
+sistema de compra de millas del programa “Aerolíneas Plus”.
+La Fiscalía detectó una “maniobra sistemática” en la que los involucrados
+habrían logrado modificar parámetros dentro del sistema informático y
+consiguieron que la adquisición de millas se realizara a valores muy por debajo
+de los fijados oficialmente.
+En el texto judicial se detalla que el perjuicio total denunciado asciende
+exactamente “a USD 1.320.479,10, producto de la compra fraudulenta
+de 44.414.400 millas".
+
+Para documentar la maniobra, Aerolíneas Argentinas aportó una hoja de
+cálculo en la que identificó a los socios involucrados, detallando número de
+socio, número de documento, cantidad de millas, montos abonados y “vuelos
+emitidos resultantes de la operatoria ilícita”.
+
+Según las declaraciones obrantes en la causa, la falencia técnica explotada
+consistía en la “interceptación y modificación de los parámetros de
+cantidad o precio de las millas al momento en que la web de la empresa
+enviaba los datos al servidor”, lo que permitía “saltarse” el valor original y
+acceder a precios diferenciales.
+Un testimonio clave, brindado por el gerente de Seguridad Informática de la
+empresa, y ratificado por el CEO de Valtech (firma que programó el sistema),
+sostuvo que la acción exigía “conocimientos avanzados en desarrollo de
+software y manejo de comunicaciones cliente-servidor o el uso de un instructivo
+generado por alguien con experiencia técnica específica”.
+Entre los imputados figura en primer lugar Veltri, sindicado como principal
+beneficiario de la maniobra: adquirió fraudulentamente 16.595.000 millas, lo
+que, según el expediente, generó un daño económico para Aerolíneas
+Argentinas estimado en USD 493.800. Veltri ya fue indagado, está procesado
+con prisión preventiva y sobre su domicilio se efectuó un allanamiento con
+secuestro de dispositivos informáticos.
+
+El análisis de la fiscalía detectó, a partir de datos provistos por Aerolíneas
+Argentinas y de otros registros como redes sociales, fuentes abiertas y bases
+como NOSIS, “vínculos directos” entre Veltri y parte de los demás imputados:
+
+
+LEGISLACIÓN
+se observó tanto la utilización compartida de tarjetas de crédito como la
+transferencia de millas y pasajes entre cuentas relacionadas. Además, la
+Fiscalía subrayó que las conexiones entre los acusados incluyen tanto lazos
+laborales como personales.
+
+El dictamen sostiene que, para cada una de las 53 personas identificadas,
+existen constancias de operaciones de compra de millas a valores
+manipulados, con emisión de pasajes aéreos —tanto nacionales como
+internacionales— de alto valor económico.
+
+El perjuicio individual, la cantidad de millas y la cantidad de vuelos implicados
+se encuentran “debidamente identificados en la documentación aportada por la
+empresa que obra agregada en autos”.
+
+La figura delictiva central es la defraudación mediante manipulación
+informática en perjuicio de la administración pública (tipificada en los
+artículos 173 inciso 16 y 174 inciso 5 del Código Penal), aunque se advierte
+que el encuadre legal podría modificarse mientras avance la investigación.
+
+La presentación Marijuán concluyó con la solicitud para que el juez del caso,
+Sebastián Casanello, reciba declaración indagatoria a todos los involucrados y
+permita que efectúen su descargo.
+
+
+
+
+LEGISLACIÓN
+
