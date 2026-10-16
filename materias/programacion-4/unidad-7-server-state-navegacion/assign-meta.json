@@ -1,0 +1,17 @@
+{
+  "courseid": 57,
+  "course": "Programación IV",
+  "section": { "id": 3976, "name": "Práctica 💻" },
+  "cmid": 16201,
+  "name": "Entrega TP Unidad 7",
+  "allowsubmissionsfrom": null,
+  "duedate": null,
+  "cutoffdate": null,
+  "submission": {
+    "maxfilesubmissions": 1,
+    "maxsubmissionsizebytes": 2097152,
+    "filetypeslist": ".zip",
+    "comments": true
+  },
+  "deliverable": "Viruel_Nicolas_U7_FoodStore.zip"
+}

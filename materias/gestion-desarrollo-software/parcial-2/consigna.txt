@@ -1,0 +1,101 @@
+TECNICATURA UNIVERSITARIA
+EN PROGRAMACIÓN A DISTANCIA
+
+                              Gestión de Desarrollos de Software
+                                     Evaluación Parcial 2
+
+Duración total estimada: 60 minutos
+Modalidad: Individual
+
+
+Caso Práctico Integrador: Sistema de Gestión de Logística "LogiExpress"
+      La empresa de logística LogiExpress ha contratado a tu equipo de desarrollo para crear
+un nuevo Módulo de Rastreo de Envíos en Tiempo Real. El proyecto requiere planificación
+rigurosa, gestión dinámica de recursos, estructuración limpia de artefactos y documentación
+automatizada orientada a distintos tipos de usuarios.
+
+
+Parte 1: Planificación, Entregables y Camino Crítico (CPM)
+     El equipo ha identificado las siguientes 6 actividades principales para la construcción de la
+primera versión del sistema:
+
+     Código       Actividad                                      Precedencia       Duración (días)
+
+       A          Levantamiento de requisitos y aprobación         Ninguna                 2
+
+       B          Diseño de la Arquitectura de Software               A                    3
+
+       C          Desarrollo de la API REST (Backend)                 B                    5
+
+       D          Diseño de Interfaz y UI/UX (Frontend)               B                    3
+
+        E         Pruebas de Integración y Seguridad                 C, D                  4
+
+        F         Despliegue en producción                            E                    2
+
+
+     Consignas:
+   1. Cálculo del Camino Crítico (CPM):
+          a. Calcule los tiempos tempranos (ES, EF) y tiempos tardíos (LS, LF) para cada una de las
+             actividades.
+          b. Determine la duración total esperada del proyecto.
+          c. Identifique la Ruta Crítica y halle la holgura (H) de la actividad D.
+   2. Hitos y Entregables:
+          a. Clasifique los siguientes elementos del proyecto según corresponda:
+                 i. Elemento 1: Documento de Arquitectura Técnica en formato Markdown. (¿Hito,
+                      Entregable Interno o Entregable Externo?)
+                 ii. Elemento 2: "Aprobación formal del documento de requisitos por parte del cliente".
+                      (¿Hito, Entregable Interno o Entregable Externo?)
+                 iii. Elemento 3: Módulo web de rastreo funcionando y desplegado para el cliente
+                      final. (¿Hito, Entregable Interno o Entregable Externo?)
+TECNICATURA UNIVERSITARIA
+EN PROGRAMACIÓN A DISTANCIA
+
+Parte 2: Gestión Dinámica e Inteligencia Artificial Predictiva
+      Durante el desarrollo del Sprint 2, la herramienta de gestión detecta que la actividad C
+(Desarrollo Backend) se ha estancado debido a una complicación técnica no prevista en la
+integración con la base de datos.
+
+     Consignas:
+   1. ¿Qué métrica operativamente analiza una herramienta de IA Predictiva (como Jira o Azure
+      DevOps) para detectar este bloqueo de manera autónoma antes de que colapse la fecha final
+      del proyecto?
+   2. Ante el desvío detectado, el Project Manager evalúa aplicar Crash Costing asistido por IA para
+      comprimir el cronograma. Explique brevemente en qué consiste esta técnica y dos criterios
+      técnicos/operativos que consideraría la IA para reasignar recursos.
+
+
+
+Parte 3: Artefactos de Software y Docs-as-Code
+      El equipo implementará la filosofía Docs-as-Code para gestionar todos los artefactos
+técnicos de LogiExpress dentro del mismo repositorio Git donde reside el código.
+
+     Consignas:
+   1. Estructura de Artefactos: Indique en qué carpeta/archivo de la estructura estándar de proyecto
+      debe ubicarse cada uno de los siguientes elementos:
+          a. Código fuente del Backend y Frontend.
+          b. Diagrama de arquitectura y documentación técnica.
+          c. Casos de prueba automatizados.
+          d. Descripción general del proyecto y guía rápida de inicio.
+   2. Los Pilares de Docs-as-Code: Mencione qué pilar (entre Git, Markdown, Pull Requests, CI/CD)
+      garantiza que la documentación se publique o actualice automáticamente en el servidor web sin
+      intervención manual cada vez que se aprueba un cambio.
+
+
+
+Parte 4: Manuales Tecnológicos, POEs e IA Generativa
+     Para garantizar la correcta adopción e infraestructura de LogiExpress, se deben
+confeccionar distintos tipos de documentos técnicos.
+
+     Consignas:
+   1. Tipos de Manuales: Para cada uno de los siguientes destinatarios, indique qué tipo de
+      manual/documento debe entregarse:
+         a. Destinatario A: El Administrador de Servidores que debe configurar las variables de
+             entorno, puertos de red y dependencias para poner a funcionar la API por primera vez.
+         b. Destinatario B: El cliente final (operador logístico) que necesita aprender a usar las
+             pantallas del sistema para buscar un paquete.
+   2. Uso de IA en Redacción Técnica:
+         a. El equipo utilizó una herramienta de IA Generativa para redactar el borrador del manual
+             de instalación. Indique dos riesgos o limitaciones críticas de publicar dicho manual
+             generado por IA sin una revisión humana previa.
+

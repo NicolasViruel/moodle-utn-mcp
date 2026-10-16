@@ -1,0 +1,228 @@
+@baseUrl = http://127.0.0.1:8000
+
+### ---------------------------------------------------------------------------
+### Health
+### ---------------------------------------------------------------------------
+
+### Liveness
+GET {{baseUrl}}/health/
+
+### Readiness (catálogo en memoria)
+GET {{baseUrl}}/health/db
+
+### ---------------------------------------------------------------------------
+### Unidades de medida (catálogo — solo lectura)
+### ---------------------------------------------------------------------------
+
+### Listar unidades
+GET {{baseUrl}}/unidades-medida/
+
+### Detalle unidad 1 (kilogramo)
+GET {{baseUrl}}/unidades-medida/1
+
+### ---------------------------------------------------------------------------
+### Categorías
+### ---------------------------------------------------------------------------
+
+### Listar categorías (paginado, offset/limit)
+GET {{baseUrl}}/categorias/?offset=0&limit=10
+
+### Filtrar por nombre parcial
+GET {{baseUrl}}/categorias/?nombre=pizz
+
+### Incluir inactivas (soft delete)
+GET {{baseUrl}}/categorias/?incluir_inactivos=true
+
+### Detalle categoría 1
+GET {{baseUrl}}/categorias/1
+
+### Crear categoría
+POST {{baseUrl}}/categorias/
+Content-Type: application/json
+
+{
+  "nombre": "Empanadas",
+  "descripcion": "Horneadas y fritas"
+}
+
+### Crear categoría duplicada → 409 (RN-02)
+POST {{baseUrl}}/categorias/
+Content-Type: application/json
+
+{
+  "nombre": "  pizzas  "
+}
+
+### Crear categoría con nombre vacío → 422 (RN-01)
+POST {{baseUrl}}/categorias/
+Content-Type: application/json
+
+{
+  "nombre": "   "
+}
+
+### Actualizar categoría 5 (si se creó Empanadas)
+PUT {{baseUrl}}/categorias/5
+Content-Type: application/json
+
+{
+  "nombre": "Empanadas gourmet",
+  "descripcion": "Rellenos especiales"
+}
+
+### Productos de la categoría 1
+GET {{baseUrl}}/categorias/1/productos
+
+### Intentar borrar categoría con productos asociados → 409 (RN-05)
+DELETE {{baseUrl}}/categorias/1
+
+### Borrar categoría vacía (Postres = 3)
+DELETE {{baseUrl}}/categorias/3
+
+### ---------------------------------------------------------------------------
+### Productos — CRUD (HU-06)
+### ---------------------------------------------------------------------------
+
+### Listar productos
+GET {{baseUrl}}/productos/?offset=0&limit=10
+
+### Detalle producto 1
+GET {{baseUrl}}/productos/1
+
+### Crear producto validado (201). categoria_ids obligatorio (RN-19)
+POST {{baseUrl}}/productos/
+Content-Type: application/json
+
+{
+  "nombre": "Pizza Napolitana",
+  "descripcion": "Con jamón y aceitunas",
+  "precio_base": 9800.00,
+  "imagenes_url": ["https://example.com/napo.jpg"],
+  "disponible": true,
+  "categoria_ids": [1],
+  "ingredientes": [
+    { "ingrediente_id": 1, "cantidad": 0.35 },
+    { "ingrediente_id": 2, "cantidad": 250 }
+  ]
+}
+
+### Crear producto SIN categoria_ids → 422 (RN-19)
+POST {{baseUrl}}/productos/
+Content-Type: application/json
+
+{
+  "nombre": "Producto inválido",
+  "precio_base": 100
+}
+
+### Crear producto con categoria_ids vacío → 422
+POST {{baseUrl}}/productos/
+Content-Type: application/json
+
+{
+  "nombre": "Producto inválido",
+  "precio_base": 100,
+  "categoria_ids": []
+}
+
+### Crear producto con categoría inexistente → 404 (RN-11)
+POST {{baseUrl}}/productos/
+Content-Type: application/json
+
+{
+  "nombre": "Producto huérfano",
+  "precio_base": 100,
+  "categoria_ids": [999]
+}
+
+### Precio negativo → 422 (RN-07)
+POST {{baseUrl}}/productos/
+Content-Type: application/json
+
+{
+  "nombre": "Precio inválido",
+  "precio_base": -1,
+  "categoria_ids": [1]
+}
+
+### Actualizar producto 1: reemplaza TODAS las categorías e ingredientes (RN-12, RN-21)
+PUT {{baseUrl}}/productos/1
+Content-Type: application/json
+
+{
+  "nombre": "Pizza Muzzarella XL",
+  "descripcion": "Clásica de 12 porciones",
+  "precio_base": 12000.00,
+  "imagenes_url": [],
+  "disponible": true,
+  "categoria_ids": [1, 4],
+  "ingredientes": [
+    { "ingrediente_id": 2, "cantidad": 400 }
+  ]
+}
+
+### Producto inexistente → 404 (RN-10)
+GET {{baseUrl}}/productos/999
+
+### ---------------------------------------------------------------------------
+### Relación N:M — solo consulta (HU-07 / RN-22)
+### NO existen POST/DELETE para asociar/desasociar.
+### ---------------------------------------------------------------------------
+
+### Categorías de un producto
+GET {{baseUrl}}/productos/1/categorias
+
+### Ingredientes de un producto
+GET {{baseUrl}}/productos/1/ingredientes
+
+### Productos de una categoría
+GET {{baseUrl}}/categorias/1/productos
+
+### Consultar contra entidad inexistente → 404
+GET {{baseUrl}}/productos/999/categorias
+
+### ---------------------------------------------------------------------------
+### Ingredientes
+### ---------------------------------------------------------------------------
+
+### Listar ingredientes
+GET {{baseUrl}}/ingredientes/?offset=0&limit=10
+
+### Crear ingrediente
+POST {{baseUrl}}/ingredientes/
+Content-Type: application/json
+
+{
+  "nombre": "Aceitunas verdes",
+  "descripcion": "En rodajas",
+  "unidad_medida_id": 2
+}
+
+### Detalle ingrediente 1
+GET {{baseUrl}}/ingredientes/1
+
+### Actualizar ingrediente 1
+PUT {{baseUrl}}/ingredientes/1
+Content-Type: application/json
+
+{
+  "nombre": "Harina 0000",
+  "descripcion": "Harina de trigo extrafina",
+  "unidad_medida_id": 1
+}
+
+### Eliminar ingrediente (soft delete)
+DELETE {{baseUrl}}/ingredientes/4
+
+### ---------------------------------------------------------------------------
+### Borrado lógico de producto (cascada de asociaciones, RN-14)
+### ---------------------------------------------------------------------------
+
+### Eliminar producto 2 → 204
+DELETE {{baseUrl}}/productos/2
+
+### Ya no aparece en el listado
+GET {{baseUrl}}/productos/
+
+### Sí aparece si se pide incluir_inactivos
+GET {{baseUrl}}/productos/?incluir_inactivos=true

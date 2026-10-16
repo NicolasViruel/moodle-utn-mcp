@@ -1,0 +1,14 @@
+{
+  "courseid": 57,
+  "course": "Programación IV",
+  "section": { "id": 3981, "name": "Práctica 💻" },
+  "cmid": 16211,
+  "assignid": 768,
+  "name": "Actividad de cierre unidad 8 🎯🏁",
+  "submission": {
+    "maxfilesubmissions": 1,
+    "maxsubmissionsizebytes": 5242880,
+    "filetypeslist": ".zip"
+  },
+  "deliverable": "Viruel_Nicolas_U8_FoodStore.zip"
+}

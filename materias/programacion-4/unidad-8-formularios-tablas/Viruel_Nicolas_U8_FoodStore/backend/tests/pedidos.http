@@ -1,0 +1,67 @@
+@baseUrl = http://127.0.0.1:8000
+
+### ---------------------------------------------------------------------------
+### Pedidos y DetallePedido (HU-07)
+### ---------------------------------------------------------------------------
+
+### Listar pedidos
+GET {{baseUrl}}/pedido/?offset=0&limit=10
+
+### Detalle de pedido 1 (incluye líneas de DetallePedido)
+GET {{baseUrl}}/pedido/1
+
+### Crear pedido con al menos un detalle (201)
+POST {{baseUrl}}/pedido/
+Content-Type: application/json
+
+{
+  "usuario_id": 1,
+  "estado_codigo": "PENDIENTE",
+  "forma_pago_codigo": "TARJETA",
+  "descuento": 0,
+  "costo_envio": 800,
+  "notas": "Sin cebolla",
+  "detalles": [
+    { "producto_id": 1, "cantidad": 2 },
+    { "producto_id": 2, "cantidad": 1 }
+  ]
+}
+
+### Crear pedido SIN detalles → 422 (RN-12)
+POST {{baseUrl}}/pedido/
+Content-Type: application/json
+
+{
+  "usuario_id": 1,
+  "forma_pago_codigo": "EFECTIVO",
+  "detalles": []
+}
+
+### Crear pedido con producto inexistente → 404
+POST {{baseUrl}}/pedido/
+Content-Type: application/json
+
+{
+  "usuario_id": 1,
+  "forma_pago_codigo": "EFECTIVO",
+  "detalles": [
+    { "producto_id": 999, "cantidad": 1 }
+  ]
+}
+
+### Actualizar estado del pedido 1 (PUT)
+PUT {{baseUrl}}/pedido/1
+Content-Type: application/json
+
+{
+  "estado_codigo": "CONFIRMADO"
+}
+
+### Pedido inexistente → 404 (RN-13)
+GET {{baseUrl}}/pedido/999
+
+### Eliminar pedido 2 → 204
+DELETE {{baseUrl}}/pedido/2
+
+### Ya no aparece
+GET {{baseUrl}}/pedido/2

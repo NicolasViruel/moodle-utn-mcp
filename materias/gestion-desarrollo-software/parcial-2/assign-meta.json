@@ -1,0 +1,23 @@
+{
+  "courseid": 54,
+  "course": "Gestión de Desarrollos de Software",
+  "section": { "id": 3645, "name": "Evaluaciones" },
+  "cmid": 21911,
+  "assignid": 1280,
+  "name": "GDS - Segundo parcial",
+  "allowsubmissionsfrom": "2026-10-16T08:00:00-03:00",
+  "duedate": "2026-10-16T23:00:00-03:00",
+  "cutoffdate": "2026-10-16T23:00:00-03:00",
+  "introattachments": ["GDS-PARCIAL2.pdf"],
+  "submission": {
+    "maxfilesubmissions": 1,
+    "maxsubmissionsizebytes": 2097152,
+    "filetypeslist": ".pdf",
+    "comments": true
+  },
+  "deliverable": "parcial-2_Nicolas_Viruel.pdf",
+  "related": {
+    "forum_consultas_cmid": 21912,
+    "constancia_customcert_cmid": 15009
+  }
+}
