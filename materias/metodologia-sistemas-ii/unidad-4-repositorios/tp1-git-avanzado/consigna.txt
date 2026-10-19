@@ -1,0 +1,57 @@
+METODOLOGÍA DE SISTEMAS II
+Trabajo Práctico: Git avanzado
+Parte 1: La "Física" de Git (Teoría y Conceptos)
+1. El Modelo de Objetos:
+Explique brevemente qué función cumple cada uno de los siguientes objetos en la 
+base de datos de Git ( .git/objects) y cómo se relacionan entre sí para formar una  
+"instantánea" (snapshot):
+• Blobs
+• Trees
+• Commits
+2. Direccionamiento por Contenido:
+¿Por qué se dice que en Git la "dirección" de un archivo es su propio contenido?  
+Explique  la  importancia  del  Hash  (SHA-256)  en  la  integridad  del  historial  y  la 
+deduplicación de datos.
+3. El Grafo Dirigido Acíclico (DAG):
+¿Por qué una alteración mínima en un archivo del pasado invalidaría toda la cadena 
+de  commits  sucesores?  Vincule  su  respuesta  con  el  concepto  de  "cadena  de  
+custodia criptográfica".
+Parte 2: Áreas de Trabajo y Flujo Atómico
+4. Las Tres Áreas:
+Describa  qué  sucede  técnicamente  con  un  archivo  cuando  ejecutamos  la  
+secuencia:
+git add $\rightarrow$ git commit.
+Mencione qué ocurre específicamente en el Staging Area y en el Repository.
+5. El rol de HEAD:
+Defina qué es el puntero HEAD. ¿Qué significa que el HEAD se encuentre en estado 
+"detached" (despegado) y qué utilidad tiene esto para la resiliencia técnica?
+Parte 3: Gestión y Cirugía del Historial
+6. Limpieza de Historial:
+Usted  tiene  5  commits locales  con  mensajes  poco  claros  como  "fix  1", "test",  
+"cambio final".
+• ¿Qué comando utilizaría para unirlos en un solo commit con un mensaje  
+profesional?
+• Explique  la  diferencia  entre  usar  git  commit  --amend  y  un  rebase 
+interactivo.
+7. Manipulación Quirúrgica:
+Explique en qué situación preferiría utilizar git cherry-pick en lugar de un merge 
+convencional. De un ejemplo relacionado con un "hotfix".
+Parte 4: Casos Prácticos de Resiliencia (Resolución de Problemas)
+8. Escenario de Desastre:
+Un desarrollador ejecutó por error git reset --hard HEAD~1 y borró una tarde entera 
+de trabajo. El commit no aparece en el git log.
+• A) ¿Está realmente perdido el trabajo? Justifique.
+• B)  Describa  paso  a  paso  el  procedimiento  utilizando  git  reflog  para  
+recuperar ese commit específico.
+9. Reset vs. Revert:
+El equipo ha detectado un error en un commit que ya fue enviado al repositorio  
+remoto (push).
+• ¿Por qué es una mala práctica usar git reset en este caso?
+• ¿Cuál es la alternativa segura y cómo funciona técnicamente?
+Parte 5: Diagnóstico y Auditoría
+10. Comandos de Bajo Nivel (Plumbing):
+Si sospecha que un objeto en la base de datos de Git está corrupto o quiere ver el  
+contenido de un commit sin cambiar de rama:
+• ¿Qué comando usaría para verificar el tipo de objeto tras un hash?
+• ¿Qué comando usaría para visualizar el  contenido puro de un  tree o un  
+blob?

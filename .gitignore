@@ -3,3 +3,9 @@ dist/
 .codegraph/
 .env
 *.log
+.atl/
+__pycache__/
+*.pyc
+tsconfig.tsbuildinfo
+tmp-*
+materias/Trabajo Final/

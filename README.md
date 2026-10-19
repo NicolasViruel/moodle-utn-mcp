@@ -97,6 +97,23 @@ El servidor usa stdio. Configurá tu cliente MCP con:
 
 Después de cambiar `.env`, reiniciá el servidor MCP en Cursor u otro cliente.
 
+### Claude Code
+
+El servidor **no** está en la config global de Claude (`context7` / `engram`). Hay que registrarlo en este repo.
+
+1. Compilá una vez: `npm run build` (deja `dist/index.js`; `dist/` no se versiona).
+2. Tené `.env` en la raíz con `MOODLE_REST_TOKEN` (copiá `.env.example`).
+3. Este repo incluye `.mcp.json`. Al abrir el proyecto, Claude Code pide aprobar el servidor `moodle-utn`.
+4. Reiniciá la sesión de Claude Code. Comprobá con `/mcp`.
+
+Si no aparece, en la raíz del repo:
+
+```bash
+claude mcp add moodle-utn --scope project -- node dist/index.js
+```
+
+`--scope local` escribe en tu `~/.claude.json` y no viaja con el git. Preferí `--scope project` (el `.mcp.json` versionado).
+
 ## Herramientas
 
 ### Públicas

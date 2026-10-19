@@ -44,3 +44,13 @@ Cada carpeta de unidad/semana suele tener:
 | Legislación | U6 Laboral IT | ✅ Cuestionarios · TP PDF listo para subir |
 | Legislación | U7 Propiedad intelectual | ✅ TP casos reales + caso moderno PDF listos |
 | Legislación | U8 Contratos | ✅ TP PDF listo para subir |
+| Legislación | U9–U11 | ✅ TPs listos / entregados |
+| GDS | U4–U6 | ✅ TPs listos / entregados |
+| GDS | Parcial 2 | ✅ PDF listo para Moodle |
+| Programación 4 | U5–U6 | ✅ Entregado |
+| Programación 4 | U7 Server state | ✅ ZIP listo (`Viruel_Nicolas_U7_FoodStore.zip`) |
+| Programación 4 | U8 Formularios y tablas | ✅ ZIP listo (`Viruel_Nicolas_U8_FoodStore.zip`) |
+| Metodología II | U4 Repositorios y CI/CD | ✅ 3 TPs resueltos |
+| IAD | S9–S10 – TPI Entrega 4 | ✅ Notebook listo / entregado |
+| IAD | S11 | ✅ Planificación predictiva (sin subida TPI) |
+| IAD | S12 – TPI Entrega 5 | ✅ Notebook + declaración IA listos para Moodle |
