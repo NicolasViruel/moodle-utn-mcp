@@ -1,0 +1,18 @@
+{
+  "cmid": 16821,
+  "id": 816,
+  "name": "Entrega Practico 2 - Demostraciones de Software 🎯🏁",
+  "duedate": null,
+  "allow": null,
+  "intro": "<p class=\"label\">Práctica · Demostraciones de Software</p>\r\n<!-- ============ PRÁCTICA: DEMO TÉCNICA Y DEMO EJECUTIVA ============ -->\r\n<div style=\"background-color: #f9f9f9; border: 1px solid #ddd; padding: 15px; border-radius: 8px; margin-bottom: 20px; font-family: sans-serif;\">\r\n<h5 style=\"color: #1a237e; text-align: left; font-size: 1.2rem;\">📤 <strong>Subí tu resolución del práctico de Demostraciones de Software</strong> para recibir una devolución detallada.</h5>\r\n<p style=\"color: #333; font-size: 1.05rem; text-align: left; line-height: 1.6;\">Antes de realizar la entrega, asegurate de que tu archivo incluya la preparación completa de la demo de <strong>TaskHub</strong>, una aplicación web de gestión de tareas para <strong>Estudio Pixel</strong>, una agencia de diseño que actualmente usa WhatsApp y Google Sheets.</p>\r\n<ul style=\"padding-left: 20px; font-size: 1rem; line-height: 1.6;\">\r\n<li>🔎 <strong>Cuestionario pre-demo</strong> con 3 preguntas clave para conocer la situación actual del cliente.</li>\r\n<li>🎯 <strong>Apertura de demo ejecutiva</strong> aplicando la técnica <strong>Outcome-First</strong>.</li>\r\n<li>🖥️ <strong>Guion de demo técnica</strong> para crear una tarea y asignarla a un compañero.</li>\r\n<li>🙋 <strong>Respuesta honesta ante una pregunta difícil</strong> sobre una funcionalidad no soportada.</li>\r\n<li>💬 <strong>Contra-pregunta</strong> para comprender mejor una necesidad del usuario antes de responder.</li>\r\n<li>🧩 <strong>Resolución del caso real</strong> del Director Creativo, conectando el problema con una funcionalidad concreta de TaskHub.</li>\r\n</ul>\r\n<div style=\"background-color: #fffbe6; padding: 10px; border-left: 4px solid #f1c40f; border-radius: 6px; margin-top: 10px;\">💡 <strong>Consejo:</strong> no hagas una demo mostrando botones sin propósito. Primero mostrale al cliente el resultado que le importa y después explicá cómo se logra.</div>\r\n<div style=\"background-color: #e8f5e9; padding: 10px; border-radius: 5px; border-left: 4px solid #28A745; margin-top: 15px; color: #1b5e20;\">✅ <strong>¡Desafío de presentación completado!</strong> Recordá que una buena demo no consiste solo en mostrar pantallas, sino en conectar cada funcionalidad con un problema real del cliente.</div>\r\n</div>",
+  "configs": {
+    "file:enabled": "1",
+    "file:maxfilesubmissions": "20",
+    "file:maxsubmissionsizebytes": "209715200",
+    "file:filetypeslist": "",
+    "comments:enabled": "1",
+    "comments:commentinline": "0",
+    "editpdf:enabled": "1"
+  },
+  "grade": -3
+}

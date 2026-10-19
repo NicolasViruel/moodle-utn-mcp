@@ -1,0 +1,18 @@
+{
+  "cmid": 14594,
+  "id": 671,
+  "name": "Entrega Practico 1 - Elicitación de requisitos 🎯🏁",
+  "duedate": null,
+  "allow": null,
+  "intro": "<p class=\"label\">Práctica · Elicitación de Requerimientos</p>\r\n<!-- ============ PRÁCTICA: ELICITACIÓN DE REQUERIMIENTOS ============ -->\r\n<div style=\"background-color: #f9f9f9; border: 1px solid #ddd; padding: 15px; border-radius: 8px; margin-bottom: 20px; font-family: sans-serif;\">\r\n<h5 style=\"color: #1a237e; text-align: left; font-size: 1.2rem;\">📤 <strong>Subí tu resolución del práctico de Elicitación de Requerimientos</strong> para recibir una devolución detallada.</h5>\r\n<p style=\"color: #333; font-size: 1.05rem; text-align: left; line-height: 1.6;\">Antes de realizar la entrega, asegurate de que tu archivo incluya el relevamiento completo para el sistema de tienda online de productos regionales <strong>Sabores de Cuyo</strong>.</p>\r\n<ul style=\"padding-left: 20px; font-size: 1rem; line-height: 1.6;\">\r\n<li>👥 <strong>Tabla de stakeholders</strong> con al menos 6 actores identificados.</li>\r\n<li>🗣️ <strong>Acta de entrevista completa</strong> con el dueño del negocio.</li>\r\n<li>🔎 <strong>Análisis de 2 tiendas online competidoras</strong>.</li>\r\n<li>📄 <strong>Mínimo 8 requisitos extraídos</strong> de la documentación dada.</li>\r\n<li>👤 <strong>2 perfiles de usuario detallados</strong>.</li>\r\n<li>✅ <strong>Verificación de requisitos</strong> para Cliente y Administrador de Tienda.</li>\r\n<li>🧩 <strong>Al menos 6 casos de uso</strong> identificados.</li>\r\n</ul>\r\n<div style=\"background-color: #fffbe6; padding: 10px; border-left: 4px solid #f1c40f; border-radius: 6px; margin-top: 10px;\">💡 <strong>Consejo:</strong> no completes las respuestas de forma superficial. Pensá como analista: cada dato debe ayudarte a descubrir una necesidad, un problema o una funcionalidad del sistema.</div>\r\n<div style=\"background-color: #e8f5e9; padding: 10px; border-radius: 5px; border-left: 4px solid #28A745; margin-top: 15px; color: #1b5e20;\">✅ <strong>¡Desafío de análisis completado!</strong> Recordá que una buena elicitación no consiste solo en “preguntar”, sino en interpretar necesidades, detectar requisitos y justificar decisiones.</div>\r\n</div>",
+  "configs": {
+    "file:enabled": "1",
+    "file:maxfilesubmissions": "20",
+    "file:maxsubmissionsizebytes": "209715200",
+    "file:filetypeslist": "",
+    "comments:enabled": "1",
+    "comments:commentinline": "0",
+    "editpdf:enabled": "1"
+  },
+  "grade": -3
+}

@@ -1,0 +1,289 @@
+[
+  {
+    "section": "5- Habilidades Blandas + IA",
+    "id": 14579,
+    "modname": "label",
+    "name": "▶️ Introducción a Habilidades Blandas  (haz clic para ver) V...",
+    "desc": " 🤝 Introducción a Habilidades Blandas ",
+    "files": []
+  },
+  {
+    "section": "5- Habilidades Blandas + IA",
+    "id": 14580,
+    "modname": "label",
+    "name": "💬 Foro de Consultas - Habilidades Blandas + IA ⬇️",
+    "desc": " 💬 Foro de Consultas - Habilidades Blandas + IA ⬇️ ",
+    "files": []
+  },
+  {
+    "section": "5- Habilidades Blandas + IA",
+    "id": 14581,
+    "modname": "forum",
+    "name": "Espacio para consultas y dudas ❓ Habilidades Blandas + IA",
+    "url": "https://tup.sied.utn.edu.ar/mod/forum/view.php?id=14581",
+    "desc": "",
+    "files": []
+  },
+  {
+    "section": "5- Habilidades Blandas + IA",
+    "id": 14582,
+    "modname": "label",
+    "name": "📚 UNIDAD 5: Habilidades Blandas+ IA📚 En esta unidad vas a introduc...",
+    "desc": " 📚 UNIDAD 5: Habilidades Blandas + IA 📚 En esta unidad vas a introducirte en el mundo de las habilidades blandas aplicadas al ejercicio profesional, potenciadas por el uso estratégico de la Inteligencia Artificial . Aprenderás a idear y llevar a cabo entrevistas para captar qué anhela verdaderamente un cliente, y convertir esos datos en user stories con criterios de aceptación nítidos. También vas a lidiar con la administración de cambios en el alcance, negociar acuerdos y resolver conflictos en equipo, afrontando simulacros de estrés. Igualmente, distinguirás entre una demo ejecutiva y una demo técnica , sabiendo modificar tu mensaje, estructura y lenguaje según el público objetivo. Y algo vital: explorarás cómo aprovechar herramientas de IA como asistente en tu labor diaria, desde la f",
+    "files": []
+  },
+  {
+    "section": "Actividades 🛠️",
+    "id": 14583,
+    "modname": "label",
+    "name": "🚀 ACTIVIDAD 1 Elicitacion de requisitos 📝 🎬 ¡Bienvenidos y bienvenidas! En e...",
+    "desc": " 📝 Actividad 1 – Elicitacion y Analisis de Requisitos Introduccion al proceso de identificacion, organizacion y especificacion de requisitos en el desarrollo de software. En esta actividad se abordaran los conceptos fundamentales de elicitacion y analisis de requisitos , permitiendo comprender las necesidades del usuario y transformarlas en especificaciones claras y utiles. Objetivo: introducir los conceptos clave para el relevamiento y la correcta definicion de requisitos de software. 📘 Material de estudio Apuntes de la actividad Documento teorico con los conceptos fundamentales sobre elicitacion, analisis y clasificacion de requisitos. 📄 Acceder al material 🎥 Recurso audiovisual Introduccion a requisitos de software Se recomienda visualizar el siguiente material para complementar la ",
+    "files": []
+  },
+  {
+    "section": "Actividades 🛠️",
+    "id": 14584,
+    "modname": "folder",
+    "name": "Apuntes de Actividad 1 - Elicitación y Análisis de Requisitos",
+    "url": "https://tup.sied.utn.edu.ar/mod/folder/view.php?id=14584",
+    "desc": "",
+    "files": [
+      {
+        "filename": "requerimientos.pdf",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/30353/mod_folder/content/5/requerimientos.pdf?forcedownload=1",
+        "filesize": 206070,
+        "mimetype": "application/pdf"
+      }
+    ]
+  },
+  {
+    "section": "Actividades 🛠️",
+    "id": 14586,
+    "modname": "label",
+    "name": "🌟 ACTIVIDAD 2  Comunicacion ,negociación y presentaciones",
+    "desc": " 🎤 🚀 Actividad 2 – Comunicación, Negociación y Presentaciones Profesionales Desarrolla habilidades para expresarte con claridad, negociar con criterio y comunicar ideas de forma profesional. En esta actividad trabajaremos herramientas fundamentales para la comunicación efectiva , la negociación en contextos profesionales y la preparación de presentaciones claras, seguras e impactantes . Estas competencias resultan clave para interactuar en equipos, resolver desacuerdos, defender ideas y transmitir propuestas de manera organizada y convincente. En esta sección aprenderás a: comunicar mensajes con mayor claridad, aplicar estrategias básicas de negociación, estructurar presentaciones profesionales y mejorar tu expresión oral en distintos contextos. 📘 Material de estudio Apuntes de la activ",
+    "files": []
+  },
+  {
+    "section": "Actividades 🛠️",
+    "id": 16064,
+    "modname": "folder",
+    "name": "Apuntes Comunicacion , Negociación y presentaciones profesionales",
+    "url": "https://tup.sied.utn.edu.ar/mod/folder/view.php?id=16064",
+    "desc": "",
+    "files": [
+      {
+        "filename": "Comunicacion1.pdf",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/32631/mod_folder/content/8/Comunicacion1.pdf?forcedownload=1",
+        "filesize": 328796,
+        "mimetype": "application/pdf"
+      },
+      {
+        "filename": "PresentacionesProfesionalesEficaces.pdf",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/32631/mod_folder/content/8/PresentacionesProfesionalesEficaces.pdf?forcedownload=1",
+        "filesize": 291010,
+        "mimetype": "application/pdf"
+      },
+      {
+        "filename": "ApunteNegociacion.pdf",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/32631/mod_folder/content/8/ApunteNegociacion.pdf?forcedownload=1",
+        "filesize": 215098,
+        "mimetype": "application/pdf"
+      },
+      {
+        "filename": "StackDeComunicacion.pdf",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/32631/mod_folder/content/8/StackDeComunicacion.pdf?forcedownload=1",
+        "filesize": 1699961,
+        "mimetype": "application/pdf"
+      }
+    ]
+  },
+  {
+    "section": "Actividades 🛠️",
+    "id": 14590,
+    "modname": "label",
+    "name": "🌟 ACTIVIDAD 3 IA como copiloto",
+    "desc": " 🤖 🚀 Actividad 3 - IA como copiloto: uso ético, responsable, seguridad y protección de datos Aprende a utilizar asistentes de IA de manera crítica, segura y responsable en contextos académicos y profesionales. En esta actividad trabajaremos el papel de la inteligencia artificial como copiloto , entendida como una herramienta de apoyo que puede asistir en tareas de búsqueda, redacción, análisis, organización de ideas y resolución de problemas. También reflexionaremos sobre su uso ético y responsable , considerando sus límites, riesgos, sesgos, impacto en la toma de decisiones y la importancia de la seguridad y protección de los datos . En esta sección aprenderás a: comprender cómo usar la IA como apoyo, reconocer buenas prácticas de uso responsable, identificar riesgos vinculados a privac",
+    "files": []
+  },
+  {
+    "section": "Actividades 🛠️",
+    "id": 16610,
+    "modname": "folder",
+    "name": "IA y etica",
+    "url": "https://tup.sied.utn.edu.ar/mod/folder/view.php?id=16610",
+    "desc": "",
+    "files": [
+      {
+        "filename": "Apunte_Integrado_IA_Requerimientos_Prompt_Engineering.pdf",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/33699/mod_folder/content/2/Apunte_Integrado_IA_Requerimientos_Prompt_Engineering.pdf?forcedownload=1",
+        "filesize": 212635,
+        "mimetype": "application/pdf"
+      },
+      {
+        "filename": "Infografia_Guia_Estudio_IA.pdf",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/33699/mod_folder/content/2/Infografia_Guia_Estudio_IA.pdf?forcedownload=1",
+        "filesize": 187131,
+        "mimetype": "application/pdf"
+      }
+    ]
+  },
+  {
+    "section": "Práctica 💻",
+    "id": 20734,
+    "modname": "label",
+    "name": "✍️ A continuación, encontrarás ejercicios práctico...",
+    "desc": " ✍️ A continuación , encontrarás ejercicios prácticos para resolver con el apoyo de los contenidos, materiales y apuntes de la asignatura. 📑 Es importantísimo que leas detenidamente cada consigna y consultes cuando tengas alguna duda. Podés utilizar el foro de consultas , comunicarte con el equipo docente o intercambiar ideas con tus compañeros. 💡 Consejo: Realizá las actividades de manera gradual, procurando comprender cada decisión y cada paso antes de continuar. 🎯 ¿Qué aprenderás en las siguientes actividades prácticas? A lo largo de estos tres trabajos prácticos desarrollarás competencias clave en ingeniería de requerimientos, comunicación técnica y uso profesional de IA: TP 1 (Elicitación de Requerimientos): Técnicas de relevamiento con stakeholders, entrevistas estructuradas, anál",
+    "files": []
+  },
+  {
+    "section": "Práctica 💻",
+    "id": 14593,
+    "modname": "resource",
+    "name": "Trabajo práctico 1 - Elicitación de requisitos 🛠️🔧",
+    "url": "https://tup.sied.utn.edu.ar/mod/resource/view.php?id=14593",
+    "desc": " 🚀 Trabajo Práctico 1– Elicitación de Requerimientos ⏱️ Tiempo estimado: 2 a 3 horas 📎 Archivo adjunto: descargá el archivo con las consignas completas para realizar la práctica. ✍️ Ahora es tu turno: en esta práctica vas a trabajar como analista de sistemas para relevar los requerimientos de una tienda online de productos regionales llamada Sabores de Cuyo . 📑 Leé atentamente el material antes de comenzar y completá cada parte de forma progresiva. 💡 Consejo: imaginá que estás entrevistando a un cliente real. No respondas con frases sueltas: intentá justificar y detallar tus decisiones. ¡Llegó el momento de aplicar técnicas de elicitación de requerimientos ! El objetivo de este práctico es identificar actores, necesidades, requisitos, perfiles de usuario y casos de uso para el desarrol",
+    "files": [
+      {
+        "filename": "archivos (7).zip",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/30362/mod_resource/content/12/archivos%20%287%29.zip?forcedownload=1",
+        "filesize": 18162,
+        "mimetype": "application/zip"
+      }
+    ]
+  },
+  {
+    "section": "Práctica 💻",
+    "id": 14594,
+    "modname": "assign",
+    "name": "Entrega Practico 1 - Elicitación de requisitos 🎯🏁",
+    "url": "https://tup.sied.utn.edu.ar/mod/assign/view.php?id=14594",
+    "desc": " Práctica · Elicitación de Requerimientos 📤 Subí tu resolución del práctico de Elicitación de Requerimientos para recibir una devolución detallada. Antes de realizar la entrega, asegurate de que tu archivo incluya el relevamiento completo para el sistema de tienda online de productos regionales Sabores de Cuyo . 👥 Tabla de stakeholders con al menos 6 actores identificados. 🗣️ Acta de entrevista completa con el dueño del negocio. 🔎 Análisis de 2 tiendas online competidoras . 📄 Mínimo 8 requisitos extraídos de la documentación dada. 👤 2 perfiles de usuario detallados . ✅ Verificación de requisitos para Cliente y Administrador de Tienda. 🧩 Al menos 6 casos de uso identificados. 💡 Consejo: no completes las respuestas de forma superficial. Pensá como analista: cada dato debe ayudarte a ",
+    "files": []
+  },
+  {
+    "section": "Práctica 💻",
+    "id": 16823,
+    "modname": "resource",
+    "name": "Solución Práctico 1 - Elicitación de requisitos",
+    "url": "https://tup.sied.utn.edu.ar/mod/resource/view.php?id=16823",
+    "desc": "",
+    "files": []
+  },
+  {
+    "section": "Práctica 💻",
+    "id": 16817,
+    "modname": "resource",
+    "name": "Trabajo práctico 2  - Demostraciones de Software 🛠️🔧",
+    "url": "https://tup.sied.utn.edu.ar/mod/resource/view.php?id=16817",
+    "desc": " 🚀 Trabajo Práctico 2– Demostraciones de Software ⏱️ Tiempo estimado: 45 minutos 📎 Archivo adjunto: descargá el archivo con las consignas completas para realizar la práctica. ✍️ Ahora es tu turno: en esta práctica vas a preparar y analizar una demo de software para presentar TaskHub , una aplicación web de gestión de tareas, al cliente Estudio Pixel , una agencia de diseño que actualmente trabaja con WhatsApp y Google Sheets. 💡 Consejo: no muestres solo botones y pantallas. Pensá qué problema real del cliente querés resolver con cada parte de la demo. ¡Llegó el momento de practicar cómo presentar software de manera profesional! El objetivo de este práctico es diferenciar una demo ejecutiva de una demo técnica , aplicar la técnica Outcome-First y aprender a responder preguntas difíciles ",
+    "files": [
+      {
+        "filename": "practico_demos.docx",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/34399/mod_resource/content/14/practico_demos.docx?forcedownload=1",
+        "filesize": 11211,
+        "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    ]
+  },
+  {
+    "section": "Práctica 💻",
+    "id": 16821,
+    "modname": "assign",
+    "name": "Entrega Practico 2 - Demostraciones de Software 🎯🏁",
+    "url": "https://tup.sied.utn.edu.ar/mod/assign/view.php?id=16821",
+    "desc": " Práctica · Demostraciones de Software 📤 Subí tu resolución del práctico de Demostraciones de Software para recibir una devolución detallada. Antes de realizar la entrega, asegurate de que tu archivo incluya la preparación completa de la demo de TaskHub , una aplicación web de gestión de tareas para Estudio Pixel , una agencia de diseño que actualmente usa WhatsApp y Google Sheets. 🔎 Cuestionario pre-demo con 3 preguntas clave para conocer la situación actual del cliente. 🎯 Apertura de demo ejecutiva aplicando la técnica Outcome-First . 🖥️ Guion de demo técnica para crear una tarea y asignarla a un compañero. 🙋 Respuesta honesta ante una pregunta difícil sobre una funcionalidad no soportada. 💬 Contra-pregunta para comprender mejor una necesidad del usuario antes de responder. 🧩 Reso",
+    "files": []
+  },
+  {
+    "section": "Práctica 💻",
+    "id": 16824,
+    "modname": "resource",
+    "name": "Solucion Practico 2 - Demostraciones de Software",
+    "url": "https://tup.sied.utn.edu.ar/mod/resource/view.php?id=16824",
+    "desc": "",
+    "files": []
+  },
+  {
+    "section": "Práctica 💻",
+    "id": 16818,
+    "modname": "resource",
+    "name": "Trabajo Práctico  3  - IA como copiloto 🛠️🔧",
+    "url": "https://tup.sied.utn.edu.ar/mod/resource/view.php?id=16818",
+    "desc": " 🚀 Trabajo Práctico 3 – IA como Copiloto ⏱️ Tiempo estimado: 60 minutos 📎 Archivo adjunto: descargá el archivo con las consignas completas para realizar la práctica. ✍️ Ahora es tu turno: en esta práctica vas a trabajar con la IA como copiloto en tareas de ingeniería de requerimientos. Vas a diseñar prompts efectivos, validar respuestas generadas por IA, documentar decisiones y reflexionar sobre el uso ético y responsable de estas herramientas. 💡 Consejo: no copies respuestas de la IA sin revisar. La IA puede ayudar, pero el criterio profesional y la validación humana son indispensables. ¡Llegó el momento de usar IA con criterio profesional! El objetivo de este práctico es aprender a usar modelos de lenguaje como asistentes para requerimientos, manteniendo trazabilidad , validación crít",
+    "files": [
+      {
+        "filename": "practico_ia_copiloto.docx",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/34400/mod_resource/content/12/practico_ia_copiloto.docx?forcedownload=1",
+        "filesize": 12634,
+        "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    ]
+  },
+  {
+    "section": "Práctica 💻",
+    "id": 16822,
+    "modname": "assign",
+    "name": "Entrega Práctico 3 -  IA como copiloto🎯🏁",
+    "url": "https://tup.sied.utn.edu.ar/mod/assign/view.php?id=16822",
+    "desc": " Práctica · IA como Copiloto 📤 Subí tu resolución del práctico de IA como Copiloto para recibir una devolución detallada. Antes de realizar la entrega, asegurate de que tu archivo incluya el uso correcto de la IA como asistente en ingeniería de requerimientos, contemplando generación de prompts, validación de resultados, trazabilidad y uso ético. ✍️ Prompt básico y prompt mejorado aplicando contexto, tarea, formato y criterios. 🧠 Prompt con razonamiento paso a paso (Chain of Thought) para transformar requerimientos ambiguos. 🔎 Validación crítica de respuestas de IA detectando problemas y proponiendo mejoras. 📒 Bitácora de uso de IA con trazabilidad (prompt, resultado, validación y decisión). 🔐 Análisis de riesgos sobre qué información es segura o no compartir con IA. 📑 Citación del u",
+    "files": []
+  },
+  {
+    "section": "Práctica 💻",
+    "id": 17376,
+    "modname": "resource",
+    "name": "Solución Práctica -  IA como copiloto",
+    "url": "https://tup.sied.utn.edu.ar/mod/resource/view.php?id=17376",
+    "desc": "",
+    "files": []
+  },
+  {
+    "section": "Microteaching 📘",
+    "id": 14597,
+    "modname": "resource",
+    "name": "📚 Presentación Semana 1 Elicitación y Análisis de requisitos",
+    "url": "https://tup.sied.utn.edu.ar/mod/resource/view.php?id=14597",
+    "desc": "",
+    "files": [
+      {
+        "filename": "Requerimientos (2).pdf",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/30366/mod_resource/content/4/Requerimientos%20%282%29.pdf?forcedownload=1",
+        "filesize": 16727200,
+        "mimetype": "application/pdf"
+      }
+    ]
+  },
+  {
+    "section": "Microteaching 📘",
+    "id": 17277,
+    "modname": "resource",
+    "name": "📚 Presentación Semana 2 Comunicación,Negociación y presentaciones profesionales",
+    "url": "https://tup.sied.utn.edu.ar/mod/resource/view.php?id=17277",
+    "desc": "",
+    "files": [
+      {
+        "filename": "Soft_Stack_Architecture.pdf",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/35198/mod_resource/content/7/Soft_Stack_Architecture.pdf?forcedownload=1",
+        "filesize": 20757765,
+        "mimetype": "application/pdf"
+      }
+    ]
+  },
+  {
+    "section": "Microteaching 📘",
+    "id": 17279,
+    "modname": "resource",
+    "name": "📚 Presentación Semana 3 La IA como copiloto",
+    "url": "https://tup.sied.utn.edu.ar/mod/resource/view.php?id=17279",
+    "desc": "",
+    "files": [
+      {
+        "filename": "LaIAcomoCopiloto.pdf",
+        "fileurl": "https://tup.sied.utn.edu.ar/webservice/pluginfile.php/35200/mod_resource/content/6/LaIAcomoCopiloto.pdf?forcedownload=1",
+        "filesize": 19830864,
+        "mimetype": "application/pdf"
+      }
+    ]
+  }
+]

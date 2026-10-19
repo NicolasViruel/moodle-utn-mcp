@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial: Elicitación de Requerimientos - Sabores de Cuyo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #D73502;
+            --secondary: #F28705;
+            --dark: #0D0D0D;
+            --accent: #03A688;
+            --light-bg: #F5F5F0;
+            --text: #1A1A1A;
+        }
+
+        body {
+            font-family: 'Sora', sans-serif;
+            background: linear-gradient(135deg, #0D0D0D 0%, #1A1A1A 100%);
+            color: var(--text);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            border-radius: 20px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></svg>') repeat;
+            opacity: 0.3;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            font-weight: 800;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            color: rgba(255,255,255,0.9);
+            font-weight: 600;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Video Player */
+        .video-container {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+            margin-bottom: 30px;
+        }
+
+        .video-screen {
+            background: #000;
+            aspect-ratio: 16/9;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .video-content {
+            width: 100%;
+            height: 100%;
+            display: none;
+            flex-direction: column;
+            padding: 60px;
+            color: white;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            position: relative;
+        }
+
+        .video-content.active {
+            display: flex;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        .step-number {
+            font-family: 'Space Mono', monospace;
+            font-size: 5em;
+            font-weight: 700;
+            color: var(--secondary);
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            opacity: 0.3;
+        }
+
+        .video-content h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: var(--secondary);
+            font-weight: 800;
+        }
+
+        .video-content h3 {
+            font-size: 1.8em;
+            margin: 30px 0 15px;
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .video-content p, .video-content li {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .video-content ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .video-content li::before {
+            content: "▸";
+            color: var(--secondary);
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-right: 10px;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, var(--secondary) 0%, var(--primary) 100%);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+        }
+
+        .example-box {
+            background: rgba(3, 166, 136, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .example-box strong {
+            color: var(--accent);
+        }
+
+        /* Splash Screen */
+        .splash-screen {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--dark) 100%);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .splash-screen:hover {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+        }
+
+        .play-button {
+            width: 120px;
+            height: 120px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .splash-screen:hover .play-button {
+            transform: scale(1.1);
+        }
+
+        .play-icon {
+            width: 0;
+            height: 0;
+            border-left: 40px solid var(--primary);
+            border-top: 25px solid transparent;
+            border-bottom: 25px solid transparent;
+            margin-left: 10px;
+        }
+
+        .splash-text {
+            color: white;
+            font-size: 2em;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        /* Controls */
+        .video-controls {
+            background: #1A1A1A;
+            padding: 20px 30px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .control-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            font-family: 'Sora', sans-serif;
+        }
+
+        .control-btn:hover {
+            background: var(--secondary);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(215, 53, 2, 0.4);
+        }
+
+        .control-btn:disabled {
+            background: #555;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .progress-bar {
+            flex: 1;
+            height: 8px;
+            background: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--secondary), var(--primary));
+            transition: width 0.3s ease;
+            border-radius: 10px;
+        }
+
+        .step-indicator {
+            color: white;
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            font-size: 1em;
+        }
+
+        /* Timeline */
+        .timeline {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
+        .timeline h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: var(--primary);
+            font-weight: 800;
+            text-align: center;
+        }
+
+        .timeline-steps {
+            display: grid;
+            gap: 20px;
+        }
+
+        .timeline-step {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background: var(--light-bg);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-left: 4px solid transparent;
+        }
+
+        .timeline-step:hover {
+            transform: translateX(10px);
+            border-left-color: var(--primary);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .timeline-step.active {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border-left-color: var(--dark);
+        }
+
+        .timeline-num {
+            font-family: 'Space Mono', monospace;
+            font-size: 2em;
+            font-weight: 700;
+            min-width: 60px;
+            color: var(--primary);
+        }
+
+        .timeline-step.active .timeline-num {
+            color: white;
+        }
+
+        .timeline-info h3 {
+            font-size: 1.3em;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .timeline-info p {
+            opacity: 0.8;
+            font-size: 0.95em;
+        }
+
+        /* Resources */
+        .resources {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
+        .resources h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: var(--primary);
+            font-weight: 800;
+            text-align: center;
+        }
+
+        .resource-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .resource-card {
+            background: var(--light-bg);
+            padding: 25px;
+            border-radius: 12px;
+            border-top: 4px solid var(--accent);
+            transition: all 0.3s ease;
+        }
+
+        .resource-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .resource-card h3 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        .resource-card p {
+            color: var(--text);
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .resource-link {
+            display: inline-block;
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 2px solid var(--accent);
+            transition: all 0.3s ease;
+        }
+
+        .resource-link:hover {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .video-content {
+                padding: 30px 20px;
+            }
+
+            .video-content h2 {
+                font-size: 1.8em;
+            }
+
+            .step-number {
+                font-size: 3em;
+            }
+
+            .timeline, .resources {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 Tutorial Práctico</h1>
+            <p>Elicitación de Requerimientos - Sistema "Sabores de Cuyo"</p>
+        </div>
+
+        <!-- Video Player -->
+        <div class="video-container">
+            <div class="video-screen" id="videoScreen">
+                <!-- Splash Screen -->
+                <div class="splash-screen" id="splashScreen">
+                    <div class="play-button">
+                        <div class="play-icon"></div>
+                    </div>
+                    <div class="splash-text">
+                        Iniciar Tutorial Interactivo<br>
+                        <span style="font-size: 0.6em; opacity: 0.9;">7 pasos prácticos | 15 min</span>
+                    </div>
+                </div>
+
+                <!-- Step 1: Introducción -->
+                <div class="video-content" data-step="1">
+                    <div class="step-number">01</div>
+                    <h2>📋 Introducción: El Caso "Sabores de Cuyo"</h2>
+                    
+                    <p>Bienvenido a este tutorial práctico sobre <span class="highlight">Elicitación de Requerimientos</span>.</p>
+                    
+                    <h3>El Contexto:</h3>
+                    <ul>
+                        <li>Emprendimiento mendocino de productos regionales</li>
+                        <li>Vende vinos, aceites, dulces, frutos secos, conservas</li>
+                        <li>Necesita lanzar su tienda online</li>
+                        <li>Objetivo: Llegar a clientes de todo Argentina</li>
+                    </ul>
+
+                    <h3>Tu Rol:</h3>
+                    <p>Eres el <span class="highlight">Analista de Sistemas</span> encargado de levantar los requerimientos para desarrollar la plataforma de e-commerce.</p>
+
+                    <div class="example-box">
+                        <strong>¿Por qué es importante?</strong><br>
+                        El 70% de los proyectos fallan por una mala definición de requisitos. Una buena elicitación es la base del éxito.
+                    </div>
+                </div>
+
+                <!-- Step 2: Identificar Stakeholders -->
+                <div class="video-content" data-step="2">
+                    <div class="step-number">02</div>
+                    <h2>👥 Paso 1: Identificar Stakeholders</h2>
+                    
+                    <h3>¿Quiénes son los stakeholders?</h3>
+                    <p>Son todas las personas que tienen <span class="highlight">interés o influencia</span> en el proyecto.</p>
+
+                    <h3>Para "Sabores de Cuyo" identifica:</h3>
+                    <ul>
+                        <li><strong>Usuarios Directos:</strong> Clientes que comprarán online, Dueño del negocio</li>
+                        <li><strong>Usuarios Indirectos:</strong> Personal de logística, Proveedores de pago</li>
+                        <li><strong>Product Champions:</strong> Community manager, Marketing</li>
+                        <li><strong>Consejeros:</strong> Contador, Asesor legal</li>
+                    </ul>
+
+                    <div class="example-box">
+                        <strong>Ejercicio Práctico:</strong><br>
+                        En tu documento Word, completa la tabla de stakeholders. Piensa: ¿Quién usa el sistema? ¿Quién lo mantiene? ¿A quién afecta?
+                    </div>
+
+                    <h3>⚡ Consejo:</h3>
+                    <p>No olvides stakeholders "invisibles": empresas de envío, pasarelas de pago, AFIP (para facturación electrónica).</p>
+                </div>
+
+                <!-- Step 3: Preparar la Entrevista -->
+                <div class="video-content" data-step="3">
+                    <div class="step-number">03</div>
+                    <h2>🎤 Paso 2: Preparar la Entrevista</h2>
+                    
+                    <h3>La entrevista es tu herramienta principal</h3>
+                    <p>Una buena entrevista estructurada te da el <span class="highlight">80% de los requisitos</span>.</p>
+
+                    <h3>Estructura tu entrevista en 3 secciones:</h3>
+                    <ul>
+                        <li><strong>Situación Actual:</strong> ¿Cómo trabajan hoy? ¿Qué problemas tienen?</li>
+                        <li><strong>Funcionalidad Requerida:</strong> ¿Qué necesitan que haga el sistema?</li>
+                        <li><strong>Criterios de Éxito:</strong> ¿Cómo medirán si funciona bien?</li>
+                    </ul>
+
+                    <div class="example-box">
+                        <strong>Pregunta Ejemplo:</strong><br>
+                        "¿Cómo gestionan actualmente los pedidos? ¿Por teléfono, WhatsApp, email?"<br><br>
+                        <strong>Respuesta esperada:</strong><br>
+                        "Recibimos 40 pedidos/mes por WhatsApp, pero perdemos el 30% porque no respondemos rápido."
+                    </div>
+
+                    <h3>⚡ Tips para la Entrevista:</h3>
+                    <ul>
+                        <li>Haz preguntas abiertas: "¿Cómo...?" "¿Qué...?" "¿Por qué...?"</li>
+                        <li>Escucha activamente, toma notas</li>
+                        <li>Pide ejemplos concretos</li>
+                        <li>No asumas, pregunta siempre</li>
+                    </ul>
+                </div>
+
+                <!-- Step 4: Análisis Competitivo -->
+                <div class="video-content" data-step="4">
+                    <div class="step-number">04</div>
+                    <h2>🔍 Paso 3: Análisis Competitivo</h2>
+                    
+                    <h3>Aprende de la competencia</h3>
+                    <p>Visitar tiendas similares te ayuda a <span class="highlight">identificar mejores prácticas</span> y evitar errores comunes.</p>
+
+                    <h3>Qué observar:</h3>
+                    <ul>
+                        <li><strong>Navegación:</strong> ¿Es fácil encontrar productos?</li>
+                        <li><strong>Proceso de compra:</strong> ¿Cuántos pasos tiene el checkout?</li>
+                        <li><strong>Información de producto:</strong> ¿Qué datos muestran?</li>
+                        <li><strong>Métodos de pago:</strong> ¿Qué opciones ofrecen?</li>
+                        <li><strong>Envíos:</strong> ¿Cómo calculan costos?</li>
+                    </ul>
+
+                    <div class="example-box">
+                        <strong>Cómo hacerlo:</strong><br>
+                        1. Busca en Google: "tienda online productos regionales"<br>
+                        2. Selecciona 2 tiendas similares<br>
+                        3. Navega como si fueras a comprar<br>
+                        4. Completa la tabla comparativa del práctico<br><br>
+                        <strong>Documenta:</strong> ¿Qué funciona bien? ¿Qué mejorarías?
+                    </div>
+
+                    <h3>⚡ Pregunta Clave:</h3>
+                    <p>"¿Qué haría que nuestra tienda sea MEJOR que estas?"</p>
+                </div>
+
+                <!-- Step 5: Analizar Documentación -->
+                <div class="video-content" data-step="5">
+                    <div class="step-number">05</div>
+                    <h2>📄 Paso 4: Analizar Documentación Existente</h2>
+                    
+                    <h3>Los documentos revelan requisitos ocultos</h3>
+                    <p>Políticas comerciales, emails de clientes y notas internas contienen <span class="highlight">requisitos valiosos</span>.</p>
+
+                    <h3>Ejemplo Real - Política Comercial:</h3>
+                    <div class="example-box">
+                        <strong>"Envío gratis en compras superiores a $25.000"</strong><br><br>
+                        <strong>Requisitos extraídos:</strong><br>
+                        ✓ RF-01: El sistema debe calcular el total de la compra<br>
+                        ✓ RF-02: Si total ≥ $25.000 → Envío = $0<br>
+                        ✓ RF-03: Mostrar mensaje "¡Envío gratis!" en carrito<br>
+                        ✓ RNF-01: Actualizar en tiempo real al agregar productos
+                    </div>
+
+                    <h3>Tipos de documentos a revisar:</h3>
+                    <ul>
+                        <li>Políticas comerciales y términos de servicio</li>
+                        <li>Emails o mensajes de clientes (quejas, sugerencias)</li>
+                        <li>Notas del área operativa (logística, ventas)</li>
+                        <li>Reglamentos y normativas legales (AFIP, defensa al consumidor)</li>
+                    </ul>
+
+                    <h3>⚡ Técnica:</h3>
+                    <p>Usa marcadores de colores: 🔴 Requisito Funcional | 🔵 No Funcional | 🟢 Regla de Negocio</p>
+                </div>
+
+                <!-- Step 6: Crear Perfiles de Usuario -->
+                <div class="video-content" data-step="6">
+                    <div class="step-number">06</div>
+                    <h2>👤 Paso 5: Crear Perfiles de Usuario (Personas)</h2>
+                    
+                    <h3>Conoce a tus usuarios</h3>
+                    <p>Los perfiles de usuario te ayudan a diseñar pensando en <span class="highlight">personas reales</span>, no abstractas.</p>
+
+                    <div class="example-box">
+                        <strong>Ejemplo: María - Cliente Digital</strong><br>
+                        • 35 años, CABA, diseñadora<br>
+                        • Nivel técnico: Alto<br>
+                        • Dispositivo: 70% mobile, 30% desktop<br>
+                        • Objetivos: Comprar rápido, comparar precios<br>
+                        • Frustraciones: Procesos lentos, falta de stock info<br>
+                        • Necesita: Búsqueda rápida, checkout en 3 clics<br><br>
+                        
+                        <strong>Ejemplo: Roberto - Cliente Tradicional</strong><br>
+                        • 58 años, Córdoba, contador jubilado<br>
+                        • Nivel técnico: Básico<br>
+                        • Dispositivo: Desktop principalmente<br>
+                        • Objetivos: Comprar seguro, hablar con alguien si tiene dudas<br>
+                        • Temores: Estafas online, no entender el proceso<br>
+                        • Necesita: Instrucciones claras, chat de ayuda, teléfono de contacto
+                    </div>
+
+                    <h3>⚡ Cada perfil genera requisitos diferentes:</h3>
+                    <p>María necesita filtros avanzados. Roberto necesita tutoriales paso a paso.</p>
+                </div>
+
+                <!-- Step 7: Verificar y Documentar -->
+                <div class="video-content" data-step="7">
+                    <div class="step-number">07</div>
+                    <h2>✅ Paso 6: Verificar y Documentar Casos de Uso</h2>
+                    
+                    <h3>Usa las preguntas de verificación</h3>
+                    <p>Para cada actor, pregunta:</p>
+                    
+                    <ul>
+                        <li>¿Qué tareas quiere que realice el sistema?</li>
+                        <li>¿Qué información consulta?</li>
+                        <li>¿Quién crea, modifica o elimina datos?</li>
+                        <li>¿Qué eventos debe informarle el sistema?</li>
+                    </ul>
+
+                    <div class="example-box">
+                        <strong>Actor: Cliente</strong><br><br>
+                        <strong>Tareas:</strong> Buscar productos, agregar al carrito, pagar<br>
+                        <strong>Información:</strong> Stock disponible, precio, tiempos de entrega<br>
+                        <strong>Eventos:</strong> Confirmación de pedido, actualización de envío<br><br>
+                        
+                        <strong>→ Casos de Uso identificados:</strong><br>
+                        CU-01: Buscar productos por categoría<br>
+                        CU-02: Agregar producto al carrito<br>
+                        CU-03: Realizar pago online<br>
+                        CU-04: Rastrear mi pedido
+                    </div>
+
+                    <h3>🎯 Resultado Final:</h3>
+                    <p>Una lista completa de <span class="highlight">requisitos funcionales</span>, organizados por prioridad y listos para el desarrollo.</p>
+
+                    <h3>⚡ Próximos Pasos:</h3>
+                    <ul>
+                        <li>Prioriza: Alta/Media/Baja</li>
+                        <li>Valida con stakeholders</li>
+                        <li>Documenta en formato SRS (Software Requirements Specification)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Video Controls -->
+            <div class="video-controls">
+                <button class="control-btn" id="prevBtn" disabled>⬅ Anterior</button>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <span class="step-indicator" id="stepIndicator">0 / 7</span>
+                <button class="control-btn" id="nextBtn">Siguiente ➡</button>
+            </div>
+        </div>
+
+        <!-- Timeline Navigation -->
+        <div class="timeline">
+            <h2>📍 Navegación del Tutorial</h2>
+            <div class="timeline-steps" id="timelineSteps"></div>
+        </div>
+
+        <!-- Resources -->
+        <div class="resources">
+            <h2>📚 Guía de Trabajo</h2>
+            <div class="resource-grid">
+                <div class="resource-card">
+                    <h3>📖 Documento de Trabajo</h3>
+                    <p>Completa el trabajo práctico en el documento Word proporcionado. Incluye todos los entregables solicitados siguiendo los pasos de este tutorial.</p>
+                </div>
+
+                <div class="resource-card">
+                    <h3>💡 Consejos Clave</h3>
+                    <p>• Las entrevistas deben durar 45-60 minutos<br>
+                    • Toma notas detalladas durante el proceso<br>
+                    • Valida tus requisitos con múltiples stakeholders<br>
+                    • Prioriza: no todo tiene la misma importancia</p>
+                </div>
+
+                <div class="resource-card">
+                    <h3>✅ Criterios de Evaluación</h3>
+                    <p><strong>Completitud:</strong> 40%<br>
+                    <strong>Calidad de respuestas:</strong> 40%<br>
+                    <strong>Aplicación de técnicas:</strong> 20%</p>
+                </div>
+
+                <div class="resource-card">
+                    <h3>⏱️ Tiempo Estimado</h3>
+                    <p><strong>Total:</strong> 2-3 horas<br><br>
+                    Distribuye tu tiempo:<br>
+                    • Identificación stakeholders: 15 min<br>
+                    • Entrevista: 30 min<br>
+                    • Análisis competitivo: 20 min<br>
+                    • Resto de actividades: 75-135 min</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // State
+        let currentStep = 0;
+        const totalSteps = 7;
+        const steps = [
+            { title: 'Introducción', subtitle: 'El caso "Sabores de Cuyo"' },
+            { title: 'Identificar Stakeholders', subtitle: '¿Quiénes están involucrados?' },
+            { title: 'Preparar Entrevista', subtitle: 'Preguntas estructuradas' },
+            { title: 'Análisis Competitivo', subtitle: 'Aprender de otros' },
+            { title: 'Analizar Documentación', subtitle: 'Requisitos ocultos' },
+            { title: 'Perfiles de Usuario', subtitle: 'Conocer a los usuarios' },
+            { title: 'Verificar y Documentar', subtitle: 'Casos de uso finales' }
+        ];
+
+        // Elements
+        const splashScreen = document.getElementById('splashScreen');
+        const videoScreen = document.getElementById('videoScreen');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const progressFill = document.getElementById('progressFill');
+        const stepIndicator = document.getElementById('stepIndicator');
+        const timelineSteps = document.getElementById('timelineSteps');
+
+        // Initialize timeline
+        function initTimeline() {
+            steps.forEach((step, index) => {
+                const stepEl = document.createElement('div');
+                stepEl.className = 'timeline-step';
+                stepEl.innerHTML = `
+                    <div class="timeline-num">${String(index + 1).padStart(2, '0')}</div>
+                    <div class="timeline-info">
+                        <h3>${step.title}</h3>
+                        <p>${step.subtitle}</p>
+                    </div>
+                `;
+                stepEl.addEventListener('click', () => goToStep(index + 1));
+                timelineSteps.appendChild(stepEl);
+            });
+        }
+
+        // Start tutorial
+        splashScreen.addEventListener('click', () => {
+            splashScreen.style.display = 'none';
+            goToStep(1);
+        });
+
+        // Navigation
+        function goToStep(step) {
+            currentStep = step;
+            
+            // Hide all content
+            document.querySelectorAll('.video-content').forEach(el => {
+                el.classList.remove('active');
+            });
+            
+            // Show current step
+            const currentContent = document.querySelector(`[data-step="${step}"]`);
+            if (currentContent) {
+                currentContent.classList.add('active');
+            }
+            
+            // Update controls
+            prevBtn.disabled = step === 1;
+            nextBtn.disabled = step === totalSteps;
+            
+            // Update progress
+            const progress = (step / totalSteps) * 100;
+            progressFill.style.width = progress + '%';
+            stepIndicator.textContent = `${step} / ${totalSteps}`;
+            
+            // Update timeline
+            document.querySelectorAll('.timeline-step').forEach((el, index) => {
+                el.classList.toggle('active', index + 1 === step);
+            });
+            
+            // Scroll to top
+            videoScreen.scrollTop = 0;
+        }
+
+        prevBtn.addEventListener('click', () => {
+            if (currentStep > 1) goToStep(currentStep - 1);
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentStep < totalSteps) goToStep(currentStep + 1);
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (currentStep > 0) {
+                if (e.key === 'ArrowLeft' && currentStep > 1) {
+                    goToStep(currentStep - 1);
+                } else if (e.key === 'ArrowRight' && currentStep < totalSteps) {
+                    goToStep(currentStep + 1);
+                }
+            }
+        });
+
+        // Initialize
+        initTimeline();
+    </script>
+</body>
+</html>

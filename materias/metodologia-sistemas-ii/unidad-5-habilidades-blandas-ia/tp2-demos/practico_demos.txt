@@ -1,0 +1,99 @@
+Práctico: Demostraciones de Software
+Demo Técnica y Demo Ejecutiva
+Caso de Estudio
+Contexto: 
+Desarrollaste 
+TaskHub
+, una aplicación web de gestión de tareas que incluye:
+Tableros con estados (Por hacer, En progreso, Completado)
+Asignación de tareas a miembros del equipo
+Fechas límite y recordatorios automáticos
+Dashboard con estadísticas
+Cliente: 
+&quot;Estudio Pixel&quot; - agencia de diseño (12 personas) que usa WhatsApp + Google Sheets.
+Parte 1: Preparación (Discovery)
+Ejercicio 1: Cuestionario Pre-Demo
+Completá estas 3 preguntas clave que harías ANTES de la demo:
+¿Cómo se organizan actualmente? (herramientas que usan)
+¿Cuál es su MAYOR problema en la gestión de tareas?
+¿Qué los haría cambiar de sistema HOY?
+Parte 2: Demo Ejecutiva (Dueño del Estudio)
+Ejercicio 2: Técnica &quot;Outcome-First&quot;
+Error común: 
+Empezar con &quot;Acá está el login, después el menú...&quot;
+Correcto: 
+Mostrar el RESULTADO primero, después cómo llegaste.
+Escribí tu apertura (máximo 90 segundos):
+EL RESULTADO PRIMERO:
+&quot;Imaginen que es viernes 5 PM. Un cliente pregunta: ¿Cómo va mi proyecto? En lugar de llamar a 3 personas...
+
+[Describí qué pantalla mostrarías y qué se ve]:
+________________________________________________________________________________
+________________________________________________________________________________
+
+Parte 3: Demo Técnica (Diseñadores)
+Ejercicio 3: Navegación Paso a Paso
+Funcionalidad: 
+&quot;Crear una tarea y asignarla a un compañero&quot;
+Escribí paso a paso qué harías (como un guion):
+[ESTOY EN: Dashboard principal]
+DIGO: &quot;Voy a crear una tarea para el proyecto Cafetería Luna&quot;
+HAGO: Click en botón &quot;Nueva Tarea&quot;
+
+[APARECE: Formulario]
+DIGO: _____________________________________________
+HAGO: _____________________________________________
+
+[Continuá el guion hasta finalizar...]
+
+Parte 4: Manejo de Preguntas
+Ejercicio 4: El Poder del NO
+Situación: 
+Un diseñador pregunta: &quot;¿Se pueden subir archivos de Photoshop directamente?&quot;
+Tu producto NO soporta archivos .PSD. Escribí una respuesta honesta:
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+
+Ejercicio 5: Pregunta de Respuesta
+Situación: 
+Preguntan: &quot;¿Puedo ver las tareas de mi compañero?&quot;
+En lugar de responder Sí/No, hacé una CONTRA-PREGUNTA para entender mejor:
+Tu contra-pregunta:
+________________________________________________________________________________
+
+¿Por qué es mejor preguntar en vez de responder directamente?
+________________________________________________________________________________
+
+Parte 5: Caso Real
+Ejercicio 6: Problema Específico
+Durante tu demo, el Director Creativo interrumpe:
+&quot;Mis diseñadores entregan todo el último día porque no planifican. ¿Esto me ayuda con ESO o es solo una lista linda?&quot;
+Escribí tu respuesta (máximo 100 palabras):
+Debe incluir:
+Reconocer el problema
+Hacer UNA pregunta para profundizar
+Conectar con una funcionalidad específica
+Mostrar algo en pantalla
+
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+
+Criterios de Evaluación
+Excelente
+✅ Aplica &quot;Outcome-First&quot; consistentemente
+✅ Personaliza ejemplos con datos del cliente
+✅ Maneja objeciones con honestidad
+✅ Diferencia claramente demo ejecutiva vs técnica
+Bien
+✅ Aplica la mayoría de técnicas
+⚠️ Personalización básica
+⚠️ A veces se pone nervioso ante preguntas
+Insuficiente
+❌ Solo muestra funciones sin conectar con problemas
+❌ Datos genéricos, sin personalización
+❌ &quot;Vende humo&quot; ante preguntas difíciles
+
+Tiempo estimado: 45 minutos

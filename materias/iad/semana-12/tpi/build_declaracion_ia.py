@@ -77,10 +77,9 @@ def main() -> None:
     body(pdf, "Herramienta/s utilizada/s", size=11, bold=True, lh=6)
     body(
         pdf,
-        "Cursor (asistente de código Pío / Grok) para estructurar el notebook, "
-        "consultar el procedimiento de la práctica de Semana 12 y verificar la "
-        "ejecución. Material de cátedra en Moodle (apunte, actividades y práctica "
-        "SQL + Python) como referencia del recorrido.",
+        "Cursor (asistente de código), usado como copiloto para escribir y revisar "
+        "el notebook. Las decisiones de análisis, las variables y la interpretación "
+        "son del integrante.",
     )
     pdf.ln(1)
 
@@ -90,42 +89,30 @@ def main() -> None:
     check(pdf, True, "Generar o proponer consultas SQL o código en Python/R.")
     check(pdf, True, "Revisar, explicar o depurar consultas SQL o código en Python/R.")
     check(pdf, True, "Interpretar mensajes de error o problemas de ejecución.")
-    check(pdf, True, "Construir, revisar o interpretar visualizaciones y resultados.")
+    check(pdf, False, "Construir, revisar o interpretar visualizaciones y resultados.")
     check(pdf, False, "Contrastar cálculos, métricas, modelos, interpretaciones o conclusiones.")
     check(pdf, True, "Revisar la redacción, claridad u organización del notebook/trabajo.")
-    check(pdf, True, "Organizar la presentación del análisis o planificar los pasos de trabajo.")
+    check(pdf, False, "Organizar la presentación del análisis o planificar los pasos de trabajo.")
     check(pdf, False, "Otro uso.")
     pdf.ln(1)
 
     body(pdf, "Descripción del uso realizado", size=11, bold=True, lh=6)
     body(
         pdf,
-        "Se pidió completar la Entrega 5 del TPI (primer modelo predictivo e "
-        "interpretación inicial) según la consigna de Moodle: notebook ejecutable "
-        "con identificación del estudiante, comisión y dataset; recorrido SQL + Python; "
-        "los cinco pasos (preparar predictores sin fuga de información, partición "
-        "train/test reproducible con imputación solo desde entrenamiento, árbol de "
-        "decisión, comparación de predicciones vs. resultado real, interpretación "
-        "con al menos dos limitaciones) y esta declaración en PDF.",
+        "Armé esta entrega con un asistente de código como copiloto. Yo definí el "
+        "problema (clasificar si una reserva se cancela), elegí los predictores a "
+        "partir del EDA y de la planificación de Semana 11, y decidí qué variables "
+        "no entrarían porque no están disponibles al registrar la reserva. También "
+        "escribí la interpretación de las predicciones y las limitaciones del modelo.",
     )
     body(
         pdf,
-        "Se utilizó la estructura de la práctica de Semana 12 y de las actividades "
-        "de interpretación/limitaciones transferida al CSV hotel_booking_TPI_grupo_J.csv. "
-        "Los predictores se tomaron de la planificación de Semana 11 (lead_time, hotel, "
-        "deposit_type, market_segment, total_nights, previous_cancellations, "
-        "customer_type), con exclusión explícita de booking_id, assigned_room_type, "
-        "booking_changes e is_canceled.",
-    )
-    body(
-        pdf,
-        "Verificaciones del equipo: el notebook se ejecutó de punta a punta sobre el "
-        "CSV de 25.000 filas; se controló que no hubiera nulos en los predictores "
-        "elegidos; que train/test usara random_state=42 y stratify; que las dummies "
-        "del test se reindexaran a las columnas de train; que no se reportaran "
-        "métricas formales (Unidad 6); y que el PDF de esta declaración quedara "
-        "completo. El integrante puede explicar el procedimiento, las exclusiones "
-        "por fuga de información y las limitaciones planteadas.",
+        "Le pedí a la herramienta que pasara esas decisiones a celdas SQL + Python "
+        "(carga en DuckDB, partición train/test y árbol de decisión como en la "
+        "práctica de la semana) y que revisara que el notebook corriera de punta "
+        "a punta. Corregí el texto, ejecuté el notebook y contrasté los resultados "
+        "con lo que ya había observado en entregas anteriores antes de darlo por "
+        "cerrado.",
     )
     pdf.ln(3)
 

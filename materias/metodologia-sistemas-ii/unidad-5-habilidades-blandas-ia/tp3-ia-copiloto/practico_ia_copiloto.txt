@@ -1,0 +1,184 @@
+Práctico: IA como Copiloto
+Prompts Efectivos, Validación, Trazabilidad y Uso Ético
+Este práctico te permitirá aplicar los conceptos de IA en ingeniería de requerimientos, aprendiendo a usar modelos de lenguaje como asistentes efectivos, validar críticamente sus resultados, mantener trazabilidad de decisiones y comprender los límites éticos y legales de su uso.
+Tiempo estimado: 60 minutos
+Parte 1: Prompts Efectivos para Requerimientos
+Ejercicio 1: Estructura de Prompt (Básico → Mejorado)
+Tenés esta descripción informal de un cliente:
+&quot;Necesitamos un sistema para gestionar las reservas del gimnasio. Que los usuarios puedan reservar clases, cancelar si no pueden ir y que el instructor vea quiénes confirmaron. También queremos que envíe recordatorios.&quot;
+
+Tarea A: 
+Escribí un prompt BÁSICO (débil) para pedirle a la IA que genere requerimientos:
+Ejemplo de prompt débil:
+&quot;Dame los requerimientos del sistema&quot;
+
+Tu prompt básico:
+________________________________________________________________________________
+________________________________________________________________________________
+
+Tarea B: 
+Escribí un prompt MEJORADO aplicando estructura, especificidad y formato:
+Guía para mejorar tu prompt:
+Contexto: ¿Qué tipo de sistema? ¿Para quién?
+Tarea: ¿Qué debe hacer la IA específicamente?
+Formato: ¿Tabla? ¿Lista numerada? ¿Categorías?
+Criterios: ¿Verificabilidad? ¿Prioridad?
+
+Tu prompt mejorado:
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+
+Ejercicio 2: Técnica &quot;Chain of Thought&quot;
+La técnica 
+Chain of Thought
+ (cadena de pensamiento) pide a la IA que 
+&quot;piense paso a paso&quot;
+ antes de dar la respuesta final.
+Situación: 
+Un requerimiento dice: &quot;El sistema debe ser rápido&quot;
+Escribí un prompt que le pida a la IA transformar ese requerimiento ambiguo en uno verificable, usando 
+razonamiento paso a paso:
+Ejemplo de inicio:
+&quot;Analiza paso a paso por qué este requerimiento es ambiguo: &apos;El sistema debe ser rápido&apos;. Luego propone un requerimiento verificable...&quot;
+
+Tu prompt con Chain of Thought:
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+
+Parte 2: Validación Crítica de Resultados
+Ejercicio 3: Detectar Problemas en Respuestas de IA
+La IA puede generar respuestas formalmente correctas pero poco útiles. 
+Tu trabajo es VALIDAR críticamente.
+La IA generó estos requerimientos para un sistema de biblioteca escolar:
+Respuesta de la IA:
+El sistema debe permitir buscar libros
+Los usuarios deben poder hacer consultas rápidamente
+El sistema debe tener una interfaz amigable
+Debe almacenar información de forma segura
+
+Completá la siguiente tabla validando CADA requerimiento:
+Req. #
+¿Es verificable?
+¿Es completo?
+Propuesta mejorada
+1
+
+
+
+2
+
+
+
+
+Parte 3: Trazabilidad de Decisiones
+Ejercicio 4: Documentar el Uso de IA
+La trazabilidad significa poder rastrear: 
+¿Qué decisión se tomó? ¿Por qué? ¿Con qué ayuda? ¿Quién validó?
+Imaginá que usaste IA para priorizar requerimientos de un sistema de facturación. Completá esta bitácora:
+BITÁCORA DE USO DE IA
+
+Fecha:
+____________________________________________________________
+
+Tarea realizada con IA:
+____________________________________________________________
+
+Herramienta utilizada (ChatGPT/Claude/otra):
+____________________________________________________________
+
+Prompt exacto utilizado:
+____________________________________________________________
+____________________________________________________________
+
+Resultado obtenido (resumen):
+____________________________________________________________
+____________________________________________________________
+
+Validación humana realizada:
+____________________________________________________________
+
+Decisión final tomada:
+____________________________________________________________
+
+Responsable de la decisión:
+____________________________________________________________
+
+Parte 4: Límites de la IA
+Ejercicio 5: Confidencialidad y Propiedad Intelectual
+Analizá cada situación y marcá si es 
+SEGURO
+ o 
+RIESGOSO
+ compartir esa información con una IA pública:
+Situación
+Seguro
+Riesgoso
+Pegar código fuente completo de un proyecto privado de la empresa
+
+
+Preguntar cómo escribir un algoritmo genérico de ordenamiento
+
+
+Compartir nombres reales de clientes y sus datos personales
+
+
+Pedir ayuda con conceptos teóricos de ingeniería de software
+
+
+
+Justificá tu decisión en el caso más riesgoso:
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+
+Parte 5: Uso Ético y Responsable
+Ejercicio 6: Citación de Asistencia de IA
+Escribiste un informe de requerimientos y usaste IA para:
+Revisar gramática y ortografía
+Generar un primer borrador de tabla de priorización
+Sugerir reformulaciones de requerimientos ambiguos
+¿Cómo citarías el uso de IA en tu informe? Escribí una nota al pie o sección de metodología:
+Ejemplo de buena práctica:
+&quot;Para la elaboración de este documento se utilizó Claude (Anthropic) como asistente para revisión ortográfica y sugerencias de reformulación de requerimientos. Todas las decisiones finales y validaciones fueron realizadas por el autor.&quot;
+
+Tu citación:
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+
+Ejercicio 7: Caso Ético Real
+Caso: 
+Tu compañero de equipo copió un informe completo generado por IA sin revisarlo, sin validarlo y sin citarlo. Cuando le preguntan sobre un punto específico, no sabe responder.
+Respondé:
+¿Qué problemas éticos identificás?
+________________________________________________________________________________
+________________________________________________________________________________
+
+¿Qué riesgos profesionales tiene esta conducta?
+________________________________________________________________________________
+________________________________________________________________________________
+
+¿Cómo debería haberse usado la IA correctamente?
+________________________________________________________________________________
+________________________________________________________________________________
+
+Autoevaluación
+Marcá con ✓ las afirmaciones que cumpliste en este práctico:
+
+Mis prompts incluyen contexto, tarea específica y formato esperado
+
+Validé críticamente las respuestas de la IA en vez de copiarlas directamente
+
+Documenté qué prompts usé y qué decisiones tomé
+
+Identifiqué correctamente información confidencial que NO debe compartirse
+
+Sé cómo citar correctamente el uso de IA en trabajos profesionales
+
+Entiendo que la IA es un ASISTENTE, no un reemplazo de mi criterio profesional
+
+&quot;La IA aporta capacidad, la ingeniería de requerimientos aporta propósito,
+y el Prompt Engineering aporta control.&quot;

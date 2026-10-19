@@ -1,0 +1,18 @@
+{
+  "cmid": 16822,
+  "id": 817,
+  "name": "Entrega Práctico 3 -  IA como copiloto🎯🏁",
+  "duedate": null,
+  "allow": null,
+  "intro": "<p class=\"label\">Práctica · IA como Copiloto</p>\r\n<!-- ============ PRÁCTICA: IA COMO COPILOTO ============ -->\r\n<div style=\"background-color: #f9f9f9; border: 1px solid #ddd; padding: 15px; border-radius: 8px; margin-bottom: 20px; font-family: sans-serif;\">\r\n<h5 style=\"color: #1a237e; text-align: left; font-size: 1.2rem;\">📤 <strong>Subí tu resolución del práctico de IA como Copiloto</strong> para recibir una devolución detallada.</h5>\r\n<p style=\"color: #333; font-size: 1.05rem; text-align: left; line-height: 1.6;\">Antes de realizar la entrega, asegurate de que tu archivo incluya el uso correcto de la IA como asistente en ingeniería de requerimientos, contemplando generación de prompts, validación de resultados, trazabilidad y uso ético.</p>\r\n<ul style=\"padding-left: 20px; font-size: 1rem; line-height: 1.6;\">\r\n<li>✍️ <strong>Prompt básico y prompt mejorado</strong> aplicando contexto, tarea, formato y criterios.</li>\r\n<li>🧠 <strong>Prompt con razonamiento paso a paso (Chain of Thought)</strong> para transformar requerimientos ambiguos.</li>\r\n<li>🔎 <strong>Validación crítica de respuestas de IA</strong> detectando problemas y proponiendo mejoras.</li>\r\n<li>📒 <strong>Bitácora de uso de IA</strong> con trazabilidad (prompt, resultado, validación y decisión).</li>\r\n<li>🔐 <strong>Análisis de riesgos</strong> sobre qué información es segura o no compartir con IA.</li>\r\n<li>📑 <strong>Citación del uso de IA</strong> en un informe profesional.</li>\r\n<li>⚖️ <strong>Resolución del caso ético</strong> sobre uso incorrecto de IA.</li>\r\n</ul>\r\n<div style=\"background-color: #fffbe6; padding: 10px; border-left: 4px solid #f1c40f; border-radius: 6px; margin-top: 10px;\">💡 <strong>Consejo:</strong> la IA no reemplaza tu criterio profesional. Todo resultado debe ser revisado, validado y justificado por vos.</div>\r\n<div style=\"background-color: #e8f5e9; padding: 10px; border-radius: 5px; border-left: 4px solid #28A745; margin-top: 15px; color: #1b5e20;\">✅ <strong>¡Desafío completado!</strong> Recordá: la IA es un copiloto, no el piloto. Tu rol es tomar decisiones con criterio, no delegarlas completamente.</div>\r\n</div>",
+  "configs": {
+    "file:enabled": "1",
+    "file:maxfilesubmissions": "20",
+    "file:maxsubmissionsizebytes": "209715200",
+    "file:filetypeslist": "",
+    "comments:enabled": "1",
+    "comments:commentinline": "0",
+    "editpdf:enabled": "1"
+  },
+  "grade": -3
+}
